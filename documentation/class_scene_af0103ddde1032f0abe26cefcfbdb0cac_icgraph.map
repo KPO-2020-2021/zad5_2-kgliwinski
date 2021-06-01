@@ -1,0 +1,5 @@
+<map id="Scene::Add_Plane" name="Scene::Add_Plane">
+<area shape="rect" id="node1" title="Metoda dodajaca do lacza plik z plaszczyzna." alt="" coords="379,5,516,32"/>
+<area shape="rect" id="node2" href="$class_scene.html#ae4468d0e93e36895e970d61abd760fba" title="Metoda inicjalizujaca lacze do gnuplota." alt="" coords="184,5,331,32"/>
+<area shape="rect" id="node3" href="$class_menu.html#af7e6a49bd56499facef9cc98561ea169" title="Inicjuje i obsluguje menu." alt="" coords="5,5,136,32"/>
+</map>

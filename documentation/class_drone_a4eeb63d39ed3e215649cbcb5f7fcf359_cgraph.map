@@ -1,0 +1,4 @@
+<map id="Drone::set_scale_all" name="Drone::set_scale_all">
+<area shape="rect" id="node1" title="Metoda ustawiajaca skale wszystkich elementow drona" alt="" coords="5,5,159,32"/>
+<area shape="rect" id="node2" href="$class_block.html#adb6acd13e2ab79cf7e4733ca2d6ae166" title="Metoda zapisujaca do klasy wektor reprezentujacy skale" alt="" coords="207,5,333,32"/>
+</map>

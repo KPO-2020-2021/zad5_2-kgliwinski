@@ -1,0 +1,5 @@
+<map id="Prism::get_vec_ver" name="Prism::get_vec_ver">
+<area shape="rect" id="node1" title="Metoda zwracajaca do tablicy wektorow wektory &quot;pionowe&quot; graniastoslupa (czyli te ktore sa wzgledem si..." alt="" coords="393,5,540,32"/>
+<area shape="rect" id="node2" href="$class_prism.html#afc476609b83a6460d1d51c39c788e804" title="Metoda sprawdzajaca czy wektory zwrocone przez get_vec_ver() sa rowne" alt="" coords="183,5,345,32"/>
+<area shape="rect" id="node3" href="$class_prism.html#ad4f328dfec3ee556f1f3be26a6b7d1d8" title="Sprawdza czy graniastoslup jest poprawnie zbudowany" alt="" coords="5,5,135,32"/>
+</map>

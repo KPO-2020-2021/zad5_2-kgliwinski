@@ -1,0 +1,43 @@
+<map id="Menu_cub::switch_menu" name="Menu_cub::switch_menu">
+<area shape="rect" id="node1" title="Obsluguje wybor menu Argumenty:" alt="" coords="5,709,188,736"/>
+<area shape="rect" id="node2" href="$class_menu__cub.html#a70948401b7953953e9827b2614d2ae5a" title="Sprawdza i wyswietla wszelkie asercje odnosnie prostopadloscianu Argumenty:" alt="" coords="272,107,408,133"/>
+<area shape="rect" id="node9" href="$class_menu__cub.html#a6ef2bf80f2e43bf3c14876392ae04b50" title="Wyswietla informacje o bokach figury na standardowym wyjsciu Argumenty:" alt="" coords="499,157,685,184"/>
+<area shape="rect" id="node12" href="$class_cuboid.html#aafa18740d9c98ca928395b9873a9c63d" title="Metoda zwracajaca punkt centralny (czyli taki, ktorego odleglosci do kazdego wierzcholka sa rowne) pr..." alt="" coords="262,324,418,351"/>
+<area shape="rect" id="node13" href="$class_menu__cub.html#aba69e42a4314be002349777667b378e8" title="Wyswietla prostopadloscian w GNUplocie Argumenty:" alt="" coords="267,375,413,417"/>
+<area shape="rect" id="node27" href="$class_menu__cub.html#abfc946e12b2f8de2cc06cec953ef6106" title=" " alt="" coords="265,550,415,591"/>
+<area shape="rect" id="node35" href="$class_matrix.html#ab23876f609c4c12fefff30870f0b5ab2" title="ZADANIE DO MODYFIKACJI Tworzy macierz 4x4 zdolna do jednoczesnego obrotu i przesuniecia wektora &#160;&#160;Zde..." alt="" coords="269,913,411,954"/>
+<area shape="rect" id="node36" href="$class_cuboid.html#a23eefb4a7b07b31bcf4db7271b83b917" title="Metoda obracajaca prostopadloscian o zadany kat w 3D" alt="" coords="277,760,403,787"/>
+<area shape="rect" id="node37" href="$class_cuboid.html#a6c697c2d9b36a14c43c7328876d5a1f0" title="Metoda obracajaca prostopadloscian o zadany kat w 3D wokol srodka figury" alt="" coords="236,811,444,837"/>
+<area shape="rect" id="node38" href="$class_cuboid.html#a3f6b1b9ea7de433af5b0d462d29f4272" title="Metoda przesuwajaca prostopadloscian o zadany kat w 3D" alt="" coords="519,912,665,939"/>
+<area shape="rect" id="node40" href="$class_menu__cub.html#a4c3d76e074f3bff4bb445bcb01f453a9" title="Wyswietla menu." alt="" coords="253,979,427,1005"/>
+<area shape="rect" id="node41" href="$class_menu__cub.html#a4b2743c86836844d8e8bee49d3ea6bcf" title="Obsluguje skladanie rotacji obrotu." alt="" coords="242,709,438,736"/>
+<area shape="rect" id="node3" href="$class_cuboid.html#a058d488f3125238bd8b8dcbb671ede9e" title="Sprawdza czy prostopadloscian jest poprawnie zbudowany" alt="" coords="521,56,663,83"/>
+<area shape="rect" id="node6" href="$class_cuboid.html#a5840b78caaeac16fd1a262026819501d" title="Sprawdza czy wektory tworzace przeciwne boki prostopadloscianu sa rowne" alt="" coords="770,5,945,32"/>
+<area shape="rect" id="node7" href="$class_cuboid.html#a5941a7b9eb991137a908b38dc24dc9b3" title="Sprawdza czy wektory tworzace niektore konkretne boki prostokata (glownie te przy wierzcholkach) sa p..." alt="" coords="768,107,947,133"/>
+<area shape="rect" id="node4" href="$class_cuboid.html#a41233dfb606942e160e3080a23547674" title="Sprawdza czy dlugosci wektory tworzace przeciwne boki prostopadloscianu maja poprawne wartosci (nie s..." alt="" coords="772,56,943,83"/>
+<area shape="rect" id="node5" href="$class_cuboid.html#a21fa2d6458f5b6c593e3e83b3455c246" title="Zwraca do tablicy 3x2 wektory reprezentujace przeciwne boki prostopadloscianu" alt="" coords="1041,56,1198,83"/>
+<area shape="rect" id="node8" href="$class_cuboid.html#a3bdc11fd360d0c7d8491f4b42b53bf10" title="Zwraca do tablicy 2x3 wektory reprezentujace boki przy wierzcholkach [0][1] (do vecs[0]) i [1][3] (do..." alt="" coords="1038,107,1201,133"/>
+<area shape="rect" id="node10" href="$class_cuboid.html#a63fdccd9593f1a7191395a103b7c6366" title="Zapisuje do tablicy tab w kolejnosci: 1.dluzsze przeciwlegle boki 2.krotsze przeciwlegle boki 3...." alt="" coords="781,157,934,184"/>
+<area shape="rect" id="node11" href="$class_vector.html#a3ac695edc693437a61da9f1976fd4869" title="Zwraca dlugosc wektora &#160;&#160;Argumenty: &#160;&#160;Brak &#160;&#160;Zwraca:" alt="" coords="1060,157,1179,184"/>
+<area shape="rect" id="node14" href="$class_menu__cub.html#ada6a6762e5cc6f20628ecb5bd57944c7" title=" " alt="" coords="503,259,681,285"/>
+<area shape="rect" id="node15" href="$class_cuboid.html#a12a97376443b1a15ae8342c1c75b3e1e" title="Metoda wypisania odpowiednich wierzcholkow do pliku zgodnie z zaproponowanym sposobem zadaniu dron" alt="" coords="767,259,947,285"/>
+<area shape="rect" id="node17" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#aa815ce8ec16e12fc246cf422e562869e" title="Dodaje nazwę pliku." alt="" coords="505,375,679,417"/>
+<area shape="rect" id="node19" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a065f5b8402737cc62b0ad4f66d028335" title="Generuje polecenie rysowania i przesyła je do gnuplota." alt="" coords="505,441,679,482"/>
+<area shape="rect" id="node26" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#ae92c65357bf682478cc68f77885b61d8" title="Zmienia tryb rysowania." alt="" coords="505,310,679,351"/>
+<area shape="rect" id="node16" href="$class_vector.html#ab2bb1182cee2389eda163fb7b767f36d" title="Zwraca wektor do tablicy o rozmiarze SIZE &#160;&#160;Argumenty:" alt="" coords="1058,320,1181,347"/>
+<area shape="rect" id="node18" href="$namespace_pz_g.html#ae1aad0c681853d7e47da4cdfccefc102" title="Funkcja pomocnicza, sprawdza czy plik o podanej nazwie jest na dysku." alt="" coords="794,361,921,388"/>
+<area shape="rect" id="node20" href="$namespace_pz_g.html#aa010184f31b26bb561b42f22438b821e" title="Funkcja pomocnicza, dopisuje do polecenia wpisy związane z rysowaniem z pliku." alt="" coords="747,479,968,505"/>
+<area shape="rect" id="node21" href="$namespace_pz_g.html#a7227cb39c785b1c746b6bb5515c0b781" title="Dodaje do listy rysowanych punktów, punkty o różnych rozmiarach." alt="" coords="740,413,975,454"/>
+<area shape="rect" id="node22" href="$namespace_pz_g.html#a169c311f0e0b6ffadcd44e91e749f72d" title="Wczytuje z pliku listę punktów." alt="" coords="1023,413,1216,454"/>
+<area shape="rect" id="node23" href="$class_pz_g_1_1_atrybuty_rysowania.html#ab068535b4d2f755c394557d1da72a4eb" title="Zmienia kolor rysowania." alt="" coords="1264,347,1447,389"/>
+<area shape="rect" id="node24" href="$class_pz_g_1_1_atrybuty_rysowania.html#af4b140eb03bc10b6fd816fad63f8372e" title="Zmienia rozmiar rysowania." alt="" coords="1264,413,1447,454"/>
+<area shape="rect" id="node25" href="$class_pz_g_1_1_atrybuty_rysowania.html#a2ac97706124b14072715ecf3f07e82b4" title="Zmienia styl rysowania." alt="" coords="1264,478,1447,519"/>
+<area shape="rect" id="node28" href="$class_prism.html#a764c6940e4fb65303981e8b877b28561" title="Metoda wypisania odpowiednich wierzcholkow do pliku zgodnie z zaproponowanym sposobem zadaniu dron" alt="" coords="774,529,941,556"/>
+<area shape="rect" id="node29" href="$class_menu__cub.html#a68b8aabf8a980c77409fb40b7ee68eb0" title=" " alt="" coords="507,507,677,533"/>
+<area shape="rect" id="node30" href="$class_prism.html#a22c5467db5d960bddbaf9a52f55c55cb" title="Metoda obracajaca graniastoslup o zadany kat w 3D wokol srodka figury" alt="" coords="492,659,692,685"/>
+<area shape="rect" id="node32" href="$class_prism.html#ade146d341c0468030f8c1258b7fe1041" title="Metoda przesuwajaca graniastoslup o zadany wektor w 3D" alt="" coords="1051,659,1188,685"/>
+<area shape="rect" id="node34" href="$class_matrix.html#a4161a82fb401e474052c21b25a06a5ba" title=" " alt="" coords="505,709,679,736"/>
+<area shape="rect" id="node31" href="$class_matrix.html#ad6df418144dfdc3236f990dc3fb0a50a" title=" " alt="" coords="778,761,937,802"/>
+<area shape="rect" id="node33" href="$class_prism.html#afed2c26932d5cb152fd620d2acbfbc3e" title="Metoda przesuwajaca graniastoslup do srodka ukladu wspolrzednych (tak, ze srodek graniastoslupa pokry..." alt="" coords="770,659,945,685"/>
+<area shape="rect" id="node39" href="$class_cuboid.html#a42bdce7c214e759cb6ea94d4f547a5b9" title="Metoda przesuwajaca prostopadloscian do (0,0,0)" alt="" coords="501,861,683,888"/>
+</map>

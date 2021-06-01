@@ -1,0 +1,14 @@
+<map id="Matrix::apply_matrix_to_rotation" name="Matrix::apply_matrix_to_rotation">
+<area shape="rect" id="node1" title=" " alt="" coords="1164,74,1323,115"/>
+<area shape="rect" id="node2" href="$class_cuboid.html#a23eefb4a7b07b31bcf4db7271b83b917" title="Metoda obracajaca prostopadloscian o zadany kat w 3D" alt="" coords="949,30,1075,57"/>
+<area shape="rect" id="node3" href="$class_prism.html#a22c5467db5d960bddbaf9a52f55c55cb" title="Metoda obracajaca graniastoslup o zadany kat w 3D wokol srodka figury" alt="" coords="912,81,1112,108"/>
+<area shape="rect" id="node12" href="$class_cuboid.html#a6c697c2d9b36a14c43c7328876d5a1f0" title="Metoda obracajaca prostopadloscian o zadany kat w 3D wokol srodka figury" alt="" coords="908,132,1116,158"/>
+<area shape="rect" id="node4" href="$class_drone.html#ad42bc54902df967b94717617aca1a974" title="Metoda obracajaca dron o zadany kat w 3D wokol srodka figury" alt="" coords="657,132,860,158"/>
+<area shape="rect" id="node11" href="$class_drone.html#aedb04b80609b22ff4eb4a957bc149a48" title="Metoda animujaca obrot rotorow i zapisujaca to w plikach. Metoda sluzy jako metoda pomocnicza,..." alt="" coords="440,59,609,100"/>
+<area shape="rect" id="node5" href="$class_drone.html#ab692baa4be5c43b72990ce1b01bdc805" title="Konstruktor bezparametryczny klasy Drone. Powstaly dron jest skonstruowany z bezparametrycznych prost..." alt="" coords="471,190,579,217"/>
+<area shape="rect" id="node6" href="$class_drone.html#af03af60a9b92e4191a7e66b5c20b52bb" title="Metoda zamieniajaca drona na tego z pliku sample." alt="" coords="443,124,606,166"/>
+<area shape="rect" id="node8" href="$class_drone.html#af052f6bb793d1229b99b16b800b95b82" title="Metoda animujaca obrot drona i wyrysowujaca calosc w gnuplocie." alt="" coords="214,30,381,71"/>
+<area shape="rect" id="node9" href="$class_drone.html#ab7808296cec81143dbddd7516340a371" title="Metoda robiaca &quot;oblot&quot; drona wokol punktu (z modyfikacji)" alt="" coords="203,212,392,238"/>
+<area shape="rect" id="node7" href="$class_drone.html#ac4d24c27fb2c107d2e8bda0c2bf5cfa1" title="Metoda obliczajaca i przeprowadzajaca caly ruch drona (obrot o kat i przelot z zadania 5...." alt="" coords="5,30,155,71"/>
+<area shape="rect" id="node10" href="$class_drone.html#a5fc9dd645ad3856b5d3c501c63c464e3" title="Metoda animujaca translacje drona i wyrysowujaca calosc w gnuplocie." alt="" coords="205,95,390,136"/>
+</map>

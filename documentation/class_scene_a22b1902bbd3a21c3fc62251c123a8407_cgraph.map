@@ -1,0 +1,4 @@
+<map id="Scene::print_active" name="Scene::print_active">
+<area shape="rect" id="node1" title="Wypisuje polozenie aktywnego drona." alt="" coords="5,5,152,32"/>
+<area shape="rect" id="node2" href="$class_drone.html#a79011bebcf8fad3734f9710fa7c16df4" title="Metoda wypisuje na standardowym wyjsciu pozycje drona (bez wysokosci)" alt="" coords="200,5,373,32"/>
+</map>

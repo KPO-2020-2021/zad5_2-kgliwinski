@@ -1,0 +1,6 @@
+<map id="Prism::rotation_around_cen" name="Prism::rotation_around_cen">
+<area shape="rect" id="node1" title="Metoda obracajaca graniastoslup o zadany kat w 3D wokol srodka figury" alt="" coords="5,71,205,98"/>
+<area shape="rect" id="node2" href="$class_matrix.html#ad6df418144dfdc3236f990dc3fb0a50a" title=" " alt="" coords="261,5,420,47"/>
+<area shape="rect" id="node3" href="$class_prism.html#ade146d341c0468030f8c1258b7fe1041" title="Metoda przesuwajaca graniastoslup o zadany wektor w 3D" alt="" coords="476,97,613,123"/>
+<area shape="rect" id="node4" href="$class_prism.html#afed2c26932d5cb152fd620d2acbfbc3e" title="Metoda przesuwajaca graniastoslup do srodka ukladu wspolrzednych (tak, ze srodek graniastoslupa pokry..." alt="" coords="253,122,428,149"/>
+</map>

@@ -1,54 +1,75 @@
+# Dron faza 1
+
+Below it is shown how the programme is structured and how it declares 3D geometric figures.
+
+## Class diagram
+
+![Cuboid in 3D](/readme_pics/class_diagram.png)
+
+To see more indepth diagrams and documentation go to /documentation dir.
+
+## Cuboid
+
+This is how (default) cuboid looks like in the project: (made using [Geogebra](https://www.geogebra.org/3d?lang=pl))
+
+![Cuboid in 3D](/readme_pics/cuboid3D.png)
+
+## Prism
+
+This is how (default) prism looks like in the project: (made using [Geogebra](https://www.geogebra.org/3d?lang=pl))
+
+![Prism in 3D](/readme_pics/prism3D.png)
 
 ## Building
 
 Build by making a build directory (i.e. `build/`), run `cmake` in that dir, and then use `make` to build the desired target.
 
-Requirements: cmake, gnuplot, doxygen + dot (in graphviz library)
-
 Example:
 
 ``` bash
 > mkdir build && cd build
-> cmake .. #### options: -DCMAKE_BUILD_TYPE=[Debug | Coverage | Release], Debug is default
-> make     #### compilation
-> ./main   #### main() from app
-> make test      #### Compile the tests
-> ./unit_tests -s   #### Start the tests, -s flag - full description of each case
-> make fulltest #### alternative for above, compile & run tests with full decription
-> make coverage  #### Generate a coverage report
-> make doc       #### Generate html documentation
+> cmake .. -DCMAKE_BUILD_TYPE=[Debug | Coverage | Release]
+> make
+> ./main         # Runs program
+> make test      # Makes and runs the tests.
+> make coverage  # Generate a coverage report.
+> make doc       # Generate html documentation.
 ```
 
-Things to remember:
-* changes to CMakeLists.txt in the main folder with new files added, i.e.:
-```cpp
-# --------------------------------------------------------------------------------
-#                         Locate files (change as needed).
-# --------------------------------------------------------------------------------
-set(SOURCES          # All .cpp files in src/
-    src/lacze_do_gnuplota
-    src/Matrix2x2.cpp
-    src/Rectangle .cpp
-    src/Vector2D.cpp # etc.
-)
-set(TESTFILES        # All .cpp files in tests/
-    Vector2D.cpp
-    Matrix2x2.cpp
-    Rectangle.cpp # etc.
-)
-set(LIBRARY_NAME zadX)  # Default name for the library built from src/*.cpp (change if you wish)
-```
-* changes to tests/CMakeLists.txt (in tests subfolder) with new files added, i.e.:
-```cpp
-# List all files containing tests. (Change as needed)
-set(TESTFILES        # All .cpp files in tests/
-    main.cpp
-    test_Wektor2D.cpp
-    test_Macierz2x2.cpp
-    test_Prostokat.cpp # etc.
-)
-```
-The `main.cpp` in the folder `tests` is needed. Only there we define `#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN`.
+## Running
+Program does everything that the task obliged it to do. It is fully functional, has the modification implemented (see in menu), everything is tested and seems to work fine.
 
-The main loop of the program is in the `app` folder.
+## Documentation
+To see documentation go to /documentation dir and search for index.html. You can generate your own documentation in doxygen using:
+```
+make doc
+```
+in the build dir.
 
+## Tests
+
+Tests are made using doctests.
+There are two different ways to initiate tests:
+``` bash
+> cmake .. -DCMAKE_BUILD_TYPE=[Debug | Coverage | Release]
+> make
+> ./unit_tests
+```
+OR:
+``` bash
+> cmake .. -DCMAKE_BUILD_TYPE=[Debug | Coverage | Release]
+> make fulltest
+```
+
+Results of tests on my local machine: (using *./unit_tests*)
+```
+===============================================================================
+[doctest] test cases: 292 | 292 passed | 0 failed | 0 skipped
+[doctest] assertions: 695 | 695 passed | 0 failed |
+[doctest] Status: SUCCESS!
+```
+There are tests included for counting Vectors, class inheritence, all algebraic operations on vectors and matrices,
+cuboid and prism contruction assertion and more.
+
+**Important note:** there are problems while using *make fulltest* command. Tests that write data to *.dat* files will be shown as failed while using this command.
+In case *./unit_tests* is used, all tests have success status. The problematic tests have also been done manually and everything seems to work good.

@@ -1,0 +1,5 @@
+<map id="Menu_cub::switch_rotation" name="Menu_cub::switch_rotation">
+<area shape="rect" id="node1" title="Obsluguje skladanie rotacji obrotu." alt="" coords="445,5,641,32"/>
+<area shape="rect" id="node2" href="$class_menu__cub.html#a20ac792d84052e50bf3fb95b1745e4df" title="Obsluguje wybor menu Argumenty:" alt="" coords="215,5,397,32"/>
+<area shape="rect" id="node3" href="$class_menu__cub.html#ab8ed88bc956ac7bdfe7db0807085f7cd" title="Inicjuje menu Argumenty:" alt="" coords="5,5,167,32"/>
+</map>

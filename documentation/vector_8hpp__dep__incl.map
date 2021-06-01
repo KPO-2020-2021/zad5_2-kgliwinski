@@ -1,0 +1,25 @@
+<map id="/home/krzysztof/PO/zad5_1&#45;kgliwinski/include/vector.hpp" name="/home/krzysztof/PO/zad5_1&#45;kgliwinski/include/vector.hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="777,5,972,61"/>
+<area shape="rect" id="node2" href="$vector3_d_8hpp.html" title=" " alt="" coords="572,109,767,165"/>
+<area shape="rect" id="node16" href="$matrix_8hpp.html" title=" " alt="" coords="777,213,972,269"/>
+<area shape="rect" id="node21" href="$vector2_d_8hpp.html" title=" " alt="" coords="921,421,1116,477"/>
+<area shape="rect" id="node3" href="$block_8hpp.html" title="Plik zawiera definicję klasy reprezentujacej bryle w przestrzeni trojwymiarowej." alt="" coords="320,421,515,477"/>
+<area shape="rect" id="node15" href="$vector3_d_8cpp.html" title=" " alt="" coords="586,213,753,269"/>
+<area shape="rect" id="node17" href="$matrix3_d_8hpp.html" title=" " alt="" coords="525,317,720,373"/>
+<area shape="rect" id="node4" href="$cuboid_8hpp.html" title="Plik zawiera definicję klasy reprezentujacej prostopadloscian w przestrzeni trojwymiarowej." alt="" coords="320,525,515,581"/>
+<area shape="rect" id="node12" href="$prism_8hpp.html" title="Plik zawiera definicję klasy reprezentujacej graniastoslup o podstawie o 6 wierzcholkach w przestrzen..." alt="" coords="101,525,296,581"/>
+<area shape="rect" id="node14" href="$block_8cpp.html" title=" " alt="" coords="539,525,706,581"/>
+<area shape="rect" id="node5" href="$drone_8hpp.html" title="Plik zawiera definicję klasy reprezentujacej drona, budowanie i przemieszczanie go." alt="" coords="211,629,405,685"/>
+<area shape="rect" id="node11" href="$cuboid_8cpp.html" title=" " alt="" coords="430,629,597,685"/>
+<area shape="rect" id="node6" href="$scene_8hpp.html" title="Plik zawiera definicję klasy reprezentujacej scene, obslugujacej zapis do plikow i wytswietlanie w gn..." alt="" coords="108,733,303,789"/>
+<area shape="rect" id="node10" href="$drone_8cpp.html" title=" " alt="" coords="327,733,494,789"/>
+<area shape="rect" id="node7" href="$menu_8hpp.html" title="Plik zawiera definicję klasy reprezentujacej menu, obslugujace menu programu." alt="" coords="5,837,200,893"/>
+<area shape="rect" id="node9" href="$scene_8cpp.html" title=" " alt="" coords="225,837,391,893"/>
+<area shape="rect" id="node8" href="$menu_8cpp.html" title=" " alt="" coords="19,941,186,997"/>
+<area shape="rect" id="node13" href="$prism_8cpp.html" title=" " alt="" coords="19,629,186,685"/>
+<area shape="rect" id="node19" href="$matrix2_d_8hpp.html" title=" " alt="" coords="761,317,956,373"/>
+<area shape="rect" id="node22" href="$matrix4_d_8hpp.html" title=" " alt="" coords="1127,317,1321,373"/>
+<area shape="rect" id="node18" href="$matrix3_d_8cpp.html" title=" " alt="" coords="539,421,706,477"/>
+<area shape="rect" id="node20" href="$matrix2_d_8cpp.html" title=" " alt="" coords="730,421,897,477"/>
+<area shape="rect" id="node23" href="$matrix4_d_8cpp.html" title=" " alt="" coords="1141,421,1307,477"/>
+</map>

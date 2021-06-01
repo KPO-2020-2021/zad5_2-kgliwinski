@@ -1,0 +1,6 @@
+<map id="Prism::get_vec_pairs" name="Prism::get_vec_pairs">
+<area shape="rect" id="node1" title="Metoda zwracajaca do tablicy wektorow wektory &quot;przeciwlegle&quot; obydwoch podstaw graniastoslupa: Dla 2 p..." alt="" coords="405,31,563,57"/>
+<area shape="rect" id="node2" href="$class_prism.html#ab708a61827a72bb83b58716cbbb8b71c" title="Metoda sprawdzajaca czy wektory zwrocone przez get_vec_opp() sa parami rowne. Ponadto sprawdza tez ro..." alt="" coords="183,5,357,32"/>
+<area shape="rect" id="node4" href="$class_prism.html#a3df37e0c818988e0f4a7412ed063df67" title="Metoda sprawdzajaca katy miedzy krawedziami &quot;pionowymi&quot; graniastoslupa sa prostopadle do podstaw." alt="" coords="185,56,355,83"/>
+<area shape="rect" id="node3" href="$class_prism.html#ad4f328dfec3ee556f1f3be26a6b7d1d8" title="Sprawdza czy graniastoslup jest poprawnie zbudowany" alt="" coords="5,5,135,32"/>
+</map>

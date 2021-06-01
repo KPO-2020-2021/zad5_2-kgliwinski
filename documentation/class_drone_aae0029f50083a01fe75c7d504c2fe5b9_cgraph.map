@@ -1,0 +1,9 @@
+<map id="Drone::Print_to_files_drone" name="Drone::Print_to_files_drone">
+<area shape="rect" id="node1" title="Metoda zapisujaca parametry drona do plikow (do plikow final kazdego z elementow)" alt="" coords="5,49,159,90"/>
+<area shape="rect" id="node2" href="$class_cuboid.html#abc62d20a2f1418af1c35e369da77f0fc" title=" " alt="" coords="207,5,377,32"/>
+<area shape="rect" id="node5" href="$class_block.html#aeef4dd3716afaea42688a4f96456ce27" title="Metoda zwracajaca nazwe pliku z finalna (robocza) bryla" alt="" coords="209,56,375,83"/>
+<area shape="rect" id="node6" href="$class_prism.html#a2de0dab6d117fc3c8dcbc3c384d0fccd" title=" " alt="" coords="215,107,369,133"/>
+<area shape="rect" id="node3" href="$class_cuboid.html#a12a97376443b1a15ae8342c1c75b3e1e" title="Metoda wypisania odpowiednich wierzcholkow do pliku zgodnie z zaproponowanym sposobem zadaniu dron" alt="" coords="425,19,605,45"/>
+<area shape="rect" id="node4" href="$class_vector.html#ab2bb1182cee2389eda163fb7b767f36d" title="Zwraca wektor do tablicy o rozmiarze SIZE &#160;&#160;Argumenty:" alt="" coords="653,56,776,83"/>
+<area shape="rect" id="node7" href="$class_prism.html#a764c6940e4fb65303981e8b877b28561" title="Metoda wypisania odpowiednich wierzcholkow do pliku zgodnie z zaproponowanym sposobem zadaniu dron" alt="" coords="432,81,599,108"/>
+</map>

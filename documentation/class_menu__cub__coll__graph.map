@@ -1,0 +1,8 @@
+<map id="Menu_cub" name="Menu_cub">
+<area shape="rect" id="node1" title="Opisuje menu dla obrotow 3D." alt="" coords="5,983,232,1236"/>
+<area shape="rect" id="node2" title=" " alt="" coords="57,703,108,781"/>
+<area shape="rect" id="node3" href="$class_matrix.html" title=" " alt="" coords="132,564,343,920"/>
+<area shape="rect" id="node4" title=" " alt="" coords="145,285,212,362"/>
+<area shape="rect" id="node5" href="$class_matrix.html" title="Opisuje macierz SIZExSIZE." alt="" coords="236,145,447,501"/>
+<area shape="rect" id="node6" title=" " alt="" coords="316,5,367,83"/>
+</map>

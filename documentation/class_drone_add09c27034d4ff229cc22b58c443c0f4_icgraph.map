@@ -1,0 +1,10 @@
+<map id="Drone::setup_filenames" name="Drone::setup_filenames">
+<area shape="rect" id="node1" title="Metoda ustawiajaca nazwy plikow do zapisu dla drona." alt="" coords="903,97,1079,123"/>
+<area shape="rect" id="node2" href="$class_drone.html#ada6f4e93f4a63cbe1d6fbebf329efe62" title="Metoda wczytywania odpowiednich wierzcholkow z pliku wzorcowego zgodnie z zaproponowanym sposobem w z..." alt="" coords="651,71,855,98"/>
+<area shape="rect" id="node8" href="$class_scene.html#a22d8bf855d72be0064265c93562b6bb1" title="Konstruktor paramereyczny klasy Scene." alt="" coords="699,122,807,149"/>
+<area shape="rect" id="node3" href="$class_drone.html#af03af60a9b92e4191a7e66b5c20b52bb" title="Metoda zamieniajaca drona na tego z pliku sample." alt="" coords="440,64,603,105"/>
+<area shape="rect" id="node4" href="$class_drone.html#ac4d24c27fb2c107d2e8bda0c2bf5cfa1" title="Metoda obliczajaca i przeprowadzajaca caly ruch drona (obrot o kat i przelot z zadania 5...." alt="" coords="5,5,155,47"/>
+<area shape="rect" id="node5" href="$class_drone.html#af052f6bb793d1229b99b16b800b95b82" title="Metoda animujaca obrot drona i wyrysowujaca calosc w gnuplocie." alt="" coords="214,35,381,76"/>
+<area shape="rect" id="node6" href="$class_drone.html#ab7808296cec81143dbddd7516340a371" title="Metoda robiaca &quot;oblot&quot; drona wokol punktu (z modyfikacji)" alt="" coords="203,101,392,127"/>
+<area shape="rect" id="node7" href="$class_drone.html#a5fc9dd645ad3856b5d3c501c63c464e3" title="Metoda animujaca translacje drona i wyrysowujaca calosc w gnuplocie." alt="" coords="205,152,390,193"/>
+</map>

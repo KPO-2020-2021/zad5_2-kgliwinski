@@ -1,0 +1,29 @@
+<map id="/home/krzysztof/PO/zad5_1&#45;kgliwinski/include/menu_cub.hpp" name="/home/krzysztof/PO/zad5_1&#45;kgliwinski/include/menu_cub.hpp">
+<area shape="rect" id="node1" title="Plik zawiera definicję klasy reprezentujacej menu obslugi menu dla obrotow 3D." alt="" coords="549,5,743,61"/>
+<area shape="rect" id="node2" title=" " alt="" coords="318,632,398,659"/>
+<area shape="rect" id="node3" title=" " alt="" coords="844,109,915,136"/>
+<area shape="rect" id="node4" title=" " alt="" coords="516,259,589,285"/>
+<area shape="rect" id="node5" href="$cuboid_8hpp.html" title="Plik zawiera definicję klasy reprezentujacej prostopadloscian w przestrzeni trojwymiarowej." alt="" coords="183,109,277,136"/>
+<area shape="rect" id="node21" href="$prism_8hpp.html" title="Plik zawiera definicję klasy reprezentujacej graniastoslup o podstawie o 6 wierzcholkach w przestrzen..." alt="" coords="301,109,388,136"/>
+<area shape="rect" id="node22" href="$lacze__do__gnuplota_8hpp.html" title=" " alt="" coords="413,109,583,136"/>
+<area shape="rect" id="node25" href="$matrix4_d_8hpp.html" title=" " alt="" coords="709,109,820,136"/>
+<area shape="rect" id="node27" title=" " alt="" coords="939,109,1014,136"/>
+<area shape="rect" id="node6" href="$block_8hpp.html" title="Plik zawiera definicję klasy reprezentujacej bryle w przestrzeni trojwymiarowej." alt="" coords="214,184,299,211"/>
+<area shape="rect" id="node7" title=" " alt="" coords="387,259,446,285"/>
+<area shape="rect" id="node8" href="$vector3_d_8hpp.html" title=" " alt="" coords="154,408,263,435"/>
+<area shape="rect" id="node9" href="$vector_8hpp.html" title=" " alt="" coords="265,483,355,509"/>
+<area shape="rect" id="node12" href="$count_8hpp.html" title="Plik zawiera definicję klasy reprezentujacej counter, pozwalajacy na liczenie instancji stworzonych k..." alt="" coords="21,557,108,584"/>
+<area shape="rect" id="node16" href="$matrix3_d_8hpp.html" title=" " alt="" coords="201,259,312,285"/>
+<area shape="rect" id="node17" href="$matrix_8hpp.html" title=" " alt="" coords="421,333,514,360"/>
+<area shape="rect" id="node15" href="$vector3_d_8cpp.html" title=" " alt="" coords="97,483,240,509"/>
+<area shape="rect" id="node10" title=" " alt="" coords="184,557,247,584"/>
+<area shape="rect" id="node11" title=" " alt="" coords="271,557,346,584"/>
+<area shape="rect" id="node14" title=" " alt="" coords="370,557,493,584"/>
+<area shape="rect" id="node13" title=" " alt="" coords="5,632,124,659"/>
+<area shape="rect" id="node20" href="$matrix3_d_8cpp.html" title=" " alt="" coords="251,333,396,360"/>
+<area shape="rect" id="node18" title=" " alt="" coords="568,408,633,435"/>
+<area shape="rect" id="node19" title=" " alt="" coords="367,408,493,435"/>
+<area shape="rect" id="node23" title=" " alt="" coords="453,184,495,211"/>
+<area shape="rect" id="node24" title=" " alt="" coords="520,184,583,211"/>
+<area shape="rect" id="node26" href="$matrix4_d_8cpp.html" title=" " alt="" coords="760,184,905,211"/>
+</map>

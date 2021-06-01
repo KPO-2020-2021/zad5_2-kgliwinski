@@ -1,0 +1,8 @@
+<map id="Scene::Scene" name="Scene::Scene">
+<area shape="rect" id="node1" title="Konstruktor paramereyczny klasy Scene." alt="" coords="5,31,113,57"/>
+<area shape="rect" id="node2" href="$class_drone.html#a55c483c4e4cf0ec91d5bda5448417f08" title="Metoda ustawiajaca drone_pos" alt="" coords="161,5,324,32"/>
+<area shape="rect" id="node5" href="$class_drone.html#a4eeb63d39ed3e215649cbcb5f7fcf359" title="Metoda ustawiajaca skale wszystkich elementow drona" alt="" coords="166,56,319,83"/>
+<area shape="rect" id="node3" href="$class_cuboid.html#a08fae08a1c8c70ada48ce3af46c82eee" title="Metoda zwracajaca wysokosc prostopadloscianu" alt="" coords="372,5,516,32"/>
+<area shape="rect" id="node4" href="$class_vector.html#a3ac695edc693437a61da9f1976fd4869" title="Zwraca dlugosc wektora &#160;&#160;Argumenty: &#160;&#160;Brak &#160;&#160;Zwraca:" alt="" coords="564,5,683,32"/>
+<area shape="rect" id="node6" href="$class_block.html#adb6acd13e2ab79cf7e4733ca2d6ae166" title="Metoda zapisujaca do klasy wektor reprezentujacy skale" alt="" coords="381,56,507,83"/>
+</map>

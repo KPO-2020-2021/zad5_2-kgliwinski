@@ -1,0 +1,15 @@
+<map id="Drone" name="Drone">
+<area shape="rect" id="node1" title="Opisuje drona o prostopadlosciennym korpusie i 4 rotorach." alt="" coords="174,2276,421,2779"/>
+<area shape="rect" id="node2" title=" " alt="" coords="91,741,157,818"/>
+<area shape="rect" id="node3" href="$class_vector.html" title=" " alt="" coords="269,1020,422,1376"/>
+<area shape="rect" id="node10" href="$class_cuboid.html" title="Opisuje prostopadloscian w przestrzeni trojwymiarowej." alt="" coords="287,1725,475,2213"/>
+<area shape="rect" id="node11" href="$class_block.html" title="Opisuje figure geometryczna w przestrzeni trojwymiarowej." alt="" coords="219,1453,386,1648"/>
+<area shape="rect" id="node13" href="$class_prism.html" title="Opisuje graniastoslup o dwunastu wierzcholkach w przestrzeni trojwymiarowej." alt="" coords="52,1747,263,2191"/>
+<area shape="rect" id="node4" href="$class_count.html" title=" " alt="" coords="157,373,336,539"/>
+<area shape="rect" id="node5" title=" " alt="" coords="393,5,471,83"/>
+<area shape="rect" id="node6" href="$class_count.html" title="Pozwala na liczenie instancji stworzonych obiektow." alt="" coords="372,160,492,311"/>
+<area shape="rect" id="node8" href="$class_count.html" title=" " alt="" coords="382,373,546,539"/>
+<area shape="rect" id="node7" href="$class_vector.html" title="Opisuje wektor o SIZE&#45;wierszach." alt="" coords="385,601,543,957"/>
+<area shape="rect" id="node9" title=" " alt="" coords="571,417,621,495"/>
+<area shape="rect" id="node12" title=" " alt="" coords="177,1159,236,1237"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Scene::fly_roundabout" name="Scene::fly_roundabout">
+<area shape="rect" id="node1" title="Przelot aktywnego drona." alt="" coords="384,5,551,32"/>
+<area shape="rect" id="node2" href="$class_menu.html#acd338552222b744cd030e17776cb5d9b" title="Obsluguje wybor menu." alt="" coords="184,5,336,32"/>
+<area shape="rect" id="node3" href="$class_menu.html#af7e6a49bd56499facef9cc98561ea169" title="Inicjuje i obsluguje menu." alt="" coords="5,5,136,32"/>
+</map>

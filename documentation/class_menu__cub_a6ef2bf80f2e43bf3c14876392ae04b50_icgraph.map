@@ -1,0 +1,6 @@
+<map id="Menu_cub::print_side_len" name="Menu_cub::print_side_len">
+<area shape="rect" id="node1" title="Wyswietla informacje o bokach figury na standardowym wyjsciu Argumenty:" alt="" coords="629,31,816,57"/>
+<area shape="rect" id="node2" href="$class_menu__cub.html#a70948401b7953953e9827b2614d2ae5a" title="Sprawdza i wyswietla wszelkie asercje odnosnie prostopadloscianu Argumenty:" alt="" coords="445,5,581,32"/>
+<area shape="rect" id="node4" href="$class_menu__cub.html#a20ac792d84052e50bf3fb95b1745e4df" title="Obsluguje wybor menu Argumenty:" alt="" coords="215,56,397,83"/>
+<area shape="rect" id="node3" href="$class_menu__cub.html#ab8ed88bc956ac7bdfe7db0807085f7cd" title="Inicjuje menu Argumenty:" alt="" coords="5,31,167,57"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="Menu_cub::assert" name="Menu_cub::assert">
+<area shape="rect" id="node1" title="Sprawdza i wyswietla wszelkie asercje odnosnie prostopadloscianu Argumenty:" alt="" coords="5,81,141,108"/>
+<area shape="rect" id="node2" href="$class_cuboid.html#a058d488f3125238bd8b8dcbb671ede9e" title="Sprawdza czy prostopadloscian jest poprawnie zbudowany" alt="" coords="211,56,354,83"/>
+<area shape="rect" id="node5" href="$class_cuboid.html#a5840b78caaeac16fd1a262026819501d" title="Sprawdza czy wektory tworzace przeciwne boki prostopadloscianu sa rowne" alt="" coords="426,5,601,32"/>
+<area shape="rect" id="node6" href="$class_cuboid.html#a5941a7b9eb991137a908b38dc24dc9b3" title="Sprawdza czy wektory tworzace niektore konkretne boki prostokata (glownie te przy wierzcholkach) sa p..." alt="" coords="424,107,603,133"/>
+<area shape="rect" id="node8" href="$class_menu__cub.html#a6ef2bf80f2e43bf3c14876392ae04b50" title="Wyswietla informacje o bokach figury na standardowym wyjsciu Argumenty:" alt="" coords="189,157,376,184"/>
+<area shape="rect" id="node3" href="$class_cuboid.html#a41233dfb606942e160e3080a23547674" title="Sprawdza czy dlugosci wektory tworzace przeciwne boki prostopadloscianu maja poprawne wartosci (nie s..." alt="" coords="428,56,599,83"/>
+<area shape="rect" id="node4" href="$class_cuboid.html#a21fa2d6458f5b6c593e3e83b3455c246" title="Zwraca do tablicy 3x2 wektory reprezentujace przeciwne boki prostopadloscianu" alt="" coords="653,56,811,83"/>
+<area shape="rect" id="node7" href="$class_cuboid.html#a3bdc11fd360d0c7d8491f4b42b53bf10" title="Zwraca do tablicy 2x3 wektory reprezentujace boki przy wierzcholkach [0][1] (do vecs[0]) i [1][3] (do..." alt="" coords="651,107,813,133"/>
+<area shape="rect" id="node9" href="$class_cuboid.html#a63fdccd9593f1a7191395a103b7c6366" title="Zapisuje do tablicy tab w kolejnosci: 1.dluzsze przeciwlegle boki 2.krotsze przeciwlegle boki 3...." alt="" coords="437,157,590,184"/>
+<area shape="rect" id="node10" href="$class_vector.html#a3ac695edc693437a61da9f1976fd4869" title="Zwraca dlugosc wektora &#160;&#160;Argumenty: &#160;&#160;Brak &#160;&#160;Zwraca:" alt="" coords="673,157,791,184"/>
+</map>

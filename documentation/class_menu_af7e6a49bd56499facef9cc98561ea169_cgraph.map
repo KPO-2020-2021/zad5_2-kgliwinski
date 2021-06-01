@@ -1,0 +1,36 @@
+<map id="Menu::init_menu" name="Menu::init_menu">
+<area shape="rect" id="node1" title="Inicjuje i obsluguje menu." alt="" coords="5,411,136,438"/>
+<area shape="rect" id="node2" href="$class_scene.html#a1b2c4320032cf6319a6840ac865774db" title="Metoda sprawdzajaca poprawnosc inicjacji sceny." alt="" coords="184,253,336,279"/>
+<area shape="rect" id="node3" href="$class_scene.html#ae4468d0e93e36895e970d61abd760fba" title="Metoda inicjalizujaca lacze do gnuplota." alt="" coords="187,354,333,381"/>
+<area shape="rect" id="node8" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a065f5b8402737cc62b0ad4f66d028335" title="Generuje polecenie rysowania i przesyła je do gnuplota." alt="" coords="384,33,557,75"/>
+<area shape="rect" id="node27" href="$class_scene.html#a22b1902bbd3a21c3fc62251c123a8407" title="Wypisuje polozenie aktywnego drona." alt="" coords="397,833,544,859"/>
+<area shape="rect" id="node29" href="$class_menu.html#ad19260a43743fc13dbb67e71c97f3ccd" title="Wyswietla menu." alt="" coords="399,579,543,606"/>
+<area shape="rect" id="node30" href="$class_menu.html#acd338552222b744cd030e17776cb5d9b" title="Obsluguje wybor menu." alt="" coords="184,681,336,707"/>
+<area shape="rect" id="node4" href="$class_scene.html#af0103ddde1032f0abe26cefcfbdb0cac" title="Metoda dodajaca do lacza plik z plaszczyzna." alt="" coords="402,529,539,555"/>
+<area shape="rect" id="node5" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#aa815ce8ec16e12fc246cf422e562869e" title="Dodaje nazwę pliku." alt="" coords="636,471,809,512"/>
+<area shape="rect" id="node7" href="$class_scene.html#aee5720329cbe2b9c45d607f5e972d91a" title="Metoda tworzy plaszczyzne z podanych zakresow i zwraca nazwe pliku do zapisu." alt="" coords="397,165,544,191"/>
+<area shape="rect" id="node15" href="$class_drone.html#a63898ba4cc161710cf08f7b578f3d90f" title="Metoda ustawiajaca nazwy plikow w laczy do gnuplota (nazwy final!)" alt="" coords="391,216,551,257"/>
+<area shape="rect" id="node23" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a9c91987dfc869d6fcea96205c581daef" title="Ustawia zakres osi OX." alt="" coords="384,281,557,323"/>
+<area shape="rect" id="node24" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a54c6e9cf9ab2eae479451fd953c2717c" title="Ustawia zakres osi OY." alt="" coords="384,347,557,388"/>
+<area shape="rect" id="node25" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a1dbbb2b86fb13b8632e6bad9df2a82e3" title="Ustawia zakres osi OZ." alt="" coords="384,412,557,453"/>
+<area shape="rect" id="node26" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#ae92c65357bf682478cc68f77885b61d8" title="Zmienia tryb rysowania." alt="" coords="384,99,557,140"/>
+<area shape="rect" id="node6" href="$namespace_pz_g.html#ae1aad0c681853d7e47da4cdfccefc102" title="Funkcja pomocnicza, sprawdza czy plik o podanej nazwie jest na dysku." alt="" coords="921,478,1048,505"/>
+<area shape="rect" id="node9" href="$namespace_pz_g.html#aa010184f31b26bb561b42f22438b821e" title="Funkcja pomocnicza, dopisuje do polecenia wpisy związane z rysowaniem z pliku." alt="" coords="612,19,833,46"/>
+<area shape="rect" id="node10" href="$namespace_pz_g.html#a7227cb39c785b1c746b6bb5515c0b781" title="Dodaje do listy rysowanych punktów, punkty o różnych rozmiarach." alt="" coords="605,71,840,112"/>
+<area shape="rect" id="node11" href="$namespace_pz_g.html#a169c311f0e0b6ffadcd44e91e749f72d" title="Wczytuje z pliku listę punktów." alt="" coords="888,71,1081,112"/>
+<area shape="rect" id="node12" href="$class_pz_g_1_1_atrybuty_rysowania.html#ab068535b4d2f755c394557d1da72a4eb" title="Zmienia kolor rysowania." alt="" coords="1129,71,1312,112"/>
+<area shape="rect" id="node13" href="$class_pz_g_1_1_atrybuty_rysowania.html#af4b140eb03bc10b6fd816fad63f8372e" title="Zmienia rozmiar rysowania." alt="" coords="1129,136,1312,177"/>
+<area shape="rect" id="node14" href="$class_pz_g_1_1_atrybuty_rysowania.html#a2ac97706124b14072715ecf3f07e82b4" title="Zmienia styl rysowania." alt="" coords="1129,5,1312,47"/>
+<area shape="rect" id="node16" href="$class_cuboid.html#abc62d20a2f1418af1c35e369da77f0fc" title=" " alt="" coords="637,143,808,170"/>
+<area shape="rect" id="node19" href="$class_block.html#aeef4dd3716afaea42688a4f96456ce27" title="Metoda zwracajaca nazwe pliku z finalna (robocza) bryla" alt="" coords="639,194,806,221"/>
+<area shape="rect" id="node20" href="$class_block.html#aed17e0cb13b8eea50fe735ba05204da9" title="Metoda zwracajaca nazwe pliku z wzorcowa bryla" alt="" coords="629,245,816,271"/>
+<area shape="rect" id="node21" href="$class_prism.html#a2de0dab6d117fc3c8dcbc3c384d0fccd" title=" " alt="" coords="645,295,800,322"/>
+<area shape="rect" id="node17" href="$class_cuboid.html#a12a97376443b1a15ae8342c1c75b3e1e" title="Metoda wypisania odpowiednich wierzcholkow do pliku zgodnie z zaproponowanym sposobem zadaniu dron" alt="" coords="895,173,1075,199"/>
+<area shape="rect" id="node18" href="$class_vector.html#ab2bb1182cee2389eda163fb7b767f36d" title="Zwraca wektor do tablicy o rozmiarze SIZE &#160;&#160;Argumenty:" alt="" coords="1159,249,1282,275"/>
+<area shape="rect" id="node22" href="$class_prism.html#a764c6940e4fb65303981e8b877b28561" title="Metoda wypisania odpowiednich wierzcholkow do pliku zgodnie z zaproponowanym sposobem zadaniu dron" alt="" coords="901,273,1068,299"/>
+<area shape="rect" id="node28" href="$class_drone.html#a79011bebcf8fad3734f9710fa7c16df4" title="Metoda wypisuje na standardowym wyjsciu pozycje drona (bez wysokosci)" alt="" coords="636,731,809,758"/>
+<area shape="rect" id="node31" href="$class_scene.html#a87ef7448b3e6e883460ba41ef590f24f" title="Metoda pozwalajaca na wybor aktywnego drona." alt="" coords="391,782,550,809"/>
+<area shape="rect" id="node32" href="$class_scene.html#a5fb0b9741a75dec929b5ea5d6ac917a1" title="Przelot aktywnego drona." alt="" coords="428,681,513,707"/>
+<area shape="rect" id="node33" href="$class_scene.html#a2a51a641e755111d4a0574ba721dddc3" title="Przelot aktywnego drona." alt="" coords="387,731,554,758"/>
+<area shape="rect" id="node34" href="$class_scene.html#a9bb896991e516390c4464cdc92352d00" title="Wypisuje polozenia dronow." alt="" coords="388,630,553,657"/>
+</map>

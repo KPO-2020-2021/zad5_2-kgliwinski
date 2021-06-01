@@ -1,0 +1,30 @@
+<map id="Drone::Drone_change_to_sample" name="Drone::Drone_change_to_sample">
+<area shape="rect" id="node1" title="Metoda zamieniajaca drona na tego z pliku sample." alt="" coords="5,483,168,525"/>
+<area shape="rect" id="node2" href="$class_drone.html#ada6f4e93f4a63cbe1d6fbebf329efe62" title="Metoda wczytywania odpowiednich wierzcholkow z pliku wzorcowego zgodnie z zaproponowanym sposobem w z..." alt="" coords="216,115,420,141"/>
+<area shape="rect" id="node11" href="$class_drone.html#ad42bc54902df967b94717617aca1a974" title="Metoda obracajaca dron o zadany kat w 3D wokol srodka figury" alt="" coords="217,405,419,432"/>
+<area shape="rect" id="node22" href="$class_matrix.html#a4161a82fb401e474052c21b25a06a5ba" title=" " alt="" coords="231,549,405,576"/>
+<area shape="rect" id="node23" href="$class_drone.html#a55c483c4e4cf0ec91d5bda5448417f08" title="Metoda ustawiajaca drone_pos" alt="" coords="237,600,399,627"/>
+<area shape="rect" id="node26" href="$class_drone.html#a6662bd8203e8c9a0721c457b3612a7c1" title="Metoda uzywana przy konstruowania drona przesuwa drona w ten sposob, ze Vector3D centre prostopadlosc..." alt="" coords="249,483,387,525"/>
+<area shape="rect" id="node3" href="$class_cuboid.html#a773f92fecdf9686b951cf5736c83f318" title="Metoda wczytywania odpowiednich wierzcholkow z pliku wzorcowego zgodnie z zaproponowanym sposobem zad..." alt="" coords="492,107,652,149"/>
+<area shape="rect" id="node8" href="$class_drone.html#addf8532ee98ca800a64a78f3808fce98" title="Metoda zwracajaca nazwy plikow do zapisu dla drona." alt="" coords="491,173,653,200"/>
+<area shape="rect" id="node9" href="$class_prism.html#a5e0a2234e9ebe3b51146c0ddc42e8b48" title="Metoda wczytywania odpowiednich wierzcholkow z pliku wzorcowego zgodnie z zaproponowanym sposobem zad..." alt="" coords="472,56,672,83"/>
+<area shape="rect" id="node10" href="$class_drone.html#add09c27034d4ff229cc22b58c443c0f4" title="Metoda ustawiajaca nazwy plikow do zapisu dla drona." alt="" coords="484,5,660,32"/>
+<area shape="rect" id="node4" href="$class_block.html#aeef4dd3716afaea42688a4f96456ce27" title="Metoda zwracajaca nazwe pliku z finalna (robocza) bryla" alt="" coords="734,157,901,184"/>
+<area shape="rect" id="node5" href="$class_block.html#aed17e0cb13b8eea50fe735ba05204da9" title="Metoda zwracajaca nazwe pliku z wzorcowa bryla" alt="" coords="724,107,911,133"/>
+<area shape="rect" id="node6" href="$class_block.html#a640a910076d8b10533a9a80d740f8f03" title="Metoda zapisujaca do klasy nazwe pliku z finalna (robocza) bryla" alt="" coords="735,56,900,83"/>
+<area shape="rect" id="node7" href="$class_block.html#acf20b290f1543e580ff1f2c6d98ff4c4" title="Metoda zapisujaca do klasy nazwe pliku z wzorcowa bryla" alt="" coords="725,5,910,32"/>
+<area shape="rect" id="node12" href="$class_prism.html#a22c5467db5d960bddbaf9a52f55c55cb" title="Metoda obracajaca graniastoslup o zadany kat w 3D wokol srodka figury" alt="" coords="472,380,672,407"/>
+<area shape="rect" id="node16" href="$class_cuboid.html#a6c697c2d9b36a14c43c7328876d5a1f0" title="Metoda obracajaca prostopadloscian o zadany kat w 3D wokol srodka figury" alt="" coords="468,436,676,463"/>
+<area shape="rect" id="node19" href="$class_drone.html#aea963b77f42c204504542a3d9190d762" title="Metoda uzywana przy konstruowania drona Ustawia rotory w ten sposob, ze srodek ich dolnej podstawy je..." alt="" coords="495,259,649,301"/>
+<area shape="rect" id="node13" href="$class_matrix.html#ad6df418144dfdc3236f990dc3fb0a50a" title=" " alt="" coords="738,427,897,469"/>
+<area shape="rect" id="node14" href="$class_prism.html#ade146d341c0468030f8c1258b7fe1041" title="Metoda przesuwajaca graniastoslup o zadany wektor w 3D" alt="" coords="959,351,1096,377"/>
+<area shape="rect" id="node15" href="$class_prism.html#afed2c26932d5cb152fd620d2acbfbc3e" title="Metoda przesuwajaca graniastoslup do srodka ukladu wspolrzednych (tak, ze srodek graniastoslupa pokry..." alt="" coords="730,325,905,352"/>
+<area shape="rect" id="node17" href="$class_cuboid.html#a3f6b1b9ea7de433af5b0d462d29f4272" title="Metoda przesuwajaca prostopadloscian o zadany kat w 3D" alt="" coords="745,544,890,571"/>
+<area shape="rect" id="node18" href="$class_cuboid.html#a42bdce7c214e759cb6ea94d4f547a5b9" title="Metoda przesuwajaca prostopadloscian do (0,0,0)" alt="" coords="726,493,909,520"/>
+<area shape="rect" id="node20" href="$class_cuboid.html#a99d30564d6129e6905c5333e04df9606" title="Metoda zwracajaca wierzcholki prostopadloscianu do Vector3D" alt="" coords="754,208,881,235"/>
+<area shape="rect" id="node21" href="$class_prism.html#a4e2b0b9c37d6a53af869522a4bf364ac" title="Metoda przesuwajaca graniastoslup o zadany wektor w 3D w taki sposob, ze srodek jego dolnej podstawy ..." alt="" coords="749,259,886,301"/>
+<area shape="rect" id="node24" href="$class_cuboid.html#a08fae08a1c8c70ada48ce3af46c82eee" title="Metoda zwracajaca wysokosc prostopadloscianu" alt="" coords="500,620,644,647"/>
+<area shape="rect" id="node25" href="$class_vector.html#a3ac695edc693437a61da9f1976fd4869" title="Zwraca dlugosc wektora &#160;&#160;Argumenty: &#160;&#160;Brak &#160;&#160;Zwraca:" alt="" coords="758,645,877,672"/>
+<area shape="rect" id="node27" href="$class_cuboid.html#aafa18740d9c98ca928395b9873a9c63d" title="Metoda zwracajaca punkt centralny (czyli taki, ktorego odleglosci do kazdego wierzcholka sa rowne) pr..." alt="" coords="494,491,650,517"/>
+<area shape="rect" id="node28" href="$class_drone.html#a9684cd7ce04b7e6191f3d6b3a745370b" title="Przesuwa drona o zadany wektor w 3D" alt="" coords="503,544,641,571"/>
+</map>
