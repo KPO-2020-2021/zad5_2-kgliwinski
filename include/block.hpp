@@ -50,41 +50,50 @@ class Block
  */
     Block(const std::string &s_name, const std::string &f_name, const Vector3D &vec);
 
+    /*!
+ * \brief Konstruktor paramereyczny klasy Block
+ *      \param[in] s_name - docelowo sample_name z klasy Block
+ *      \param[in] f_name - docelowo final_name z klasy Block
+ *      \post Ustawia nazwy na odpowiednie podane przez uzytkownika, skala jest ustawiana
+ *             na [1,1,1]
+ */
+    Block(const std::string &s_name, const std::string &f_name);
+
 /*!
- *  \brief Metoda zapisujaca do klasy nazwe pliku z wzorcowa bryla                                            
- *                                                                    
- *      \param[in] name - nazwa pliku                                                     
- *                                                                        
+ *  \brief Metoda zapisujaca do klasy nazwe pliku z wzorcowa bryla                                                                                                    
+ *      \param[in] name - nazwa pliku                                                                                                                 
  *     \post Zmiana sample_name na ta podana przez uzytkownika                               
  */
     void set_sample_name(const std::string &name);
 
 /*!
- *  \brief Metoda zapisujaca do klasy nazwe pliku z finalna (robocza) bryla                                             
- *                                                                    
- *      \param[in] name - nazwa pliku                                                     
- *                                                                        
+ *  \brief Metoda zapisujaca do klasy nazwe pliku z finalna (robocza) bryla                                                                                                      
+ *      \param[in] name - nazwa pliku                                                                                                                 
  *     \post Zmiana final_name na ta podana przez uzytkownika                                
  */
     void set_final_name(const std::string &name);
 
 /*!
- *  \brief Metoda zapisujaca do klasy wektor reprezentujacy skale                                            
- *                                                                    
- *      \param[in] vec - Vector3D zawierajacy skale                                                  
- *                                                                        
+ *  \brief Metoda zapisujaca do klasy wektor reprezentujacy skale                                                                                                     
+ *      \param[in] vec - Vector3D zawierajacy skale                                                                                                               
  *     \post Zmiana skali na te podana przez uzytkownika                                
  */
     void set_scale(const Vector3D &vec);
 
 /*!
- *  \brief Metoda zapisujaca do klasy wektor reprezentujacy skale                                            
- *                                                                    
- *      \param[in] tab - tablica z ktorej powstanie wektor                                                  
- *                                                                        
+ *  \brief Metoda zapisujaca do klasy wektor reprezentujacy skale                                                                                                       
+ *      \param[in] tab - tablica z ktorej powstanie wektor                                                                                                         
  *     \post Zmiana skali na te podana przez uzytkownika                                
  */
     void set_scale(double (&tab)[3]);
+
+    /*!
+ *  \brief Metoda sprawdzajaca Block 
+ *     \pre nazwy plikow nie moga byc puste, skala musi byc dodatnia                                                                                                                                                                                                    
+ *     \retval true - jesli poprawne
+ *     \retval false - w przeciwnym wypadku                               
+ */
+    bool check_block() const;
     
 
 /*!

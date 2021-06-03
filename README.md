@@ -1,4 +1,4 @@
-# Dron faza 1
+# Dragonfly 5.2
 
 Below it is shown how the programme is structured and how it declares 3D geometric figures.
 
