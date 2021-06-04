@@ -18,6 +18,19 @@ Scene::Scene(Vector3D const (&pos)[SIZE], Vector3D const (&scal_bod)[SIZE], Vect
     active = 0;
 }
 
+bool Scene::init_objects(double const &x, double const &y)
+{
+    std::shared_ptr<Plane> p = std::make_shared<Plane>(Plane(x,y,"../datasets/main/sample/plane_sample.dat", "../datasets/main/final/plane_final.dat"));
+    p->make_plane();
+    objects.push_back(p);
+    return !objects.empty();
+}
+
+int Scene::get_objects_size()
+{
+    return objects.size();
+}
+
 bool Scene::check_scene() const
 {
     unsigned int i;
@@ -50,52 +63,22 @@ bool Scene::choose_drone(unsigned int const &ch)
     return 1;
 }
 
-PzG::LaczeDoGNUPlota Scene::init_gnuplot(double const &x1, double const &x2,double const &y1,double const &y2) const
+bool Scene::init_gnuplot(double const &x,double const &y, PzG::LaczeDoGNUPlota &Lacze)
 {
     unsigned int i;
-    PzG::LaczeDoGNUPlota Lacze;
     for (i = 0; i < SIZE; ++i)
     {
         flies[i].set_filenames_gnuplot(Lacze);
     }
-    Lacze.UstawZakresX(x1, x2);
-    Lacze.UstawZakresY(y1, y2);
+    Lacze.UstawZakresX(0, x);
+    Lacze.UstawZakresY(0, y);
     Lacze.UstawZakresZ(0, 120);
     Lacze.ZmienTrybRys(PzG::TR_3D);
-    std::string name = "../datasets/plane.dat";
-    Make_Plane(x1,x2,y1,y2,name);
-    Lacze.DodajNazwePliku(name.c_str());
-    Add_Plane(Lacze);
+    if(!init_objects(x,y))
+        return 0;
+    Lacze.DodajNazwePliku(objects.front().get()->get_sample_name().c_str());
     Lacze.Rysuj();
-    return Lacze;
-}
-
-bool Scene::Make_Plane(double const &x1, double const &x2,double const &y1,double const &y2, std::string const &name) const
-{
-    int i,j;
-    std::ofstream filestrm;
-    filestrm.open(name);
-    if (!filestrm.is_open())
-    {
-        std::cerr << ":(  Operacja otwarcia do zapisu \"" << name << "\"" << std::endl
-                  << ":(  nie powiodla sie." << std::endl;
-        return false;
-    }
-
-    for (i = x1; i <= x2; i+=10)
-    {
-        for(j=y1;j<=y2;j+=10)
-        {
-                filestrm << std::setw(10) << std::fixed << std::setprecision(10) << j << " " << i << " " << 0 << std::endl;
-        }
-        filestrm<<std::endl;
-    }
     return 1;
-}
-
-void Scene::Add_Plane(PzG::LaczeDoGNUPlota &Lacze) const
-{
-    Lacze.DodajNazwePliku(land_name.c_str(), PzG::SR_Ciagly);
 }
 
 unsigned int Scene::get_active() const

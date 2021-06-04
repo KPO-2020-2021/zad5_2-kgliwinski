@@ -15,7 +15,7 @@ void Menu::init_menu(Scene &sc, PzG::LaczeDoGNUPlota &Lacze)
     }
     else
     {
-        Lacze = sc.init_gnuplot(0, 200, 0, 200);
+        sc.init_gnuplot(200,200,Lacze);
         Lacze.Rysuj();
         std::cout << "\n Polozenie Drona aktywnego (x,y): ";
         sc.print_active();

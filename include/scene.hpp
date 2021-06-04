@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include <fstream>
 #include <unistd.h>
+#include <memory>
+#include "plane.hpp"
 #include "drone.hpp"
 #include "lacze_do_gnuplota.hpp"
 
@@ -41,6 +43,12 @@ private:
  */
     std::string land_name;
 
+/*!
+ * \brief Lista wskaznikow na obiekty sceny (klasy Block)
+ *          Bedzie reprezentowala listy przeszkod rysowanych na powierzchni w gnuplocie
+ */
+    std::list<std::shared_ptr<Block>> objects; 
+
 public:
 
 /*!
@@ -55,6 +63,20 @@ public:
  */
 Scene(Vector3D const (&pos)[SIZE], Vector3D const (&scal_bod)[SIZE],Vector3D const (&scal_rot)[SIZE], std::string const &name, 
 std::string const (&names_bod)[SIZE][2],std::string const (&names_rot)[SIZE][4][2]);
+
+/*!
+ * \brief Metoda sinicjujaca liste objects, dodajaca plaszczyzne (podstawowy element)
+ *      \param[in] x,y zakresy plaszczyzny
+ *      \retval true - objects poprawnie zainicjowana
+ *      \retval false - objects blednie zainicjowana
+ */
+bool init_objects(double const &x, double const &y);
+
+/*!
+ * \brief Metoda sprawdzajaca i zwracajaca rozmiar listy objects
+ *      \return objects.size()
+ */
+int get_objects_size();
 
 /*!
  * \brief Metoda sprawdzajaca poprawnosc inicjacji sceny
@@ -85,21 +107,14 @@ bool choose_drone(unsigned int const &ch);
 /*!
  * \brief Metoda inicjalizujaca lacze do gnuplota
  *  \param[in] parametry okreslajace zakresy
+ *  \param[in] Lacze - inicjowane LaczeDoGNUPlota
  *  \post Powstaje w pelni skonfigurowane lacze, ktore 
  *          moze byc uzyte do rysowania calej sceny
+ *  \retval true - jesli operacja sie powiedzie
+ *  \retval false - w przeciwnym wypadku
  */
-PzG::LaczeDoGNUPlota init_gnuplot(double const &x1, double const &x2,double const &y1,double const &y2) const;
+bool init_gnuplot(double const &x,double const &y, PzG::LaczeDoGNUPlota &Lacze);
 
-/*!
- * \brief Metoda tworzy plaszczyzne z podanych zakresow
- *          i zwraca nazwe pliku do zapisu
- */
-bool Make_Plane(double const &x1, double const &x2,double const &y1,double const &y2, std::string const &name) const;
-
-/*!
- * \brief Metoda dodajaca do lacza plik z plaszczyzna
- */
-void Add_Plane(PzG::LaczeDoGNUPlota &Lacze) const;
 
 /*!
  * \brief Zwraca numer aktywnego drona
