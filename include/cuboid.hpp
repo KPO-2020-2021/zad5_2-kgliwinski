@@ -16,7 +16,7 @@
  */
 class Cuboid : public Block
 {
-private:
+protected:
     /*!
  * \brief Tablica wektorow reprezentujacych wierzchlki dwoch rownoleglych
  * podstaw prostopadloscianu
@@ -203,6 +203,13 @@ public:
  *                     na punkt centralny prostopadloscianu                               
  */
     Vector3D centre_point() const;
+
+   /*!
+ *  \brief Metoda zwracajaca srodek podstawy ostroslupa                                                                                                       
+ *     \return point - Vector3D wskazujacy ze srodka ukladu wspolrzednych
+ *                     na punkt centralny podstawy ostroslupa                               
+ */
+    Vector3D get_basis_centre() const;
 
     /*!
  *  \brief Metoda zwracajaca punkty specjalne prostopadloscianu : cuts (czyli

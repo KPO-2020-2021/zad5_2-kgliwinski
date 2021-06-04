@@ -64,7 +64,7 @@ TEST_CASE("Pl 2.01: check_plane 1")
 
     CHECK(a.check_plane());
 }
-TEST_CASE("Pl 2.02: check_plane 1")
+TEST_CASE("Pl 2.02: check_plane 2")
 {
     std::string s = "sname";
     std::string f = "fname";
@@ -73,7 +73,7 @@ TEST_CASE("Pl 2.02: check_plane 1")
 
     CHECK(!a.check_plane());
 }
-TEST_CASE("Pl 2.03: check_plane 1")
+TEST_CASE("Pl 2.03: check_plane 3")
 {
     std::string s = "sname";
     std::string f = "fname";

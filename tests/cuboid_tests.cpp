@@ -802,6 +802,37 @@ TEST_CASE("C 7.04: Cuboid::special_points() 4")
     CHECK (tab[1] == cut_res2);
 }
 
+TEST_CASE("C 7.05: Cuboid::get_basis_centre() 1")
+{
+    Cuboid a;
+    double tab[3] = {0.5,0.5,0};
+    Vector3D vec(tab);
+    CHECK (a.get_basis_centre() == vec);
+}
+
+TEST_CASE("C 7.05: Cuboid::get_basis_centre() 2")
+{
+    Cuboid a;
+    double t[3] = {100,100,100};
+    Vector3D tran(t);
+    a = a.translation(tran);
+    double tab[3] = {100.5,100.5,100};
+    Vector3D vec(tab);
+    CHECK (a.get_basis_centre() == vec);
+}
+
+TEST_CASE("C 7.05: Cuboid::get_basis_centre() 2")
+{
+    Cuboid a;
+    double t[3] = {100,100,100};
+    Vector3D tran(t);
+    a = a.translation(tran);
+    a = a.translation_to_O();
+    double tab[3] = {0.5,0.5,0};
+    Vector3D vec(tab);
+    CHECK (a.get_basis_centre() == vec);
+}
+
 TEST_CASE("C 8.01 : Cuboid::print_Cuboid_3D() oraz Cuboid::read_Cuboid_3D()")
 {
      Cuboid a;

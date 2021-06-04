@@ -229,6 +229,15 @@ double Cuboid::get_height() const
     return res;
 }
 
+Vector3D Cuboid::get_basis_centre() const
+{
+    Vector3D diag;
+    diag = tops[0][2] - tops[0][0];
+    Vector3D point;
+    point = tops[0][0] + diag*0.5;
+    return point;
+}
+
 bool Cuboid::operator==(const Cuboid &cub) const
 {
     int i, j;

@@ -5,6 +5,7 @@
 #include <unistd.h>
 #include <memory>
 #include "plane.hpp"
+#include "pyramid.hpp"
 #include "drone.hpp"
 #include "lacze_do_gnuplota.hpp"
 
@@ -38,12 +39,6 @@ private:
     unsigned int active;
 
 /*!
- * \brief Nazwa pliku w ktorym zawarta jest plaszczyzna
- *         reprezentujaca podloze (ziemie) w Gnuplocie
- */
-    std::string land_name;
-
-/*!
  * \brief Lista wskaznikow na obiekty sceny (klasy Block)
  *          Bedzie reprezentowala listy przeszkod rysowanych na powierzchni w gnuplocie
  */
@@ -56,16 +51,15 @@ public:
  *      \param[in] pos - tablica polozen dronow
  *      \param[in] scal_bod - tablica skali korpusow dronow
  *      \param[in] scal_rot - tablica skali rotorow dronow
- *      \param[in] name - nazwa pliku w ktorym opisana jest plaszczyzna sceny
  *      \param[in] names_bod - tablica nazw plikow sample i final dla prostopadloscianow body
  *      \param[in] names_rot - tablica nazw plikow sample i final dla graniastoslupow rotors
  *      \post Ustawia odpowiednie wartosci klasy, zadane przez uzytkownika
  */
-Scene(Vector3D const (&pos)[SIZE], Vector3D const (&scal_bod)[SIZE],Vector3D const (&scal_rot)[SIZE], std::string const &name, 
+Scene(Vector3D const (&pos)[SIZE], Vector3D const (&scal_bod)[SIZE],Vector3D const (&scal_rot)[SIZE],
 std::string const (&names_bod)[SIZE][2],std::string const (&names_rot)[SIZE][4][2]);
 
 /*!
- * \brief Metoda sinicjujaca liste objects, dodajaca plaszczyzne (podstawowy element)
+ * \brief Metoda inicjujaca liste objects, dodajaca plaszczyzne (podstawowy element)
  *      \param[in] x,y zakresy plaszczyzny
  *      \retval true - objects poprawnie zainicjowana
  *      \retval false - objects blednie zainicjowana
@@ -73,10 +67,15 @@ std::string const (&names_bod)[SIZE][2],std::string const (&names_rot)[SIZE][4][
 bool init_objects(double const &x, double const &y);
 
 /*!
+ * \brief Metoda dodajaca podstawowe elementy do listy objects
+ */
+void add_basic_objects();
+
+/*!
  * \brief Metoda sprawdzajaca i zwracajaca rozmiar listy objects
  *      \return objects.size()
  */
-int get_objects_size();
+int get_objects_size() const;
 
 /*!
  * \brief Metoda sprawdzajaca poprawnosc inicjacji sceny
@@ -115,6 +114,15 @@ bool choose_drone(unsigned int const &ch);
  */
 bool init_gnuplot(double const &x,double const &y, PzG::LaczeDoGNUPlota &Lacze);
 
+/*!
+ * \brief Metoda iterujaca po kolejnych polach listy objects,
+ *          zcyztujaca nazwy plikow i podajaca je do gnuplota
+ *  \param[in] Lacze - aktywne LaczeDoGNUPlota
+ *  \post Do Lacza trafiaja kolejne nazwy plikow
+ *  \retval true - jesli operacja sie powiedzie
+ *  \retval false - w przeciwnym wypadku
+ */
+bool iterate_over_objects(PzG::LaczeDoGNUPlota &Lacze);
 
 /*!
  * \brief Zwraca numer aktywnego drona

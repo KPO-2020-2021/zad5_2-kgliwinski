@@ -14,6 +14,7 @@ set(TESTFILES        # All .cpp files in tests/
     scene_tests.cpp
     count_tests.cpp
     plane_tests.cpp
+    pyramid_tests.cpp
 )
 
 set(TEST_MAIN unit_tests)   # Default name for test executable (change if you wish).

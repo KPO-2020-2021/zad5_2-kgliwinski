@@ -24,8 +24,8 @@ TEST_CASE("D 1.01: konstruktor parametryczny sceny, przeciazenie == 1")
             }
         }
     }
-    Scene a(posi,scal,scal,"123",bn,sn);
-    Scene b(posi,scal,scal,"123",bn,sn);
+    Scene a(posi,scal,scal,bn,sn);
+    Scene b(posi,scal,scal,bn,sn);
     CHECK (a == b);
 }
 
@@ -52,8 +52,8 @@ TEST_CASE("D 1.02: konstruktor parametryczny sceny, przeciazenie == 2")
             }
         }
     }
-    Scene a(posi,scal,scal,"123",bn,sn);
-    Scene b(posi,scal,scal,"123",bn,sn);
+    Scene a(posi,scal,scal,bn,sn);
+    Scene b(posi,scal,scal,bn,sn);
     b.choose_drone(1);
     CHECK (a == b);
 }
@@ -81,9 +81,9 @@ TEST_CASE("D 1.03: konstruktor parametryczny sceny, przeciazenie == 3")
             }
         }
     }
-    Scene a(posi,scal,scal,"123",bn,sn);
-    Scene b(posi,scal,scal,"123124",bn,sn);
-    CHECK (!(a == b));
+    Scene a(posi,scal,scal,bn,sn);
+    Scene b(posi,scal,scal,bn,sn);
+    CHECK (a == b);
 }
 
 TEST_CASE("D 2.01: std::list<std::shared_ptr<>> 1")
@@ -109,7 +109,7 @@ TEST_CASE("D 2.01: std::list<std::shared_ptr<>> 1")
             }
         }
     }
-    Scene a(posi,scal,scal,"123",bn,sn);
+    Scene a(posi,scal,scal,bn,sn);
     a.init_objects(200,200);
 
     CHECK(a.get_objects_size() == 1);

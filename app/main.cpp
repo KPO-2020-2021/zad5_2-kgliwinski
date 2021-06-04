@@ -25,7 +25,6 @@ int main()
             << std::endl;
 
 int i;
-std::string plane = "../datasets/plane.dat";
 std::string body[2][2];
 std::string rot[2][4][2];
 body[0][0] = "../datasets/main/final/drone1_body_f.dat";
@@ -60,7 +59,7 @@ for(i=0;i<2;++i)
   sca_bod[i]=Vector3D(scales_bod[i]);
   sca_rot[i]=Vector3D(scales_rot[i]);
 }
-Scene sc(pos,sca_bod,sca_rot,plane,body,rot);
+Scene sc(pos,sca_bod,sca_rot,body,rot);
 PzG::LaczeDoGNUPlota Lacze;
 
 Menu menu;

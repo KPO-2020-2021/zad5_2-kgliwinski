@@ -49,6 +49,7 @@ set(SOURCES          # All .cpp files in src/
     src/menu.cpp
     src/count.tpp
     src/plane.cpp
+    src/pyramid.cpp
 )
 set(TESTFILES        # All .cpp files in tests/
     main.cpp
@@ -61,6 +62,7 @@ set(TESTFILES        # All .cpp files in tests/
     block_tests.cpp
     count_tests.cpp
     plane_tests.cpp
+    pyramid_tests.cpp
 )
 set(LIBRARY_NAME engine)  # Default name for the library built from src/*.cpp (change if you wish)
 
