@@ -37,9 +37,7 @@ public:
 
     /*!
  *  \brief Metoda zwracajaca punkt centralny (czyli taki, ktorego odleglosci
- *         do kazdego wierzcholka sa rowne) Pyramid. Zgodnie z geometria
- *         ostroslupa, lezy on na przecieciu jego przekatnych lub w polowie
- *         jednej z przekatnych, z czego korzysta ta metoda                                                                                                        
+ *         do kazdego wierzcholka sa rowne) Pyramid.                                                                                                      
  *     \return point - Vector3D wskazujacy ze srodka ukladu wspolrzednych
  *                     na punkt centralny ostroslupau                               
  */
@@ -60,14 +58,6 @@ public:
  *     \return - metoda zwraca punkt centre                         
  */
     Vector3D special_points(Vector3D (&vecs)[2]) const;
-
-
-    /*!
- *  \brief Metoda skalujaca o wektor scale bedacy
- *         czlonkiem klasy block                         
- *   \return Zwraca zeskalowany ostroslup                                                                                           
- */
-    Pyramid scale_pyr() const;
 
     /*!
  *  \brief Przeciazenie operatora przypisania, umozliwia stosowanie metod

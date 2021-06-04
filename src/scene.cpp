@@ -30,7 +30,8 @@ void Scene::add_basic_objects()
     double tab1[3] = {20, 30, 15};
     Vector3D vec(tab1);
     *p = Pyramid("../datasets/main/sample/pyramid_default_sample.dat", "../datasets/main/final/pyramid_default_final.dat", vec);
-    double tab[3] = {100, 100, 7.5};
+    double tab[3] = {100, 100, p->get_height()*0.5};
+    std::cout<<p->get_height();
     Vector3D tran(tab);
     *p = p->translation(tran);
     p->Cuboid_To_File(p->get_sample_name());
@@ -100,7 +101,7 @@ bool Scene::iterate_over_objects(PzG::LaczeDoGNUPlota &Lacze)
     std::list<std::shared_ptr<Block>>::iterator i;
     for (i = objects.begin(); i != objects.end(); ++i)
     {
-        Lacze.DodajNazwePliku(i->get()->get_sample_name().c_str());
+        Lacze.DodajNazwePliku(i->get()->get_sample_name().c_str(),PzG::SR_Ciagly);
         Lacze.DodajNazwePliku(i->get()->get_final_name().c_str());
     }
     return 1;

@@ -820,15 +820,25 @@ TEST_CASE("C 7.05: Cuboid::get_basis_centre() 2")
     Vector3D vec(tab);
     CHECK (a.get_basis_centre() == vec);
 }
-
-TEST_CASE("C 7.05: Cuboid::get_basis_centre() 2")
+TEST_CASE("C 7.05: Cuboid::get_basis_centre() 3")
 {
     Cuboid a;
     double t[3] = {100,100,100};
     Vector3D tran(t);
     a = a.translation(tran);
+    double tab[3] = {100.5,100.5,100};
+    Vector3D vec(tab);
+    CHECK (a.get_basis_centre() == vec);
+}
+
+TEST_CASE("C 7.06: Cuboid::get_basis_centre() 4")
+{
+    Cuboid a;
+    double t[3] = {100,100,100};
+    Vector3D tran(t);
+    a = a.scale_cub(tran);
     a = a.translation_to_O();
-    double tab[3] = {0.5,0.5,0};
+    double tab[3] = {0,0,-50};
     Vector3D vec(tab);
     CHECK (a.get_basis_centre() == vec);
 }

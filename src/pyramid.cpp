@@ -29,15 +29,17 @@ double Pyramid::get_height() const
 {
     double res;
     Vector3D diag;
-    diag = tops[0][2] - tops[0][0];
+    diag = tops[1][0] - get_basis_centre();
     Vector3D point;
-    res=1;
+    res = diag.get_len();
     return res;
 }
 
 Vector3D Pyramid::centre_point() const
 {
-    Vector3D point = get_basis_centre();
+    Vector3D basis = get_basis_centre();
+    Vector3D tmp = tops[1][0] - basis;
+    Vector3D point = basis + tmp*0.5;
     return point;
 }
 
@@ -45,7 +47,7 @@ Vector3D Pyramid::special_points(Vector3D (&vecs)[2]) const
 {
     Vector3D cen = centre_point();
     Vector3D side = tops[0][2] - tops[0][1];
-    side = side * 0.5;
+    side = side * 0.25;
     vecs[0] = cen - side;
     vecs[1] = cen + side;
     return cen;
