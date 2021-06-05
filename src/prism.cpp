@@ -99,6 +99,14 @@ void Prism::get_pri(double (&tab)[2][6][3]) const
     }
 }
 
+double Prism::get_height() const
+{
+    double res;
+    Vector3D ver = tops[1][3] - tops[0][3];
+    res = ver.get_len();
+    return res;
+}
+
 bool Prism::operator==(const Prism &pri) const
 {
     int i, j;

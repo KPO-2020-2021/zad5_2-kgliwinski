@@ -195,6 +195,11 @@ Vector3D Drone::get_orien() const
     return res;
 }
 
+double Drone::get_body_height() const
+{
+    return body.get_height();
+}
+
 bool Drone::check_orien() const
 {
     if (!(abs(drone_orient.get_len() - 1.0) <= 0.00001))

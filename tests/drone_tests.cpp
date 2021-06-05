@@ -311,3 +311,10 @@ TEST_CASE("D 4.05: Drone rotation 5")
     a.rotation_around_cen(mat);
     CHECK (a.get_orien().get_len() == 1);
 }
+
+TEST_CASE("D 5.01: Drone::get_body_height()")
+{
+    Drone a,b;
+    Matrix3D mat;
+    CHECK (a.get_body_height() == 5);
+}

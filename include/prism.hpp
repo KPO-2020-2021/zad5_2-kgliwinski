@@ -16,7 +16,7 @@
  */
 class Prism : public Block
 {
-private:
+protected:
     /*!
  * \brief Tablica wektorow reprezentujacych wierzchlki dwoch rownoleglych
  * podstaw graniastoslupa
@@ -98,6 +98,12 @@ public:
  *     \retval false - nie jest poprawny                                   
  */
     bool check_pri() const;
+
+    /*!
+ *  \brief Metoda zwracajaca wysokosc graniastoslupa   
+ *      \param[out] res - wysokosc                          
+ */
+    virtual double get_height() const;
 
     /*!
  *  \brief Metoda zwracajaca do tablicy wektorow
@@ -212,7 +218,7 @@ public:
  *     \post - metoda ustawia wartosci w polach tablicy
  *     \return - metoda zwraca punkt centre                         
  */
-    Vector3D special_points(Vector3D (&vecs)[2]) const;
+    virtual Vector3D special_points(Vector3D (&vecs)[2]) const;
 
     /*!
  *  \brief Metoda wypisania odpowiednich wierzcholkow do pliku

@@ -7,6 +7,7 @@
 #include "plane.hpp"
 #include "pyramid.hpp"
 #include "triangular.hpp"
+#include "circus.hpp"
 #include "drone.hpp"
 #include "lacze_do_gnuplota.hpp"
 
@@ -86,10 +87,25 @@ public:
                                 const double &x, const double &y, const double &angle, const unsigned int &option);
 
     /*!
+ * \brief Metoda dodajaca obiekt pochodny z Prism do listy objects
+ *      \param[in] s_name - docelowo sample_name z klasy Block
+ *      \param[in] f_name - docelowo final_name z klasy Block
+ *      \param[in] sca - docelowo scale z klasy Block 
+ *      \param[in] x - skladowa x translacji
+ *      \param[in] y - skladowa y translacji
+ *      \param[in] angle - kat obrotu wokol osi z wprowadzanej figury
+ *      \param[in] option - decyduje jaki typ figury ( 4 - Circus, 5 - , 6 - ) utworzyc
+ * \post Tworzy figure o zadanych parametrach i ja skaluje, po czym przesuwana jest w zadane (przez x,y) miejsce
+ * \retval False - gdy wprowadzona zostanie bledna option, True - w przeciwnym przypadku
+ */
+    bool add_object_type_prism(const std::string &s_name, const std::string &f_name, const Vector3D &sca,
+                                      const double &x, const double &y, const double &angle, const unsigned int &option);
+
+        /*!
  * \brief Metoda sprawdzajaca i zwracajaca rozmiar listy objects
  *      \return objects.size()
  */
-    int get_objects_size() const;
+        int get_objects_size() const;
 
     /*!
  * \brief Metoda sprawdzajaca poprawnosc inicjacji sceny

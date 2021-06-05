@@ -27,13 +27,21 @@ bool Scene::init_objects(double const &x, double const &y)
 bool Scene::add_basic_objects()
 {
     std::shared_ptr<Pyramid> p = std::make_shared<Pyramid>(Pyramid());
-    double tab1[3] = {20, 30, 50};
-    Vector3D vec(tab1);
-    if (!add_object_type_cuboid("../datasets/main/sample/pyramid_default_sample.dat", "../datasets/main/final/pyramid_default_final.dat", vec, 100, 100, 30, 1))
+    double tab1[3] = {30, 40, 35};
+    Vector3D vec1(tab1);
+    double tab2[3] = {25, 25, 50};
+    Vector3D vec2(tab2);
+    double tab3[3] = {30, 50, 10};
+    Vector3D vec3(tab3);
+    double tab4[3] = {20, 10, 30};
+    Vector3D vec4(tab4);
+    if (!add_object_type_cuboid("../datasets/main/sample/pyramid_default_sample.dat", "../datasets/main/final/pyramid_default_final.dat", vec1, 100, 100, 30, 1))
         return 0;
-    if (!add_object_type_cuboid("../datasets/main/sample/triangular_default_sample.dat", "../datasets/main/final/triangular_default_final.dat", vec, 150, 40, 60, 2))
+    if (!add_object_type_cuboid("../datasets/main/sample/triangular_default_sample.dat", "../datasets/main/final/triangular_default_final.dat", vec2, 250, 40, 60, 2))
         return 0;
-    if (!add_object_type_cuboid("../datasets/main/sample/cuboid_default_sample.dat", "../datasets/main/final/cuboid_default_final.dat", vec, 40, 120, 0, 3))
+    if (!add_object_type_cuboid("../datasets/main/sample/cuboid_default_sample.dat", "../datasets/main/final/cuboid_default_final.dat", vec3, 40, 220, 0, 3))
+        return 0;
+    if (!add_object_type_prism("../datasets/main/sample/circus_default_sample.dat", "../datasets/main/final/circus_default_final.dat", vec4, 230, 230, 20, 4))
         return 0;
     return 1;
 }
@@ -80,6 +88,50 @@ bool Scene::add_object_type_cuboid(const std::string &s_name, const std::string 
     return 1;
 }
 
+bool Scene::add_object_type_prism(const std::string &s_name, const std::string &f_name, const Vector3D &sca,
+                                  const double &x, const double &y, const double &angle, const unsigned int &option)
+{
+    std::shared_ptr<Prism> p;
+    switch (option)
+    {
+    case 4:
+    {
+        p = std::make_shared<Circus>(Circus());
+        *p = Circus(s_name, f_name, sca);
+        break;
+    }
+    /*
+    case 5:
+    {
+        p = std::make_shared<Triangular>(Triangular());
+        *p = Triangular(s_name, f_name, sca);
+        break;
+    }
+    case 6:
+    {
+        p = std::make_shared<Prism>(Prism());
+        *p = Prism(s_name, f_name, sca);
+        break;
+    }
+    */
+    default:
+    {
+        return 0;
+        break;
+    }
+    }
+    double tr[3] = {x, y, p->get_height() * 0.5};
+    Vector3D tran(tr);
+    *p = p->translation(tran);
+    Matrix3D mat;
+    mat = mat.rotation_matrix(angle, 'z');
+    *p = p->rotation_around_cen(mat);
+    p->Prism_To_File(p->get_sample_name());
+    p->Prism_To_File(p->get_final_name());
+    objects.push_back(p);
+    return 1;
+}
+
 int Scene::get_objects_size() const
 {
     return objects.size();
@@ -97,7 +149,7 @@ bool Scene::check_scene()
     std::list<std::shared_ptr<Block>>::iterator i;
     for (i = objects.begin(); i != objects.end(); ++i)
     {
-        if(!(i->get()->check_block()))
+        if (!(i->get()->check_block()))
             return 0;
     }
     return 1;

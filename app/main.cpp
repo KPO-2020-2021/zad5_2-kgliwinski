@@ -49,7 +49,7 @@ rot[1][1][1] = "../datasets/main/sample/drone2_rotor_s2.dat";
 rot[1][2][1] = "../datasets/main/sample/drone2_rotor_s3.dat";
 rot[1][3][1] = "../datasets/main/sample/drone2_rotor_s4.dat";
 
-double positions[2][3] = {{20,20,2.5},{80,160,2.5}};
+double positions[2][3] = {{20,20,2.5},{80,240,2.5}};
 double scales_bod[2][3] = {{1,1,1},{1,1,1}};
 double scales_rot[2][3] = {{1,1,1},{1,1,1}};
 Vector3D pos[2],sca_bod[2],sca_rot[2];

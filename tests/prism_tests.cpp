@@ -457,6 +457,13 @@ TEST_CASE("P 2.06: get_pri przeciazenie dla double neg ")
           }
      }
 }
+
+
+TEST_CASE("P 2.07: get_height 1")
+{
+Prism a;
+CHECK (a.get_height() == 1);
+}
 TEST_CASE("P 3.01: Prism::translation() 1")
 {
      int i, j;

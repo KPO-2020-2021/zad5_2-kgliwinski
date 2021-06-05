@@ -152,6 +152,12 @@ public:
   Vector3D get_orien() const;
 
   /*!
+ *  \brief Metoda zwracajaca wysokosc body                                                                                         
+ *     \return h - zwracana wysokosc                                
+ */
+  double get_body_height() const;
+
+  /*!
  *  \brief Metoda sprawdzajaca orientacje drona                                                                                         
  *          Vector3D dron_orien musi byc jednostkowy, oraz miec skladowa z=0
  *     \retval true - odpowiednia orientacja
