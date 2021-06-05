@@ -13,6 +13,21 @@ Cuboid::Cuboid()
     this->centre = special_points(this->cuts); //ustawia centre point i cuts
 }
 
+Cuboid::Cuboid(const std::string &s_name, const std::string &f_name, const Vector3D &vec) 
+: Block(s_name, f_name, vec)
+{
+    int i;
+    double iter[4][3] = {{0, 0, 0}, {1, 0, 0}, {1, 1, 0}, {0, 1, 0}};
+    for (i = 0; i < 4; ++i)
+    {
+        tops[0][i] = Vector3D(iter[i]);
+        iter[i][2] = 1;
+        tops[1][i] = Vector3D(iter[i]);
+    }
+    this->centre = special_points(this->cuts); //ustawia centre point i cuts
+    *this = this->scale_cub();
+}
+
 Cuboid::Cuboid(Vector3D const (&tab)[2][4])
 {
     int i;
@@ -224,7 +239,7 @@ void Cuboid::get_cub(double (&tab)[2][4][3]) const
 double Cuboid::get_height() const
 {
     double res;
-    Vector3D ver = tops[1][0] - tops[0][0];
+    Vector3D ver = tops[1][3] - tops[0][3];
     res = ver.get_len();
     return res;
 }

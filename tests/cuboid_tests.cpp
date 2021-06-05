@@ -377,7 +377,7 @@ TEST_CASE("C 2.09: Cuboid::get_height() double 4")
     Vector3D scale(tab);
     a = a.scale_cub(scale);
     a = a.translation(scale);
-    CHECK (a.get_height() == 100);
+    CHECK (abs(a.get_height() - 100.0) <=0.00001);
 }
 
 TEST_CASE("C 3.01: Cuboid::translation(Vector3D)")

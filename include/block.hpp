@@ -111,8 +111,7 @@ class Block
     std::string get_final_name() const;
 
 /*!
- *  \brief Metoda zapisujaca do klasy wektor reprezentujacy skale                                                                                           
- *                                                                        
+ *  \brief Metoda zapisujaca do klasy wektor reprezentujacy skale                                                             
  *     \post Zmiana skali na te podana przez uzytkownika                                
  */
     Vector3D get_scale() const;

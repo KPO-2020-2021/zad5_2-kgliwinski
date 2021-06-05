@@ -24,19 +24,60 @@ bool Scene::init_objects(double const &x, double const &y)
     return !objects.empty();
 }
 
-void Scene::add_basic_objects()
+bool Scene::add_basic_objects()
 {
     std::shared_ptr<Pyramid> p = std::make_shared<Pyramid>(Pyramid());
-    double tab1[3] = {20, 30, 15};
+    double tab1[3] = {20, 30, 50};
     Vector3D vec(tab1);
-    *p = Pyramid("../datasets/main/sample/pyramid_default_sample.dat", "../datasets/main/final/pyramid_default_final.dat", vec);
-    double tab[3] = {100, 100, p->get_height()*0.5};
-    std::cout<<p->get_height();
-    Vector3D tran(tab);
+    if (!add_object_type_cuboid("../datasets/main/sample/pyramid_default_sample.dat", "../datasets/main/final/pyramid_default_final.dat", vec, 100, 100, 30, 1))
+        return 0;
+    if (!add_object_type_cuboid("../datasets/main/sample/triangular_default_sample.dat", "../datasets/main/final/triangular_default_final.dat", vec, 150, 40, 60, 2))
+        return 0;
+    if (!add_object_type_cuboid("../datasets/main/sample/cuboid_default_sample.dat", "../datasets/main/final/cuboid_default_final.dat", vec, 40, 120, 0, 3))
+        return 0;
+    return 1;
+}
+
+bool Scene::add_object_type_cuboid(const std::string &s_name, const std::string &f_name, const Vector3D &sca,
+                                   const double &x, const double &y, const double &angle, const unsigned int &option)
+{
+    std::shared_ptr<Cuboid> p;
+    switch (option)
+    {
+    case 1:
+    {
+        p = std::make_shared<Pyramid>(Pyramid());
+        *p = Pyramid(s_name, f_name, sca);
+        break;
+    }
+    case 2:
+    {
+        p = std::make_shared<Triangular>(Triangular());
+        *p = Triangular(s_name, f_name, sca);
+        break;
+    }
+    case 3:
+    {
+        p = std::make_shared<Cuboid>(Cuboid());
+        *p = Cuboid(s_name, f_name, sca);
+        break;
+    }
+    default:
+    {
+        return 0;
+        break;
+    }
+    }
+    double tr[3] = {x, y, p->get_height() * 0.5};
+    Vector3D tran(tr);
     *p = p->translation(tran);
+    Matrix3D mat;
+    mat = mat.rotation_matrix(angle, 'z');
+    *p = p->rotation_around_cen(mat);
     p->Cuboid_To_File(p->get_sample_name());
     p->Cuboid_To_File(p->get_final_name());
     objects.push_back(p);
+    return 1;
 }
 
 int Scene::get_objects_size() const
@@ -44,12 +85,19 @@ int Scene::get_objects_size() const
     return objects.size();
 }
 
-bool Scene::check_scene() const
+bool Scene::check_scene()
 {
-    unsigned int i;
-    for (i = 0; i < SIZE; ++i)
+    unsigned int j;
+    for (j = 0; j < SIZE; ++j)
     {
-        if (!flies[i].check_dro())
+        if (!flies[j].check_dro())
+            return 0;
+    }
+
+    std::list<std::shared_ptr<Block>>::iterator i;
+    for (i = objects.begin(); i != objects.end(); ++i)
+    {
+        if(!(i->get()->check_block()))
             return 0;
     }
     return 1;
@@ -101,8 +149,8 @@ bool Scene::iterate_over_objects(PzG::LaczeDoGNUPlota &Lacze)
     std::list<std::shared_ptr<Block>>::iterator i;
     for (i = objects.begin(); i != objects.end(); ++i)
     {
-        Lacze.DodajNazwePliku(i->get()->get_sample_name().c_str(),PzG::SR_Ciagly);
-        Lacze.DodajNazwePliku(i->get()->get_final_name().c_str());
+        Lacze.DodajNazwePliku(i->get()->get_sample_name().c_str(), PzG::SR_Ciagly);
+        Lacze.DodajNazwePliku(i->get()->get_final_name().c_str(), PzG::SR_Ciagly);
     }
     return 1;
 }

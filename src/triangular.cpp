@@ -1,6 +1,6 @@
-#include "../include/pyramid.hpp"
+#include"../include/triangular.hpp"
 
-Pyramid::Pyramid()
+Triangular::Triangular()
 {
     int i;
     double iter[4][3] = {{0, 0, 0}, {1, 0, 0}, {1, 1, 0}, {0, 1, 0}};
@@ -9,15 +9,17 @@ Pyramid::Pyramid()
     for (i = 0; i < 4; ++i)
     {
         tops[0][i] = Vector3D(iter[i]);
-        tops[1][i] = tip;
+        iter[i][2] = 1;
+        tops[1][i] = Vector3D(iter[i]);
     }
-
-    this->centre = special_points(this->cuts);
+    tops[1][0] = tops[1][3];
+    tops[1][1] = tops[1][2];
+    this->centre = this->special_points(cuts);
 }
 
-Pyramid::Pyramid(std::string const &sample, std::string const &final, Vector3D const &sca)
+Triangular::Triangular(std::string const &sample, std::string const &final, Vector3D const &sca)
 {
-    *this = Pyramid();
+    *this = Triangular();
     this->set_sample_name(sample);
     this->set_final_name(final);
     this->set_scale(sca);
@@ -25,36 +27,17 @@ Pyramid::Pyramid(std::string const &sample, std::string const &final, Vector3D c
     this->centre = special_points(this->cuts);
 }
 
-double Pyramid::get_height() const
-{
-    double res;
-    Vector3D diag;
-    diag = tops[1][0] - get_basis_centre();
-    Vector3D point;
-    res = diag.get_len();
-    return res;
-}
-
-Vector3D Pyramid::centre_point() const
-{
-    Vector3D basis = get_basis_centre();
-    Vector3D tmp = tops[1][0] - basis;
-    Vector3D point = basis + tmp*0.5;
-    return point;
-}
-
-Vector3D Pyramid::special_points(Vector3D (&vecs)[2]) const
+Vector3D Triangular::special_points(Vector3D (&vecs)[2]) const
 {
     Vector3D cen = centre_point();
     Vector3D side = tops[0][2] - tops[0][1];
-    side = side * 0.25;
-    vecs[0] = cen - side;
+    side = side * 0.5;
+    vecs[0] = cen;
     vecs[1] = cen + side;
     return cen;
 }
 
-
-Pyramid &Pyramid::operator=(const Cuboid &a)
+Triangular &Triangular::operator=(const Cuboid &a)
 {
     int i, j;
     Vector3D to_pyr[2][4];

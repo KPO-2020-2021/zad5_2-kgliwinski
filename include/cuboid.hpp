@@ -46,6 +46,18 @@ public:
     Cuboid();
 
     /*!
+ *  \brief Konstruktor bezparametryczny klasy Cuboid.
+ *          Powstaly prostopadloscian ma dwa prostokaty "tworzace":
+ *          p1 = [0][0] = (0,0,0), [0][1] =  (1,0,0), [0][2] = (1,1,0), [0][3] = (0,1,0)      
+ *          p2 = [1][0] = (0,0,1), [1][1] =  (1,0,1), [1][2] = (1,1,1), [1][3] = (0,1,1)                                                                                                
+ *      \param[in] s_name - docelowo sample_name z klasy Block
+ *      \param[in] f_name - docelowo final_name z klasy Block
+ *      \param[in] vec - docelowo scale z klasy Block  
+ *     \post Zwraca osiem wiercholkow, ustawia pola klasy Block oraz skaluje prostopadloscian                               
+ */
+    Cuboid(const std::string &s_name, const std::string &f_name, const Vector3D &vec);
+
+    /*!
  *  \brief Konstruktor parametryczny klasy Cuboid.                                                                                                          
  *      \param[in] tab - tablica 2x4 typu Vector3D                                                                                                                         
  *     \post Zwraca osiem wiercholkow zadanych przez program                                  
@@ -157,7 +169,7 @@ public:
  *  \brief Metoda zwracajaca wysokosc prostopadloscianu    
  *      \param[out] res - wysokosc                          
  */
-    double get_height() const;
+    virtual double get_height() const;
 
     /*!
  *  \brief Przeciazenie operatora == dla klasy Cuboid                                                                                                     
@@ -202,7 +214,7 @@ public:
  *     \return point - Vector3D wskazujacy ze srodka ukladu wspolrzednych
  *                     na punkt centralny prostopadloscianu                               
  */
-    Vector3D centre_point() const;
+    virtual Vector3D centre_point() const;
 
    /*!
  *  \brief Metoda zwracajaca srodek podstawy ostroslupa                                                                                                       
@@ -219,7 +231,7 @@ public:
  *     \post - metoda ustawia wartosci w polach tablicy
  *     \return - metoda zwraca punkt centre                         
  */
-    Vector3D special_points(Vector3D (&vecs)[2]) const;
+    virtual Vector3D special_points(Vector3D (&vecs)[2]) const;
 
 /*!
  *  \brief Metoda wypisania odpowiednich wierzcholkow do pliku                                                                
