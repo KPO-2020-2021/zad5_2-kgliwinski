@@ -106,6 +106,13 @@ public:
     virtual double get_height() const;
 
     /*!
+ *  \brief Metoda zwracajaca punkty specjalne graniastoslupa   
+ *      \param[in] cut - tablica do ktorej zwracane sa punkty cuts
+ *      \param[in] cen - tablica do ktorej zwracany jest centre                          
+ */
+   void get_special_points(Vector3D (&cut)[2], Vector3D &cen) const;
+
+    /*!
  *  \brief Metoda zwracajaca do tablicy wektorow
  *         wektory "pionowe" graniastoslupa
  *         (czyli te ktore sa wzgledem siebie rownolegle

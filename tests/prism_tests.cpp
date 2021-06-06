@@ -464,6 +464,56 @@ TEST_CASE("P 2.07: get_height 1")
 Prism a;
 CHECK (a.get_height() == 1);
 }
+
+TEST_CASE("P 2.08: get_special_points 1")
+{
+Prism a;
+Vector3D cuts[2], cen;
+a.get_special_points(cuts,cen);
+double tab1[3] = {0,0,-0.5};
+double tab2[3] = {0,0,0.5};
+double tab3[3] = {0,0,0};
+Vector3D res1(tab1), res2(tab2), cen1(tab3);
+CHECK(res1 == cuts[0]);
+CHECK(res2 == cuts[1]);
+CHECK(cen == cen1);
+}
+
+TEST_CASE("P 2.09: get_special_points 2")
+{
+Prism a;
+double sca[3] = {1,1,1};
+a.set_scale(sca);
+a = a.scale_pri();
+Vector3D cuts[2], cen;
+a.get_special_points(cuts,cen);
+double tab1[3] = {0,0,-0.5};
+double tab2[3] = {0,0,0.5};
+double tab3[3] = {0,0,0};
+Vector3D res1(tab1), res2(tab2), cen1(tab3);
+CHECK(res1 == cuts[0]);
+CHECK(res2 == cuts[1]);
+CHECK(cen == cen1);
+}
+
+TEST_CASE("P 2.10: get_special_points 3")
+{
+Prism a;
+double sca[3] = {3,3,3};
+a.set_scale(sca);
+a = a.scale_pri();
+Vector3D cuts[2], cen;
+a.get_special_points(cuts,cen);
+double tab1[3] = {0,0,-1.5};
+double tab2[3] = {0,0,1.5};
+double tab3[3] = {0,0,0};
+Vector3D res1(tab1), res2(tab2), cen1(tab3);
+CHECK(res1 == cuts[0]);
+CHECK(res2 == cuts[1]);
+CHECK(cen == cen1);
+}
+
+
 TEST_CASE("P 3.01: Prism::translation() 1")
 {
      int i, j;

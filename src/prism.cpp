@@ -10,6 +10,9 @@ Prism::Prism()
         iter[i][2] = 0.5;
         tops[1][i] = Vector3D(iter[i]);
     }
+    double sca[3] = {1,1,1};
+    this->set_scale(sca);
+    *this = this->scale_pri();
     centre = this->special_points(cuts); //ustawienie centrum i specjalnych punktow
 }
 
@@ -97,6 +100,16 @@ void Prism::get_pri(double (&tab)[2][6][3]) const
             tab[1][i][j] = tops[1][i][j];
         }
     }
+}
+
+void Prism::get_special_points(Vector3D (&cut)[2], Vector3D &cen) const
+{
+    unsigned int i;
+    for(i=0;i<2;++i)
+    {
+        cut[i] = cuts[i];
+    }
+    cen = centre;
 }
 
 double Prism::get_height() const
@@ -456,11 +469,10 @@ bool Prism::check_vec_basis() const
     }
     for (i = 0; i < 2; ++i)
     {
-        if (!(abs(vecs[i].scalar_prod(vecs[i+1]) - vecs[i].get_len() * vecs[i+1].get_len()*0.5) <= 0.000001 ))
+        if (!(abs(vecs[i].scalar_prod(vecs[i + 1]) - vecs[i].get_len() * vecs[i + 1].get_len() * 0.5) <= 0.000001))
         {
             return 0;
         }
-
     }
     return 1;
 }

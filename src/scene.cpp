@@ -183,7 +183,7 @@ bool Scene::init_gnuplot(double const &x, double const &y, PzG::LaczeDoGNUPlota 
     }
     Lacze.UstawZakresX(0, x);
     Lacze.UstawZakresY(0, y);
-    Lacze.UstawZakresZ(0, 120);
+    Lacze.UstawZakresZ(0, 160);
     Lacze.ZmienTrybRys(PzG::TR_3D);
     if (!init_objects(x, y))
         return 0;
