@@ -214,8 +214,7 @@ public:
  *     \return point - Vector3D wskazujacy ze srodka ukladu wspolrzednych
  *                     na punkt centralny graniastoslupa                              
  */
-
-    Vector3D centre_point() const;
+    virtual Vector3D centre_point() const;
 
     /*!
  *  \brief Metoda zwracajaca punkty specjalne graniastoslupa : cuts (czyli

@@ -28,13 +28,15 @@ bool Scene::add_basic_objects()
 {
     std::shared_ptr<Pyramid> p = std::make_shared<Pyramid>(Pyramid());
     double tab1[3] = {30, 40, 35};
-    Vector3D vec1(tab1);
+    Vector3D vec1(tab1); //skala
     double tab2[3] = {25, 25, 50};
-    Vector3D vec2(tab2);
+    Vector3D vec2(tab2); //skala
     double tab3[3] = {30, 50, 10};
-    Vector3D vec3(tab3);
+    Vector3D vec3(tab3); //skala
     double tab4[3] = {20, 10, 30};
-    Vector3D vec4(tab4);
+    Vector3D vec4(tab4); //skala
+    double tab5[3] = {15, 15, 50};
+    Vector3D vec5(tab5); //skala
     if (!add_object_type_cuboid("../datasets/main/sample/pyramid_default_sample.dat", "../datasets/main/final/pyramid_default_final.dat", vec1, 100, 100, 30, 1))
         return 0;
     if (!add_object_type_cuboid("../datasets/main/sample/triangular_default_sample.dat", "../datasets/main/final/triangular_default_final.dat", vec2, 250, 40, 60, 2))
@@ -42,6 +44,8 @@ bool Scene::add_basic_objects()
     if (!add_object_type_cuboid("../datasets/main/sample/cuboid_default_sample.dat", "../datasets/main/final/cuboid_default_final.dat", vec3, 40, 220, 0, 3))
         return 0;
     if (!add_object_type_prism("../datasets/main/sample/circus_default_sample.dat", "../datasets/main/final/circus_default_final.dat", vec4, 230, 230, 20, 4))
+        return 0;
+    if (!add_object_type_prism("../datasets/main/sample/tent_default_sample.dat", "../datasets/main/final/tent_default_final.dat", vec5, 160, 80, 90, 5))
         return 0;
     return 1;
 }
@@ -100,13 +104,13 @@ bool Scene::add_object_type_prism(const std::string &s_name, const std::string &
         *p = Circus(s_name, f_name, sca);
         break;
     }
-    /*
     case 5:
     {
-        p = std::make_shared<Triangular>(Triangular());
-        *p = Triangular(s_name, f_name, sca);
+        p = std::make_shared<Tent>(Tent());
+        *p = Tent(s_name, f_name, sca);
         break;
     }
+    /*
     case 6:
     {
         p = std::make_shared<Prism>(Prism());
@@ -183,7 +187,7 @@ bool Scene::init_gnuplot(double const &x, double const &y, PzG::LaczeDoGNUPlota 
     }
     Lacze.UstawZakresX(0, x);
     Lacze.UstawZakresY(0, y);
-    Lacze.UstawZakresZ(0, 160);
+    Lacze.UstawZakresZ(0, 180);
     Lacze.ZmienTrybRys(PzG::TR_3D);
     if (!init_objects(x, y))
         return 0;

@@ -21,7 +21,7 @@ public:
  *  \brief Konstruktor bezparametryczny klasy Circus.
  *          Dolna podstawa jest identyczna jak w bezparametrycznym Prism,
  *          cuts[1] jest deformowany i przesuwany na wysokosc 
- *     \post Zwraca szesc wiercholkow                                   
+ *     \post Zwraca 13 wiercholkow                                   
  */
     Circus();
 

@@ -8,6 +8,7 @@
 #include "pyramid.hpp"
 #include "triangular.hpp"
 #include "circus.hpp"
+#include "tent.hpp"
 #include "drone.hpp"
 #include "lacze_do_gnuplota.hpp"
 

@@ -1,7 +1,7 @@
 #include"../tests/doctest/doctest.h"
 #include"../include/scene.hpp"
 
-TEST_CASE("D 1.01: konstruktor parametryczny sceny, przeciazenie == 1")
+TEST_CASE("S 1.01: konstruktor parametryczny sceny, przeciazenie == 1")
 {
     double pos[3] = {1,2,3};
     double sca[3] = {10,10,10};
@@ -29,7 +29,7 @@ TEST_CASE("D 1.01: konstruktor parametryczny sceny, przeciazenie == 1")
     CHECK (a == b);
 }
 
-TEST_CASE("D 1.02: konstruktor parametryczny sceny, przeciazenie == 2")
+TEST_CASE("S 1.02: konstruktor parametryczny sceny, przeciazenie == 2")
 {
     double pos[3] = {14124,124124,124124};
     double sca[3] = {10,10,10};
@@ -58,7 +58,7 @@ TEST_CASE("D 1.02: konstruktor parametryczny sceny, przeciazenie == 2")
     CHECK (a == b);
 }
 
-TEST_CASE("D 1.03: konstruktor parametryczny sceny, przeciazenie == 3")
+TEST_CASE("S 1.03: konstruktor parametryczny sceny, przeciazenie == 3")
 {
     double pos[3] = {14124,124124,124124};
     double sca[2][3] = {{10,10,10},{11,11,11}};
@@ -86,7 +86,7 @@ TEST_CASE("D 1.03: konstruktor parametryczny sceny, przeciazenie == 3")
     CHECK (a == b);
 }
 
-TEST_CASE("D 2.01: std::list<std::shared_ptr<>> 1")
+TEST_CASE("S 2.01: std::list<std::shared_ptr<>> 1")
 {
     double pos[3] = {1,2,3};
     double sca[3] = {10,10,10};
@@ -115,7 +115,7 @@ TEST_CASE("D 2.01: std::list<std::shared_ptr<>> 1")
     CHECK(a.get_objects_size() == 1);
 }
 
-TEST_CASE("D 2.01: std::list<std::shared_ptr<>> 1")
+TEST_CASE("S 2.02: std::list<std::shared_ptr<>> 1")
 {
     double pos[3] = {1,2,3};
     double sca[3] = {10,10,10};
@@ -142,5 +142,5 @@ TEST_CASE("D 2.01: std::list<std::shared_ptr<>> 1")
     a.init_objects(200,200);
     a.add_basic_objects();
 
-    CHECK(a.get_objects_size() == 5);
+    CHECK(a.get_objects_size() == 6);
 }
