@@ -88,3 +88,11 @@ It is important for the program to work that there is a datasets directory (that
 |              |---final
 |              |---sample
 ```
+
+# Informacje w kontekście zadania dron 5.2
+Zawarte informacje o zrealizowanych rozszerzeniach i ogólnej funkcjonalności programu w kontekście zadania projektowego.
+
+## Zrealizowane rozszerzenia
+         1. Zadając położenie elementu można również zmienić jego orientację wokół osi OZ o zadany kąt.
+         2. Elementy powierzchni mogą być również deformowanym graniastosłupem.
+         3. (PLANOWANE) Zmiana położenia elementów powierzchni
