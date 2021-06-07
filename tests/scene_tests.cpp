@@ -142,5 +142,5 @@ TEST_CASE("S 2.02: std::list<std::shared_ptr<>> 1")
     a.init_objects(200,200);
     a.add_basic_objects();
 
-    CHECK(a.get_objects_size() == 6);
+    CHECK(a.get_objects_size() == 7);
 }

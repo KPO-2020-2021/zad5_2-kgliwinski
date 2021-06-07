@@ -37,6 +37,8 @@ bool Scene::add_basic_objects()
     Vector3D vec4(tab4); //skala
     double tab5[3] = {15, 15, 50};
     Vector3D vec5(tab5); //skala
+    double tab6[3] = {45, 45, 50};
+    Vector3D vec6(tab6); //skala
     if (!add_object_type_cuboid("../datasets/main/sample/pyramid_default_sample.dat", "../datasets/main/final/pyramid_default_final.dat", vec1, 100, 100, 30, 1))
         return 0;
     if (!add_object_type_cuboid("../datasets/main/sample/triangular_default_sample.dat", "../datasets/main/final/triangular_default_final.dat", vec2, 250, 40, 60, 2))
@@ -46,6 +48,8 @@ bool Scene::add_basic_objects()
     if (!add_object_type_prism("../datasets/main/sample/circus_default_sample.dat", "../datasets/main/final/circus_default_final.dat", vec4, 230, 230, 20, 4))
         return 0;
     if (!add_object_type_prism("../datasets/main/sample/tent_default_sample.dat", "../datasets/main/final/tent_default_final.dat", vec5, 160, 80, 90, 5))
+        return 0;
+    if (!add_object_type_prism("../datasets/main/sample/volcano_default_sample.dat", "../datasets/main/final/volcano_default_final.dat", vec6, 240, 140, 45, 6))
         return 0;
     return 1;
 }
@@ -110,14 +114,12 @@ bool Scene::add_object_type_prism(const std::string &s_name, const std::string &
         *p = Tent(s_name, f_name, sca);
         break;
     }
-    /*
     case 6:
     {
-        p = std::make_shared<Prism>(Prism());
-        *p = Prism(s_name, f_name, sca);
+        p = std::make_shared<Volcano>(Volcano());
+        *p = Volcano(s_name, f_name, sca);
         break;
     }
-    */
     default:
     {
         return 0;

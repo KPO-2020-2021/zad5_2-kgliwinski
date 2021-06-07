@@ -20,6 +20,11 @@ This is how (default) prism looks like in the project: (made using [Geogebra](ht
 
 ![Prism in 3D](/readme_pics/prism3D.png)
 
+## Deformations of Cuboid and Prism
+
+Scene objects included deformated Cuboid and Prism objects such as: Tent, Circus, Triangular and more.
+Their construction is breifly explained in the class header files and in documentation. These objects are simple enough for me not to include their full declarations in 3D space.
+
 ## Building
 
 Build by making a build directory (i.e. `build/`), run `cmake` in that dir, and then use `make` to build the desired target.
@@ -73,3 +78,13 @@ cuboid and prism contruction assertion and more.
 
 **Important note:** there are problems while using *make fulltest* command. Tests that write data to *.dat* files will be shown as failed while using this command.
 In case *./unit_tests* is used, all tests have success status. The problematic tests have also been done manually and everything seems to work good.
+
+## datasets directory
+It is important for the program to work that there is a datasets directory (that also includes main dircetory which contains final and sample dirs) for the file to operate. Here is a simple diagram:
+```
+|----zad5_2-kgliwinski
+|    |----datasets
+|         |----main
+|              |---final
+|              |---sample
+```
