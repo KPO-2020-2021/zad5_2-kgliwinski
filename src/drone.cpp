@@ -288,7 +288,7 @@ bool Drone::Drone_make_path(Vector3D const &tran, std::vector<Vector3D> &path)
     }
     double tab2[3] = {0, 0, -1};
     Vector3D fall(tab2);
-    for (; i < 520; ++i)
+    for (; i < 521; ++i)
     {
         path.push_back(path.at(i) + fall);
     }
@@ -418,7 +418,7 @@ bool Drone::Drone_basic_motion(double const &angle, double const &len, PzG::Lacz
     }
     Drone_change_to_sample(drone_angle);
     std::cout << "Opadanie" << std::endl;
-    for (; i < 520; ++i)
+    for (; i < 521; ++i)
     {
         this->drone_pos = cur_path.at(i);
         *this = translation_to_pos();
