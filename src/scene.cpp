@@ -14,6 +14,7 @@ Scene::Scene(Vector3D const (&pos)[SIZE], Vector3D const (&scal_bod)[SIZE], Vect
         flies[i].set_rotors_in_place();
     }
     active = 0;
+    filename_num = 0;
 }
 
 bool Scene::init_objects(double const &x, double const &y)
@@ -51,6 +52,41 @@ bool Scene::add_basic_objects()
         return 0;
     if (!add_object_type_prism("../datasets/main/sample/volcano_default_sample.dat", "../datasets/main/final/volcano_default_final.dat", vec6, 240, 140, 45, 6))
         return 0;
+    return 1;
+}
+
+bool Scene::add_object(const Vector3D &sca, const double &x, const double &y, const double &angle, const unsigned int &option, PzG::LaczeDoGNUPlota &Lacze)
+{
+    switch (option)
+    {
+    case 1:
+    case 2:
+    case 3:
+    {
+        std::string s, f;
+        create_filenames(s,f,option);
+        if (!add_object_type_cuboid(s, f, sca, x, y, angle, option))
+            return 0;
+        Lacze.DodajNazwePliku(s.c_str());
+        break;
+    }
+    case 4:
+    case 5:
+    case 6:
+    {
+        std::string s, f;
+        create_filenames(s,f,option);
+        if (!add_object_type_prism(s, f, sca, x, y, angle, option))
+            return 0;
+        Lacze.DodajNazwePliku(s.c_str());
+        break;
+    }
+    default:
+    {
+        return 0;
+        break;
+    }
+    }
     return 1;
 }
 
@@ -117,7 +153,8 @@ bool Scene::add_object_type_prism(const std::string &s_name, const std::string &
     case 6:
     {
         p = std::make_shared<Volcano>(Volcano());
-        *p = Volcano(s_name, f_name, sca);
+        Vector3D sca1 = sca*(5.0/6.0);
+        *p = Volcano(s_name, f_name, sca1);
         break;
     }
     default:
@@ -136,6 +173,67 @@ bool Scene::add_object_type_prism(const std::string &s_name, const std::string &
     p->Prism_To_File(p->get_final_name());
     objects.push_back(p);
     return 1;
+}
+
+bool Scene::create_filenames(std::string &s_name, std::string &f_name, const unsigned int &option)
+{
+    if (s_name != "" || f_name != "")
+        return 0;
+    s_name.append("../datasets/main/sample/created_object_");
+    f_name.append("../datasets/main/final/created_object_");
+    switch (option)
+    {
+    case 1:
+    {
+        switch_create_filenames(s_name, f_name, "Pyramid");
+        break;
+    }
+    case 2:
+    {
+        switch_create_filenames(s_name, f_name, "Triangular");
+        break;
+    }
+    case 3:
+    {
+        switch_create_filenames(s_name, f_name, "Cuboid");
+        break;
+    }
+    case 4:
+    {
+        switch_create_filenames(s_name, f_name, "Circus");
+        break;
+    }
+    case 5:
+    {
+        switch_create_filenames(s_name, f_name, "Tent");
+        break;
+    }
+    case 6:
+    {
+        switch_create_filenames(s_name, f_name, "Volcano");
+        break;
+    }
+    default:
+    {
+        s_name = "";
+        f_name = "";
+        return 0;
+        break;
+    }
+    }
+    return 1;
+}
+
+void Scene::switch_create_filenames(std::string &s_name, std::string &f_name, const std::string &type)
+{
+    ++filename_num;
+    std::string ext = file_extension;
+    s_name.append(type);
+    s_name.append(std::to_string(filename_num));
+    s_name.append(ext);
+    f_name.append(type);
+    f_name.append(std::to_string(filename_num));
+    f_name.append(ext);
 }
 
 int Scene::get_objects_size() const
@@ -216,6 +314,11 @@ bool Scene::iterate_over_objects(PzG::LaczeDoGNUPlota &Lacze)
 unsigned int Scene::get_active() const
 {
     return active;
+}
+
+unsigned int Scene::get_filename_num() const
+{
+    return filename_num;
 }
 
 void Scene::print_active() const

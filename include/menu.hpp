@@ -48,4 +48,9 @@ void switch_menu(Scene &sc, PzG::LaczeDoGNUPlota &Lacze, const char &oper);
  */
 void show_menu();
 
+/*!
+ * \brief Wyswietla menu wyboru obiektu
+ */
+void show_object_menu();
+
 };
