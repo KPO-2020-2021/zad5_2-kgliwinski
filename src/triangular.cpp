@@ -52,3 +52,8 @@ Triangular &Triangular::operator=(const Cuboid &a)
     this->centre = this->special_points(this->cuts);
     return *this;
 }
+
+void Triangular::print_name() const
+{
+    std::cout<<"Gora z grania \n";
+}

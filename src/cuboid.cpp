@@ -13,8 +13,8 @@ Cuboid::Cuboid()
     this->centre = special_points(this->cuts); //ustawia centre point i cuts
 }
 
-Cuboid::Cuboid(const std::string &s_name, const std::string &f_name, const Vector3D &vec) 
-: Block(s_name, f_name, vec)
+Cuboid::Cuboid(const std::string &s_name, const std::string &f_name, const Vector3D &vec)
+    : Block(s_name, f_name, vec)
 {
     int i;
     double iter[4][3] = {{0, 0, 0}, {1, 0, 0}, {1, 1, 0}, {0, 1, 0}};
@@ -39,8 +39,8 @@ Cuboid::Cuboid(Vector3D const (&tab)[2][4])
     this->centre = special_points(this->cuts); //ustawia centre point i cuts
 }
 
-Cuboid::Cuboid(Vector3D const (&tab)[2][4], const std::string &s_name, const std::string &f_name, const Vector3D &vec) 
-: Block(s_name, f_name, vec)
+Cuboid::Cuboid(Vector3D const (&tab)[2][4], const std::string &s_name, const std::string &f_name, const Vector3D &vec)
+    : Block(s_name, f_name, vec)
 {
     int i;
     for (i = 0; i < 4; ++i)
@@ -71,8 +71,8 @@ Cuboid::Cuboid(double (&tovec)[2][4][3])
     this->centre = special_points(this->cuts); //ustawia centre point i cuts
 }
 
-Cuboid::Cuboid(double (&tovec)[2][4][3], const std::string &s_name, const std::string &f_name, const Vector3D &vec) 
-: Block(s_name, f_name, vec)
+Cuboid::Cuboid(double (&tovec)[2][4][3], const std::string &s_name, const std::string &f_name, const Vector3D &vec)
+    : Block(s_name, f_name, vec)
 {
     int i, j;
     Vector3D tab[2][4];
@@ -147,17 +147,17 @@ void Cuboid::get_vec_len(double (&tab)[3][2]) const
     this->get_vec_opp(opp);
     for (i = 0; i < 3; ++i)
     {
-            tab[i][0] = opp[i][0].get_len();
-            tab[i][1] = opp[i][1].get_len();
+        tab[i][0] = opp[i][0].get_len();
+        tab[i][1] = opp[i][1].get_len();
     }
-    if (tab[0]<tab[1]){
-        double tmp[2]={tab[0][0],tab[0][1]};
-        tab[0][0]=tab[1][0];
-        tab[0][1]=tab[1][1];
-        tab[1][0]=tmp[1];
-        tab[1][1]=tmp[0];
+    if (tab[0] < tab[1])
+    {
+        double tmp[2] = {tab[0][0], tab[0][1]};
+        tab[0][0] = tab[1][0];
+        tab[0][1] = tab[1][1];
+        tab[1][0] = tmp[1];
+        tab[1][1] = tmp[0];
     }
-
 }
 
 void Cuboid::get_vec_perp(Vector3D (&vecs)[2][3]) const
@@ -249,7 +249,7 @@ Vector3D Cuboid::get_basis_centre() const
     Vector3D diag;
     diag = tops[0][2] - tops[0][0];
     Vector3D point;
-    point = tops[0][0] + diag*0.5;
+    point = tops[0][0] + diag * 0.5;
     return point;
 }
 
@@ -288,7 +288,7 @@ Cuboid Cuboid::translation_to_O() const
 {
     Cuboid translated = *this;
     int i, j;
-    Vector3D tran = centre*(-1);
+    Vector3D tran = centre * (-1);
     for (i = 0; i < 2; ++i)
     {
         translated.cuts[i] = cuts[i] + tran;
@@ -319,7 +319,7 @@ Cuboid Cuboid::rotation(Matrix3D const &mat) const
 
 Cuboid Cuboid::rotation_around_cen(Matrix3D const &mat) const
 {
-    int i,j;
+    int i, j;
     Cuboid rotated = *this;
     rotated = this->translation_to_O();
     for (i = 0; i < 2; ++i)
@@ -340,7 +340,7 @@ Vector3D Cuboid::centre_point() const
     Vector3D diag;
     diag = tops[1][2] - tops[0][0];
     Vector3D point;
-    point = tops[0][0] + diag*0.5;
+    point = tops[0][0] + diag * 0.5;
     return point;
 }
 
@@ -356,26 +356,32 @@ Vector3D Cuboid::special_points(Vector3D (&vecs)[2]) const
 
 void Cuboid::print_cuboid(std::ostream &out) const
 {
-    int i,j,k;
+    int i, j, k;
     out.precision(10);
     double vecs[2][4][3];
     this->get_cub(vecs);
-    for (i=0;i<2;++i){
-        for (j=0;j<4;++j){
-            for (k=0;k<3; ++k){
+    for (i = 0; i < 2; ++i)
+    {
+        for (j = 0; j < 4; ++j)
+        {
+            for (k = 0; k < 3; ++k)
+            {
                 out << std::setw(10) << std::fixed << std::setprecision(10) << vecs[i][j][k] << " ";
             }
-            if(j==1 || j==3)
-                    out<<std::endl;
-            out<<std::endl;
+            if (j == 1 || j == 3)
+                out << std::endl;
+            out << std::endl;
         }
     }
-    for (i=0;i<1;++i){
-        for (j=0;j<2;++j){
-            for (k=0;k<3; ++k){
+    for (i = 0; i < 1; ++i)
+    {
+        for (j = 0; j < 2; ++j)
+        {
+            for (k = 0; k < 3; ++k)
+            {
                 out << std::setw(10) << std::fixed << std::setprecision(10) << vecs[i][j][k] << " ";
             }
-            out<<std::endl;
+            out << std::endl;
         }
     }
 }
@@ -383,7 +389,7 @@ void Cuboid::print_cuboid(std::ostream &out) const
 void Cuboid::print_cuboid_weird(std::ostream &out) const
 {
     double tab[2][4][3];
-    int i,j,k;
+    int i, j, k;
     tops[0][0].get_vec(tab[0][0]); //W1
     tops[0][1].get_vec(tab[0][1]); //W2
     tops[0][3].get_vec(tab[0][2]); //W3
@@ -392,24 +398,30 @@ void Cuboid::print_cuboid_weird(std::ostream &out) const
     tops[1][2].get_vec(tab[1][1]); //W6
     tops[1][0].get_vec(tab[1][2]); //W7
     tops[1][1].get_vec(tab[1][3]); //W8
-    
+
     out.precision(10);
-    for (i=0;i<2;++i){
-        for (j=0;j<4;++j){
-            for (k=0;k<3; ++k){
+    for (i = 0; i < 2; ++i)
+    {
+        for (j = 0; j < 4; ++j)
+        {
+            for (k = 0; k < 3; ++k)
+            {
                 out << std::setw(10) << std::fixed << std::setprecision(10) << tab[i][j][k] << " ";
             }
-            if(j==1 || j==3)
-                    out<<std::endl;
-            out<<std::endl;
+            if (j == 1 || j == 3)
+                out << std::endl;
+            out << std::endl;
         }
     }
-    for (i=0;i<1;++i){
-        for (j=0;j<2;++j){
-            for (k=0;k<3; ++k){
+    for (i = 0; i < 1; ++i)
+    {
+        for (j = 0; j < 2; ++j)
+        {
+            for (k = 0; k < 3; ++k)
+            {
                 out << std::setw(10) << std::fixed << std::setprecision(10) << tab[i][j][k] << " ";
             }
-            out<<std::endl;
+            out << std::endl;
         }
     }
 }
@@ -420,7 +432,7 @@ void Cuboid::print_cuboid_3D(std::ostream &out) const
     double tab[2][4][3];
     double cen[3];
     double spec[2][3];
-    int i,j,k;
+    int i, j, k;
     tops[0][1].get_vec(tab[0][0]); //W1
     tops[0][2].get_vec(tab[0][1]); //W2
     tops[0][0].get_vec(tab[0][2]); //W3
@@ -433,42 +445,46 @@ void Cuboid::print_cuboid_3D(std::ostream &out) const
     cuts[0].get_vec(spec[0]);
     cuts[1].get_vec(spec[1]);
     out.precision(10);
-    for (i=0;i<2;++i){
-        for (j=0;j<4;++j){
-            if (j==0 || j==2)
+    for (i = 0; i < 2; ++i)
+    {
+        for (j = 0; j < 4; ++j)
+        {
+            if (j == 0 || j == 2)
             {
-                out << std::setw(10) << std::fixed << std::setprecision(10) << spec[0][0] << " "<< spec[0][1] << " "<< spec[0][2] << " \n";
+                out << std::setw(10) << std::fixed << std::setprecision(10) << spec[0][0] << " " << spec[0][1] << " " << spec[0][2] << " \n";
             }
-            for (k=0;k<3; ++k){
+            for (k = 0; k < 3; ++k)
+            {
                 out << std::setw(10) << std::fixed << std::setprecision(10) << tab[i][j][k] << " ";
             }
-            out<<std::endl;
-            if (j==1 || j==3)
+            out << std::endl;
+            if (j == 1 || j == 3)
             {
-                out << std::setw(10) << std::fixed << std::setprecision(10) << spec[1][0] << " "<< spec[1][1] << " "<< spec[1][2] << " \n";
+                out << std::setw(10) << std::fixed << std::setprecision(10) << spec[1][0] << " " << spec[1][1] << " " << spec[1][2] << " \n";
             }
-            if(j==1 || j==3)
-                out<<std::endl;
-            
+            if (j == 1 || j == 3)
+                out << std::endl;
         }
     }
-    for (i=0;i<1;++i){
-        for (j=0;j<2;++j){
-            if (j==0 || j==2)
+    for (i = 0; i < 1; ++i)
+    {
+        for (j = 0; j < 2; ++j)
+        {
+            if (j == 0 || j == 2)
             {
-                out << std::setw(10) << std::fixed << std::setprecision(10) << spec[0][0] << " "<< spec[0][1] << " "<< spec[0][2] << " \n";
+                out << std::setw(10) << std::fixed << std::setprecision(10) << spec[0][0] << " " << spec[0][1] << " " << spec[0][2] << " \n";
             }
-            for (k=0;k<3; ++k){
+            for (k = 0; k < 3; ++k)
+            {
                 out << std::setw(10) << std::fixed << std::setprecision(10) << tab[i][j][k] << " ";
             }
-            out<<std::endl;
-            if (j==1 || j==3)
+            out << std::endl;
+            if (j == 1 || j == 3)
             {
-                out << std::setw(10) << std::fixed << std::setprecision(10) << spec[1][0] << " "<< spec[1][1] << " "<< spec[1][2] << " \n";
+                out << std::setw(10) << std::fixed << std::setprecision(10) << spec[1][0] << " " << spec[1][1] << " " << spec[1][2] << " \n";
             }
-            if(j==1 || j==3)
-                    out<<std::endl;
-            
+            if (j == 1 || j == 3)
+                out << std::endl;
         }
     }
 }
@@ -481,11 +497,11 @@ Cuboid Cuboid::Cuboid_From_Sample() const
     int i, j;
     Vector3D read[2][4];
     Vector3D bin;
-    j=0;
+    j = 0;
     for (i = 0; i < 2; ++i)
     {
-        if (i==1)
-            j=1;
+        if (i == 1)
+            j = 1;
         file >> bin;
         file >> read[j][0];
         file >> read[j][1];
@@ -529,14 +545,14 @@ bool Cuboid::Cuboid_To_File(const std::string &filename) const
 
 Cuboid Cuboid::scale_cub() const
 {
-    int i,j;
+    int i, j;
     Cuboid res;
     res = this->translation_to_O();
-    for (i=0;i<2;++i)
+    for (i = 0; i < 2; ++i)
     {
         res.cuts[i] = res.cuts[i].scale_vec(scale);
-        for(j=0;j<4;++j)
-        {   
+        for (j = 0; j < 4; ++j)
+        {
             res.tops[i][j] = res.tops[i][j].scale_vec(scale);
         }
     }
@@ -546,17 +562,30 @@ Cuboid Cuboid::scale_cub() const
 
 Cuboid Cuboid::scale_cub(Vector3D const &scal) const
 {
-    int i,j;
+    int i, j;
     Cuboid res;
     res = this->translation_to_O();
-    for (i=0;i<2;++i)
+    for (i = 0; i < 2; ++i)
     {
         res.cuts[i] = res.cuts[i].scale_vec(scal);
-        for(j=0;j<4;++j)
-        {   
+        for (j = 0; j < 4; ++j)
+        {
             res.tops[i][j] = res.tops[i][j].scale_vec(scal);
         }
     }
     res.centre = res.centre.scale_vec(scal);
     return res;
 }
+
+void Cuboid::print_name() const
+{
+    std::cout << "Plaskowyz \n";
+}
+
+void Cuboid::print_pos() const
+{
+    Vector3D cen = get_basis_centre();
+    std::cout<<"("<< std::setw(2) << std::fixed << std::setprecision(2) <<cen[0];
+    std::cout<<", "<< std::setw(2) << std::fixed << std::setprecision(2) <<cen[1]<<") ";
+}
+

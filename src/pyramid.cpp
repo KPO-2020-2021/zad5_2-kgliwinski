@@ -69,3 +69,8 @@ Pyramid &Pyramid::operator=(const Cuboid &a)
     this->centre = this->special_points(this->cuts);
     return *this;
 }
+
+void Pyramid::print_name() const
+{
+    std::cout<<"Piramida \n";
+}

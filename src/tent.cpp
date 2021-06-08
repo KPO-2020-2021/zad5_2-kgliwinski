@@ -62,3 +62,8 @@ Tent& Tent::operator=(const Prism &a)
     this->centre = this->special_points(this->cuts);
     return *this;
 }
+
+void Tent::print_name() const
+{
+    std::cout<<"Namiot \n";
+}

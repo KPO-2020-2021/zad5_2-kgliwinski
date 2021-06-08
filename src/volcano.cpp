@@ -67,3 +67,8 @@ Volcano &Volcano::operator=(const Prism &a)
     this->centre = this->special_points(this->cuts);
     return *this;
 }
+
+void Volcano::print_name() const
+{
+    std::cout<<"Wulkan \n";
+}

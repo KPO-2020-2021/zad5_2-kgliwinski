@@ -349,3 +349,18 @@ bool Scene::fly_roundabout(double const &radius, PzG::LaczeDoGNUPlota &Lacze)
         return 0;
     return 1;
 }
+
+void Scene::show_elements()
+{
+    int k=1;
+    std::list<std::shared_ptr<Block>>::iterator i;
+    i = objects.begin();
+    std::advance(i,1);
+    for (; i != objects.end(); ++i)
+    {
+        std::cout<<k<<". ";
+        i->get()->print_pos();
+        i->get()->print_name();
+        ++k;
+    }
+}

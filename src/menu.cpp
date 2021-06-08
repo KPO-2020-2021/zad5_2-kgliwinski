@@ -104,6 +104,11 @@ void Menu::switch_menu(Scene &sc, PzG::LaczeDoGNUPlota &Lacze, const char &oper)
         open = 0;
         break;
     }
+    case 'q':
+    {
+        sc.show_elements();
+        break;
+    }
     default:
     {
         std::cout << "Bledna opcja\n";
@@ -123,7 +128,7 @@ void Menu::show_menu()
     std::cout << "k - koniec dzialania programu\n\n";
 }
 
-void Menu::show_object_menu()
+void Menu::show_object_menu() const
 {
     std::cout << std::endl;
     std::cout << "1 - piramida (ostroslup prawidlowy)\n";

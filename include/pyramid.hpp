@@ -67,4 +67,9 @@ public:
  */
     Pyramid& operator= (const Cuboid &a);
 
+   /*!
+ *  \brief Zwraca nazwe obiektu                                                    
+ */
+   void print_name() const override;
+
 };

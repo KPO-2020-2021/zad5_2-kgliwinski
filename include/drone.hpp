@@ -15,7 +15,8 @@
  *  \class Drone
  *  \brief Opisuje drona o prostopadlosciennym korpusie i 4 rotorach
  */
-class Drone
+
+class Drone : public Block
 {
 private:
   /*!
@@ -115,7 +116,7 @@ public:
  *     \retval true - jesli jest prawidlowa                          
  */
   bool set_drone_pos(Vector3D const &pos);
-  
+
   /*!
  *  \brief Metoda wypisuje na standardowym wyjsciu pozycje drona (bez wysokosci)                               
  */
@@ -232,7 +233,7 @@ public:
  *     \retval true - jesli jest odpowiednio skonfigurowane lacze
  *     \retval false - w przeciwnym wypadku                             
  */
-  bool Drone_make_path( Vector3D const &tran, std::vector<Vector3D> &path);
+  bool Drone_make_path(Vector3D const &tran, std::vector<Vector3D> &path);
 
   /*!
  *  \brief Metoda zapisujaca sciezke do pliku oraz do lacza
@@ -279,7 +280,7 @@ public:
  */
   Drone Drone_From_Sample() const;
 
-/*!
+  /*!
  *  \brief Metoda obliczajaca i przeprowadzajaca caly ruch drona
  *          (obrot o kat i przelot z zadania 5.1) 
  *     \pre Lacze musi byc odpowiednio skonfigurowane
@@ -292,7 +293,7 @@ public:
  */
   bool Drone_basic_motion(double const &angle, double const &len, PzG::LaczeDoGNUPlota &Lacze);
 
-/*!
+  /*!
  *  \brief Metoda robiaca "oblot" drona wokol punktu (z modyfikacji)
  *     \pre Lacze musi byc odpowiednio skonfigurowane
  *     \param[in] radius - promien okregu   

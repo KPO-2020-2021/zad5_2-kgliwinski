@@ -116,5 +116,13 @@ class Block
  */
     Vector3D get_scale() const;
 
+   /*!
+ *  \brief Zwraca nazwe obiektu                                                    
+ */
+virtual void print_name() const;
 
+   /*!
+ *  \brief Zwraca pozycje obiektu                                                    
+ */
+virtual void print_pos() const;
 };

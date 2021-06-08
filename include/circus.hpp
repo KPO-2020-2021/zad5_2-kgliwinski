@@ -17,15 +17,15 @@
 class Circus : public Prism
 {
 public:
-    /*!
+   /*!
  *  \brief Konstruktor bezparametryczny klasy Circus.
  *          Dolna podstawa jest identyczna jak w bezparametrycznym Prism,
  *          cuts[1] jest deformowany i przesuwany na wysokosc 
  *     \post Zwraca 13 wiercholkow                                   
  */
-    Circus();
+   Circus();
 
-    /*!
+   /*!
  *  \brief Konstruktor parametryczny klasy Circus.
  *          Powstaje ostroslup jak z konstruktora parametrycznego, dodaja sie jednak
  *          pola klasy Block oraz skaluje figure
@@ -34,9 +34,9 @@ public:
  *     \param[in] sca - docelowo scale
  *     \post Zwraca szesc wiercholkow, oraz przeskalowany przez zadana skale graniastoslup                                   
  */
-    Circus(std::string const &sample, std::string const &final, Vector3D const &sca);
+   Circus(std::string const &sample, std::string const &final, Vector3D const &sca);
 
-    /*!
+   /*!
  *  \brief Metoda zwracajaca punkty specjalne graniastoslupa : 
  *        - cuts[0] jest przecieciem przekatnych dwoch przeciwleglych
  *          podstaw graniastoslupa \n
@@ -46,13 +46,18 @@ public:
  *     \post - metoda ustawia wartosci w polach tablicy
  *     \return - metoda zwraca punkt centre                         
  */
-    Vector3D special_points(Vector3D (&vecs)[2]) const override;
+   Vector3D special_points(Vector3D (&vecs)[2]) const override;
 
-        /*!
+   /*!
  *  \brief Przeciazenie operatora przypisania, umozliwia stosowanie metod
  *          typu Prism na obiekcie typu Circus       
  *  \param[in] a - przypisywany graniastoslup                 
  *   \post Przypisuje figure                                                                                          
  */
-    Circus &operator=(const Prism &a);
+   Circus &operator=(const Prism &a);
+
+   /*!
+ *  \brief Zwraca nazwe obiektu                                                    
+ */
+   void print_name() const override;
 };

@@ -48,3 +48,8 @@ Circus &Circus::operator=(const Prism &a)
     this->centre = this->special_points(this->cuts);
     return *this;
 }
+
+void Circus::print_name() const
+{
+    std::cout<<"Cyrk \n";
+}

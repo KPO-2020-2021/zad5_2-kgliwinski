@@ -476,3 +476,20 @@ bool Prism::check_vec_basis() const
     }
     return 1;
 }
+
+   Vector3D Prism::get_basis_centre() const
+   {
+    Vector3D diag;
+    diag = tops[0][3] - tops[0][0];
+    Vector3D point;
+    point = tops[0][0] + diag * 0.5;
+    return point;
+   }
+
+void Prism::print_pos() const
+{
+    Vector3D cen = get_basis_centre();
+    std::cout<<"("<< std::setw(2) << std::fixed << std::setprecision(2) <<cen[0];
+    std::cout<<", "<< std::setw(2) << std::fixed << std::setprecision(2) <<cen[1]<<") ";
+}
+

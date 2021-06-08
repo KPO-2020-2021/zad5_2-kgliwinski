@@ -51,6 +51,6 @@ void show_menu();
 /*!
  * \brief Wyswietla menu wyboru obiektu
  */
-void show_object_menu();
+void show_object_menu() const;
 
 };
