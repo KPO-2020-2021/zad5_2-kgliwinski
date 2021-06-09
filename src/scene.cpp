@@ -67,7 +67,7 @@ bool Scene::add_object(const Vector3D &sca, const double &x, const double &y, co
         create_filenames(s, f, option);
         if (!add_object_type_cuboid(s, f, sca, x, y, angle, option))
             return 0;
-        Lacze.DodajNazwePliku(s.c_str());
+        Lacze.DodajNazwePliku(f.c_str());
         break;
     }
     case 4:
@@ -78,7 +78,7 @@ bool Scene::add_object(const Vector3D &sca, const double &x, const double &y, co
         create_filenames(s, f, option);
         if (!add_object_type_prism(s, f, sca, x, y, angle, option))
             return 0;
-        Lacze.DodajNazwePliku(s.c_str());
+        Lacze.DodajNazwePliku(f.c_str());
         break;
     }
     default:
@@ -87,6 +87,21 @@ bool Scene::add_object(const Vector3D &sca, const double &x, const double &y, co
         break;
     }
     }
+    return 1;
+}
+
+bool Scene::delete_object(const unsigned int &num, PzG::LaczeDoGNUPlota &Lacze)
+{
+    if (num == 0)
+        return 0;
+    if (objects.size() <= num+1)
+        return 0;
+    std::list<std::shared_ptr<Block>>::iterator i = objects.begin();
+    std::advance(i, num + 1);
+    std::string name = i->get()->get_final_name();
+    if(!Lacze.UsunNazwePliku(name))
+        return 0;
+    objects.erase(i);
     return 1;
 }
 
@@ -310,7 +325,6 @@ bool Scene::iterate_over_objects(PzG::LaczeDoGNUPlota &Lacze)
     std::advance(i, 2);
     for (; i != objects.end(); ++i)
     {
-        Lacze.DodajNazwePliku(i->get()->get_sample_name().c_str(), PzG::SR_Ciagly);
         Lacze.DodajNazwePliku(i->get()->get_final_name().c_str(), PzG::SR_Ciagly);
     }
     return 1;
@@ -360,6 +374,7 @@ void Scene::show_elements()
     int k = 1;
     std::list<std::shared_ptr<Block>>::iterator i;
     i = objects.begin();
+    std::advance(i,2);
     for (; i != objects.end(); ++i)
     {
         std::cout << k << ". ";

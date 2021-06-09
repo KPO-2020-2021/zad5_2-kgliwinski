@@ -91,6 +91,15 @@ public:
  */
   bool add_object(const Vector3D &sca, const double &x, const double &y, const double &angle, const unsigned int &option, PzG::LaczeDoGNUPlota &Lacze);
 
+    /*!
+ * \brief Metoda usuwajaca object zadany przez uzytkownika
+ *      \param[in] num - decyduje ktora figure usunac z zakresu (3-liczba obiektow) nie mozna usunac drona
+ *      \param[in] Lacze - aktywne lacze do Gnuplota
+ * \post Usuwa z listy pewna figure
+ * \retval False - gdy wprowadzona zostanie bledny num, True - w przeciwnym wypadku
+ */
+  bool delete_object(const unsigned int &num, PzG::LaczeDoGNUPlota &Lacze);
+
   /*!
  * \brief Metoda dodajaca prostopadloscian, ostroslup lub Triangular do listy objects
  *      \param[in] s_name - docelowo sample_name z klasy Block
