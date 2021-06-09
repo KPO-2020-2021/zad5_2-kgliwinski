@@ -4,7 +4,7 @@ Below it is shown how the programme is structured and how it declares 3D geometr
 
 ## Class diagram
 
-![Cuboid in 3D](/readme_pics/class_diagram.png)
+![Class diagram](/readme_pics/class_diagram.png)
 
 To see more indepth diagrams and documentation go to /documentation dir.
 
