@@ -1,0 +1,8 @@
+<map id="Cuboid::get_vec_opp" name="Cuboid::get_vec_opp">
+<area shape="rect" id="node1" title="Zwraca do tablicy 3x2 wektory reprezentujace przeciwne boki prostopadloscianu" alt="" coords="601,56,759,83"/>
+<area shape="rect" id="node2" href="$class_cuboid.html#a41233dfb606942e160e3080a23547674" title="Sprawdza czy dlugosci wektory tworzace przeciwne boki prostopadloscianu maja poprawne wartosci (nie s..." alt="" coords="381,5,551,32"/>
+<area shape="rect" id="node5" href="$class_cuboid.html#a5840b78caaeac16fd1a262026819501d" title="Sprawdza czy wektory tworzace przeciwne boki prostopadloscianu sa rowne" alt="" coords="379,56,553,83"/>
+<area shape="rect" id="node6" href="$class_cuboid.html#a63fdccd9593f1a7191395a103b7c6366" title="Zapisuje do tablicy tab w kolejnosci: 1.dluzsze przeciwlegle boki 2.krotsze przeciwlegle boki 3...." alt="" coords="389,107,543,133"/>
+<area shape="rect" id="node3" href="$class_cuboid.html#a058d488f3125238bd8b8dcbb671ede9e" title="Sprawdza czy prostopadloscian jest poprawnie zbudowany" alt="" coords="188,31,331,57"/>
+<area shape="rect" id="node4" href="$class_drone.html#a40e3c3f032ef691392293efd12a5014b" title="Metoda sprawdzajaca budowe drona" alt="" coords="5,31,140,57"/>
+</map>

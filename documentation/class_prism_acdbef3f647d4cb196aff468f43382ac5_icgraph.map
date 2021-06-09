@@ -1,0 +1,4 @@
+<map id="Prism::get_pos" name="Prism::get_pos">
+<area shape="rect" id="node1" title="Zwraca pozycje obiektu do Vector3D" alt="" coords="192,5,311,32"/>
+<area shape="rect" id="node2" href="$class_prism.html#a8a80c4334810ad934e6e43bb5ee14f07" title="Zmiana pozycji obiektu na plaszczyznie XY na nowe wspolrzedne." alt="" coords="5,5,144,32"/>
+</map>

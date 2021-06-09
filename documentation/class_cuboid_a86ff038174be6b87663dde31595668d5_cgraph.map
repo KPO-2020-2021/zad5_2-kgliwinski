@@ -1,0 +1,8 @@
+<map id="Cuboid::switch_pos" name="Cuboid::switch_pos">
+<area shape="rect" id="node1" title="Zmiana pozycji obiektu na plaszczyznie XY na nowe wspolrzedne." alt="" coords="5,56,152,83"/>
+<area shape="rect" id="node2" href="$class_cuboid.html#abc62d20a2f1418af1c35e369da77f0fc" title=" " alt="" coords="200,5,371,32"/>
+<area shape="rect" id="node4" href="$class_cuboid.html#a7bc29715dc1515f675cd56a30712357f" title="Zwraca pozycje obiektu do Vector3D" alt="" coords="222,56,349,83"/>
+<area shape="rect" id="node6" href="$class_cuboid.html#a3f6b1b9ea7de433af5b0d462d29f4272" title="Metoda przesuwajaca prostopadloscian o zadany kat w 3D" alt="" coords="213,107,358,133"/>
+<area shape="rect" id="node3" href="$class_cuboid.html#a12a97376443b1a15ae8342c1c75b3e1e" title="Metoda wypisania odpowiednich wierzcholkow do pliku zgodnie z zaproponowanym sposobem zadaniu dron" alt="" coords="421,5,601,32"/>
+<area shape="rect" id="node5" href="$class_cuboid.html#a0e7f901199262984ab6ba0da01d96c40" title="Metoda zwracajaca srodek podstawy ostroslupa" alt="" coords="419,56,604,83"/>
+</map>

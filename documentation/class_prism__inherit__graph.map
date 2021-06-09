@@ -1,0 +1,7 @@
+<map id="Prism" name="Prism">
+<area shape="rect" id="node1" title="Opisuje graniastoslup o dwunastu wierzcholkach w przestrzeni trojwymiarowej." alt="" coords="134,365,345,927"/>
+<area shape="rect" id="node3" href="$class_circus.html" title="Opisuje graniastoslup szesciokatny o podwyzszonym srodku gornej podstawy. Jest klasa dziedziczaca z k..." alt="" coords="5,989,145,1125"/>
+<area shape="rect" id="node4" href="$class_tent.html" title="Opisuje ostroslup szesciokatny prawidlowy (moze miec nieregularna podstawe) Jest klasa dziedziczaca z..." alt="" coords="169,975,309,1140"/>
+<area shape="rect" id="node5" href="$class_volcano.html" title="Opisuje graniastoslup szesciokatny o podwyzszonym srodku gornej podstawy. Jest klasa dziedziczaca z k..." alt="" coords="333,975,473,1140"/>
+<area shape="rect" id="node2" href="$class_block.html" title="Opisuje figure geometryczna w przestrzeni trojwymiarowej." alt="" coords="156,5,323,317"/>
+</map>

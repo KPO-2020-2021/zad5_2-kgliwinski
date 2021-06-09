@@ -1,0 +1,4 @@
+<map id="Drone::set_drone_pos" name="Drone::set_drone_pos">
+<area shape="rect" id="node1" title="Metoda ustawiajaca drone_pos" alt="" coords="5,5,168,32"/>
+<area shape="rect" id="node2" href="$class_cuboid.html#a08fae08a1c8c70ada48ce3af46c82eee" title="Metoda zwracajaca wysokosc prostopadloscianu" alt="" coords="216,5,360,32"/>
+</map>

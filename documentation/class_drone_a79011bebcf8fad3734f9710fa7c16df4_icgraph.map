@@ -1,0 +1,7 @@
+<map id="Drone::print_drone_pos" name="Drone::print_drone_pos">
+<area shape="rect" id="node1" title="Metoda wypisuje na standardowym wyjsciu pozycje drona (bez wysokosci)" alt="" coords="597,31,771,57"/>
+<area shape="rect" id="node2" href="$class_scene.html#a22b1902bbd3a21c3fc62251c123a8407" title="Wypisuje polozenie aktywnego drona." alt="" coords="393,5,540,32"/>
+<area shape="rect" id="node5" href="$class_scene.html#a9bb896991e516390c4464cdc92352d00" title="Wypisuje polozenia dronow." alt="" coords="384,56,549,83"/>
+<area shape="rect" id="node3" href="$class_menu.html#af7e6a49bd56499facef9cc98561ea169" title="Inicjuje i obsluguje menu." alt="" coords="5,31,136,57"/>
+<area shape="rect" id="node4" href="$class_menu.html#acd338552222b744cd030e17776cb5d9b" title="Obsluguje wybor menu." alt="" coords="184,56,336,83"/>
+</map>

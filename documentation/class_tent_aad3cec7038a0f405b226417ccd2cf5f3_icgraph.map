@@ -1,0 +1,7 @@
+<map id="Tent::centre_point" name="Tent::centre_point">
+<area shape="rect" id="node1" title="Metoda zwracajaca punkt centralny Tent" alt="" coords="507,31,645,57"/>
+<area shape="rect" id="node2" href="$class_tent.html#a048e58c462e4d7f069b2705308be29c1" title="Metoda zwracajaca punkty specjalne Tent : cuts (jedna jest punktem przeciecia przekatnych dolnej pods..." alt="" coords="308,31,459,57"/>
+<area shape="rect" id="node3" href="$class_tent.html#ab55be44d1debae187bfb2c66ca4839b3" title="Przeciazenie operatora przypisania, umozliwia stosowanie metod typu Prism na obiekcie typu Tent" alt="" coords="137,5,260,32"/>
+<area shape="rect" id="node4" href="$class_tent.html#a00e45b6c16c7ab25d9f8cceaa9afb080" title="Konstruktor bezparametryczny klasy Tent. Dolna podstawa jest identyczna jak w bezparametrycznym Prism..." alt="" coords="157,56,241,83"/>
+<area shape="rect" id="node5" href="$class_tent.html#a6831febfd74474f567f4419091883512" title="Konstruktor parametryczny klasy Tent. Powstaje ostroslup jak z konstruktora parametrycznego,..." alt="" coords="5,56,89,83"/>
+</map>

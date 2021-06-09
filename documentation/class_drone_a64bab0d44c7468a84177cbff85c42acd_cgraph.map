@@ -1,0 +1,4 @@
+<map id="Drone::print_pos" name="Drone::print_pos">
+<area shape="rect" id="node1" title="Wypisuje pozycje (x,y) obiektu" alt="" coords="5,5,135,32"/>
+<area shape="rect" id="node2" href="$class_cuboid.html#a0e7f901199262984ab6ba0da01d96c40" title="Metoda zwracajaca srodek podstawy ostroslupa" alt="" coords="183,5,368,32"/>
+</map>

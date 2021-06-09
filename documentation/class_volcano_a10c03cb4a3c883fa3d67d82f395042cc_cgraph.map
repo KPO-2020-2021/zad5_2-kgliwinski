@@ -1,0 +1,5 @@
+<map id="Volcano::Volcano" name="Volcano::Volcano">
+<area shape="rect" id="node1" title="Konstruktor bezparametryczny klasy Volcano. Dolna podstawa jest identyczna jak w bezparametrycznym Pr..." alt="" coords="5,5,137,32"/>
+<area shape="rect" id="node2" href="$class_volcano.html#a6da2e3f5ecf61268b3bcf467d9f1267e" title="Metoda zwracajaca punkty specjalne Volcano :" alt="" coords="185,5,360,32"/>
+<area shape="rect" id="node3" href="$class_volcano.html#ad4d02f553b43cb787cf2370750e0c525" title="Metoda zwracajaca punkt centralny Volcano" alt="" coords="408,5,571,32"/>
+</map>

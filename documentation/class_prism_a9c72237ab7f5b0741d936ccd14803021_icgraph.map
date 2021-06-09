@@ -1,0 +1,9 @@
+<map id="Prism::centre_point" name="Prism::centre_point">
+<area shape="rect" id="node1" title="Metoda zwracajaca punkt centralny (czyli taki, ktorego odleglosci do kazdego wierzcholka sa rowne) gr..." alt="" coords="559,81,707,108"/>
+<area shape="rect" id="node2" href="$class_circus.html#aba4a0a8726ff0878279959df92f23f07" title="Metoda zwracajaca punkty specjalne graniastoslupa :" alt="" coords="348,56,511,83"/>
+<area shape="rect" id="node6" href="$class_prism.html#aa50fa1168351c867532aef9c19d2b921" title="Metoda zwracajaca punkty specjalne graniastoslupa : cuts (czyli te ktore sa przecieciami przekatnych ..." alt="" coords="349,107,509,133"/>
+<area shape="rect" id="node3" href="$class_circus.html#aaa613f7735bb421bf375246dd96e7116" title="Konstruktor bezparametryczny klasy Circus. Dolna podstawa jest identyczna jak w bezparametrycznym Pri..." alt="" coords="177,5,287,32"/>
+<area shape="rect" id="node5" href="$class_circus.html#abc3ed1cf2a93593c32eac91b29eea59f" title="Przeciazenie operatora przypisania, umozliwia stosowanie metod typu Prism na obiekcie typu Circus" alt="" coords="164,56,300,83"/>
+<area shape="rect" id="node4" href="$class_circus.html#a5aab1830e67f62f80525d04de23db7da" title="Konstruktor parametryczny klasy Circus. Powstaje ostroslup jak z konstruktora parametrycznego,..." alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node7" href="$class_prism.html#aa84930a585c7817f74a14d95ea74cb5a" title="Konstruktor bezparametryczny klasy Prism. Powstaly granistoslup ma podstawy &quot;tworzace&quot;:" alt="" coords="180,107,284,133"/>
+</map>

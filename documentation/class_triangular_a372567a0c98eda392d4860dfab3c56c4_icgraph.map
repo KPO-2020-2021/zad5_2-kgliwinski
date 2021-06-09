@@ -1,0 +1,6 @@
+<map id="Triangular::special_points" name="Triangular::special_points">
+<area shape="rect" id="node1" title="Metoda zwracajaca punkty specjalne Triangular : cuts (czyli te ktore sa przecieciami przekatnych dwoc..." alt="" coords="420,23,560,65"/>
+<area shape="rect" id="node2" href="$class_triangular.html#aa23c433e870c03fbb5caf31ab474a3ec" title="Przeciazenie operatora przypisania, umozliwia stosowanie metod typu Cuboid na obiekcie typu Triangula..." alt="" coords="212,5,372,32"/>
+<area shape="rect" id="node3" href="$class_triangular.html#a919ce19be6c96fbe4c92239ccbbb579b" title="Konstruktor bezparametryczny klasy Triangular. Powstaly graniastoslup ma jeden prostokat &quot;tworzacy&quot;: ..." alt="" coords="213,56,371,83"/>
+<area shape="rect" id="node4" href="$class_triangular.html#ad377db3bde29ea96fdc04fd3b645c07a" title="Konstruktor parametryczny klasy Triangular. Powstaje ostroslup jak z konstruktora parametrycznego,..." alt="" coords="5,56,164,83"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="Scene_Object" name="Scene_Object">
+<area shape="rect" id="node1" title=" " alt="" coords="331,5,465,97"/>
+<area shape="rect" id="node2" href="$class_cuboid.html" title="Opisuje prostopadloscian w przestrzeni trojwymiarowej." alt="" coords="63,145,251,736"/>
+<area shape="rect" id="node5" href="$class_drone.html" title="Opisuje drona o prostopadlosciennym korpusie i 4 rotorach." alt="" coords="275,153,521,729"/>
+<area shape="rect" id="node6" href="$class_prism.html" title="Opisuje graniastoslup o dwunastu wierzcholkach w przestrzeni trojwymiarowej." alt="" coords="545,167,755,714"/>
+<area shape="rect" id="node3" href="$class_pyramid.html" title="Opisuje ostroslup o podstawie prostokatnej w przestrzeni trojmwymiarowej Jest klasa dziedziczaca z kl..." alt="" coords="5,784,145,949"/>
+<area shape="rect" id="node4" href="$class_triangular.html" title=" " alt="" coords="169,799,309,935"/>
+<area shape="rect" id="node7" href="$class_circus.html" title="Opisuje graniastoslup szesciokatny o podwyzszonym srodku gornej podstawy. Jest klasa dziedziczaca z k..." alt="" coords="416,799,556,935"/>
+<area shape="rect" id="node8" href="$class_tent.html" title="Opisuje ostroslup szesciokatny prawidlowy (moze miec nieregularna podstawe) Jest klasa dziedziczaca z..." alt="" coords="580,784,720,949"/>
+<area shape="rect" id="node9" href="$class_volcano.html" title=" " alt="" coords="744,784,884,949"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Scene::add_object_type_prism" name="Scene::add_object_type_prism">
+<area shape="rect" id="node1" title="Metoda dodajaca obiekt pochodny z Prism do listy objects." alt="" coords="620,23,796,65"/>
+<area shape="rect" id="node2" href="$class_scene.html#a15f741d7de1a9662c49f72d663d90b23" title="Metoda dodajaca podstawowe elementy do listy objects." alt="" coords="384,5,572,32"/>
+<area shape="rect" id="node5" href="$class_scene.html#a8b87eec51d554a3ac01767a613871661" title="Metoda dodajaca object zadany przez uzytkownika." alt="" coords="408,56,548,83"/>
+<area shape="rect" id="node3" href="$class_scene.html#ab57c9a7293ccbaf3dd7e9ac469a7a787" title="Metoda inicjalizujaca lacze do gnuplota." alt="" coords="187,5,333,32"/>
+<area shape="rect" id="node4" href="$class_menu.html#af7e6a49bd56499facef9cc98561ea169" title="Inicjuje i obsluguje menu." alt="" coords="5,31,136,57"/>
+<area shape="rect" id="node6" href="$class_menu.html#acd338552222b744cd030e17776cb5d9b" title="Obsluguje wybor menu." alt="" coords="184,56,336,83"/>
+</map>

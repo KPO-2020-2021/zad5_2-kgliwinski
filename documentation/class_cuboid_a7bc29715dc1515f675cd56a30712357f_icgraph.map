@@ -1,0 +1,4 @@
+<map id="Cuboid::get_pos" name="Cuboid::get_pos">
+<area shape="rect" id="node1" title="Zwraca pozycje obiektu do Vector3D" alt="" coords="200,5,327,32"/>
+<area shape="rect" id="node2" href="$class_cuboid.html#a86ff038174be6b87663dde31595668d5" title="Zmiana pozycji obiektu na plaszczyznie XY na nowe wspolrzedne." alt="" coords="5,5,152,32"/>
+</map>

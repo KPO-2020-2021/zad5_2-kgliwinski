@@ -1,0 +1,5 @@
+<map id="Tent::Tent" name="Tent::Tent">
+<area shape="rect" id="node1" title="Konstruktor bezparametryczny klasy Tent. Dolna podstawa jest identyczna jak w bezparametrycznym Prism..." alt="" coords="5,5,89,32"/>
+<area shape="rect" id="node2" href="$class_tent.html#a048e58c462e4d7f069b2705308be29c1" title="Metoda zwracajaca punkty specjalne Tent : cuts (jedna jest punktem przeciecia przekatnych dolnej pods..." alt="" coords="137,5,288,32"/>
+<area shape="rect" id="node3" href="$class_tent.html#aad3cec7038a0f405b226417ccd2cf5f3" title="Metoda zwracajaca punkt centralny Tent" alt="" coords="336,5,475,32"/>
+</map>

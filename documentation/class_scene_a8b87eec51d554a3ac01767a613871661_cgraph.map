@@ -1,0 +1,9 @@
+<map id="Scene::add_object" name="Scene::add_object">
+<area shape="rect" id="node1" title="Metoda dodajaca object zadany przez uzytkownika." alt="" coords="5,107,145,134"/>
+<area shape="rect" id="node2" href="$class_scene.html#a16da566304f4ed4228fa89af25e330e5" title="Metoda dodajaca prostopadloscian, ostroslup lub Triangular do listy objects." alt="" coords="196,5,372,47"/>
+<area shape="rect" id="node3" href="$class_scene.html#a684bec8db49b527c34a567e91259102e" title="Metoda dodajaca obiekt pochodny z Prism do listy objects." alt="" coords="196,71,372,112"/>
+<area shape="rect" id="node4" href="$class_scene.html#a0e6e9771175c23c6ed78a493ed6d8e63" title="Metoda tworzaca nazwy programow, uzywana przy dodawaniu obiektow sceny." alt="" coords="193,137,375,163"/>
+<area shape="rect" id="node6" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#aa815ce8ec16e12fc246cf422e562869e" title="Dodaje nazwę pliku." alt="" coords="197,188,371,229"/>
+<area shape="rect" id="node5" href="$class_scene.html#a2724c6aee793b0deb0d58a990ab16832" title="Metoda uzywana w switchu metody create_filenames. Sluzy do tworzenia pliku o odpowiedniej nazwie." alt="" coords="423,129,581,171"/>
+<area shape="rect" id="node7" href="$namespace_pz_g.html#ae1aad0c681853d7e47da4cdfccefc102" title="Funkcja pomocnicza, sprawdza czy plik o podanej nazwie jest na dysku." alt="" coords="439,195,565,222"/>
+</map>

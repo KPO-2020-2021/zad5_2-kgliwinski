@@ -1,0 +1,8 @@
+<map id="PzG::InfoPunktyDoRysowania" name="PzG::InfoPunktyDoRysowania">
+<area shape="rect" id="node1" title="Modeluje zestaw informacji o rysowanych punktach." alt="" coords="81,505,379,788"/>
+<area shape="rect" id="node2" href="$class_pz_g_1_1_atrybuty_rysowania.html" title="Modeluje zestaw informacji będący atrybutami rysowania." alt="" coords="5,175,188,369"/>
+<area shape="rect" id="node3" title=" " alt="" coords="77,5,116,83"/>
+<area shape="rect" id="node4" href="$class_pz_g_1_1_wektor2f.html" title="Klasa pomocnicza, pozwala modelować wektor dwuwymiarowy." alt="" coords="212,189,336,355"/>
+<area shape="rect" id="node5" title=" " alt="" coords="249,5,299,83"/>
+<area shape="rect" id="node6" title=" " alt="" coords="405,233,463,311"/>
+</map>

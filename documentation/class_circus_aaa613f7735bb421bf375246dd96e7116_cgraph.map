@@ -1,0 +1,5 @@
+<map id="Circus::Circus" name="Circus::Circus">
+<area shape="rect" id="node1" title="Konstruktor bezparametryczny klasy Circus. Dolna podstawa jest identyczna jak w bezparametrycznym Pri..." alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node2" href="$class_circus.html#aba4a0a8726ff0878279959df92f23f07" title="Metoda zwracajaca punkty specjalne graniastoslupa :" alt="" coords="164,5,327,32"/>
+<area shape="rect" id="node3" href="$class_prism.html#a9c72237ab7f5b0741d936ccd14803021" title="Metoda zwracajaca punkt centralny (czyli taki, ktorego odleglosci do kazdego wierzcholka sa rowne) gr..." alt="" coords="375,5,523,32"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="Tent::Tent" name="Tent::Tent">
+<area shape="rect" id="node1" title="Konstruktor parametryczny klasy Tent. Powstaje ostroslup jak z konstruktora parametrycznego,..." alt="" coords="5,132,89,159"/>
+<area shape="rect" id="node2" href="$class_prism.html#a07f15c416c9f9c54390bb8737b441a35" title="Metoda skalujaca o wektor scale bedacy czlonkiem klasy block" alt="" coords="167,5,293,32"/>
+<area shape="rect" id="node5" href="$class_block.html#a640a910076d8b10533a9a80d740f8f03" title="Metoda zapisujaca do klasy nazwe pliku z finalna (robocza) bryla" alt="" coords="147,56,313,83"/>
+<area shape="rect" id="node6" href="$class_block.html#acf20b290f1543e580ff1f2c6d98ff4c4" title="Metoda zapisujaca do klasy nazwe pliku z wzorcowa bryla" alt="" coords="137,107,323,133"/>
+<area shape="rect" id="node7" href="$class_block.html#adb6acd13e2ab79cf7e4733ca2d6ae166" title="Metoda zapisujaca do klasy wektor reprezentujacy skale" alt="" coords="167,157,293,184"/>
+<area shape="rect" id="node8" href="$class_tent.html#a048e58c462e4d7f069b2705308be29c1" title="Metoda zwracajaca punkty specjalne Tent : cuts (jedna jest punktem przeciecia przekatnych dolnej pods..." alt="" coords="383,233,533,260"/>
+<area shape="rect" id="node10" href="$class_tent.html#a00e45b6c16c7ab25d9f8cceaa9afb080" title="Konstruktor bezparametryczny klasy Tent. Dolna podstawa jest identyczna jak w bezparametrycznym Prism..." alt="" coords="188,259,272,285"/>
+<area shape="rect" id="node3" href="$class_prism.html#afed2c26932d5cb152fd620d2acbfbc3e" title="Metoda przesuwajaca graniastoslup do srodka ukladu wspolrzednych (tak, ze srodek graniastoslupa pokry..." alt="" coords="371,5,545,32"/>
+<area shape="rect" id="node4" href="$class_prism.html#ade146d341c0468030f8c1258b7fe1041" title="Metoda przesuwajaca graniastoslup o zadany wektor w 3D" alt="" coords="594,5,731,32"/>
+<area shape="rect" id="node9" href="$class_tent.html#aad3cec7038a0f405b226417ccd2cf5f3" title="Metoda zwracajaca punkt centralny Tent" alt="" coords="593,233,732,260"/>
+</map>

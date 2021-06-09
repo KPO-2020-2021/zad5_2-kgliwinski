@@ -1,0 +1,4 @@
+<map id="Drone::get_body_height" name="Drone::get_body_height">
+<area shape="rect" id="node1" title="Metoda zwracajaca wysokosc body" alt="" coords="5,5,183,32"/>
+<area shape="rect" id="node2" href="$class_cuboid.html#a08fae08a1c8c70ada48ce3af46c82eee" title="Metoda zwracajaca wysokosc prostopadloscianu" alt="" coords="231,5,375,32"/>
+</map>

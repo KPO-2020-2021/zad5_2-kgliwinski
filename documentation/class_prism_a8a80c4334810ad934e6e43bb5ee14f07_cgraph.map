@@ -1,0 +1,8 @@
+<map id="Prism::switch_pos" name="Prism::switch_pos">
+<area shape="rect" id="node1" title="Zmiana pozycji obiektu na plaszczyznie XY na nowe wspolrzedne." alt="" coords="5,56,144,83"/>
+<area shape="rect" id="node2" href="$class_prism.html#acdbef3f647d4cb196aff468f43382ac5" title="Zwraca pozycje obiektu do Vector3D" alt="" coords="210,5,329,32"/>
+<area shape="rect" id="node4" href="$class_prism.html#a2de0dab6d117fc3c8dcbc3c384d0fccd" title=" " alt="" coords="192,56,347,83"/>
+<area shape="rect" id="node6" href="$class_prism.html#ade146d341c0468030f8c1258b7fe1041" title="Metoda przesuwajaca graniastoslup o zadany wektor w 3D" alt="" coords="201,107,338,133"/>
+<area shape="rect" id="node3" href="$class_prism.html#a1fcb34b9c294eeb0103776dbca082365" title="Metoda zwracajaca srodek podstawy ostroslupa" alt="" coords="395,5,572,32"/>
+<area shape="rect" id="node5" href="$class_prism.html#a764c6940e4fb65303981e8b877b28561" title="Metoda wypisania odpowiednich wierzcholkow do pliku zgodnie z zaproponowanym sposobem zadaniu dron" alt="" coords="400,56,567,83"/>
+</map>

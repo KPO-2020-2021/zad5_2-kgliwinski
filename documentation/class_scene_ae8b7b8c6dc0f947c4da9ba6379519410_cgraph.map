@@ -1,0 +1,6 @@
+<map id="Scene::iterate_over_objects" name="Scene::iterate_over_objects">
+<area shape="rect" id="node1" title="Metoda iterujaca po kolejnych polach listy objects, zcyztujaca nazwy plikow i podajaca je do gnuplota..." alt="" coords="5,35,153,76"/>
+<area shape="rect" id="node2" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#aa815ce8ec16e12fc246cf422e562869e" title="Dodaje nazwę pliku." alt="" coords="203,5,377,47"/>
+<area shape="rect" id="node4" href="$class_scene.html#afdc407539e8e1c50d5ccd93b9b60ed52" title="Metoda sprawdzajaca i zwracajaca rozmiar listy objects." alt="" coords="201,71,379,98"/>
+<area shape="rect" id="node3" href="$namespace_pz_g.html#ae1aad0c681853d7e47da4cdfccefc102" title="Funkcja pomocnicza, sprawdza czy plik o podanej nazwie jest na dysku." alt="" coords="427,13,553,39"/>
+</map>

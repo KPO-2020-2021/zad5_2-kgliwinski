@@ -1,0 +1,4 @@
+<map id="Drone" name="Drone">
+<area shape="rect" id="node1" title="Opisuje drona o prostopadlosciennym korpusie i 4 rotorach." alt="" coords="5,365,252,971"/>
+<area shape="rect" id="node2" href="$class_block.html" title="Opisuje figure geometryczna w przestrzeni trojwymiarowej." alt="" coords="45,5,212,317"/>
+</map>

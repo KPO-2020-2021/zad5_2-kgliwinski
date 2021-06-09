@@ -1,0 +1,7 @@
+<map id="Prism::get_pri" name="Prism::get_pri">
+<area shape="rect" id="node1" title="Metoda zwracajaca wierzcholki graniastoslupa do tablicy 2x6 Vector3D" alt="" coords="200,81,312,108"/>
+<area shape="rect" id="node2" href="$prism_8cpp.html#a22735a2bb1f5182029d270b4b1de65f8" title="Przeciazenie operatora &lt;&lt;" alt="" coords="29,5,128,32"/>
+<area shape="rect" id="node3" href="$class_circus.html#abc3ed1cf2a93593c32eac91b29eea59f" title="Przeciazenie operatora przypisania, umozliwia stosowanie metod typu Prism na obiekcie typu Circus" alt="" coords="11,56,147,83"/>
+<area shape="rect" id="node4" href="$class_tent.html#ab55be44d1debae187bfb2c66ca4839b3" title="Przeciazenie operatora przypisania, umozliwia stosowanie metod typu Prism na obiekcie typu Tent" alt="" coords="17,107,140,133"/>
+<area shape="rect" id="node5" href="$class_volcano.html#acafe7ddddd734c05a719143b6903997b" title="Przeciazenie operatora przypisania, umozliwia stosowanie metod typu Prism na obiekcie typu Volcano" alt="" coords="5,157,152,184"/>
+</map>

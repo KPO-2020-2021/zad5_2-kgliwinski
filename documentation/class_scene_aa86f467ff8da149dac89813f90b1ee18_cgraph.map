@@ -1,0 +1,5 @@
+<map id="Scene::delete_object" name="Scene::delete_object">
+<area shape="rect" id="node1" title="Metoda usuwajaca object zadany przez uzytkownika." alt="" coords="5,13,163,39"/>
+<area shape="rect" id="node2" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a7fa4e775e1aee74869fae174c567c2a6" title="Usuwa z listy nazw plików z danymi do rysowania usuwa wybraną nazwę." alt="" coords="211,5,384,47"/>
+<area shape="rect" id="node3" href="$class_pz_g_1_1_info_pliku_do_rysowania.html#a714aaa4c8e7bbd167ccbb1e797ca158c" title="Udostępia nazwę pliku do rysowania." alt="" coords="432,5,632,47"/>
+</map>

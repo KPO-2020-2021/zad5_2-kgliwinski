@@ -1,0 +1,6 @@
+<map id="Scene::add_object_type_cuboid" name="Scene::add_object_type_cuboid">
+<area shape="rect" id="node1" title="Metoda dodajaca prostopadloscian, ostroslup lub Triangular do listy objects." alt="" coords="615,5,791,47"/>
+<area shape="rect" id="node2" href="$class_scene.html#a9ab9dcb7fe28b1a4598e73497d581000" title="Metoda dodajaca podstawowe elementy do listy objects." alt="" coords="379,13,567,39"/>
+<area shape="rect" id="node3" href="$class_scene.html#ab57c9a7293ccbaf3dd7e9ac469a7a787" title="Metoda inicjalizujaca lacze do gnuplota." alt="" coords="184,13,331,39"/>
+<area shape="rect" id="node4" href="$class_menu.html#af7e6a49bd56499facef9cc98561ea169" title="Inicjuje i obsluguje menu." alt="" coords="5,13,136,39"/>
+</map>

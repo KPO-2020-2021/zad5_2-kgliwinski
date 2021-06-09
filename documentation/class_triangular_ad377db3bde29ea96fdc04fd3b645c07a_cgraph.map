@@ -1,0 +1,11 @@
+<map id="Triangular::Triangular" name="Triangular::Triangular">
+<area shape="rect" id="node1" title="Konstruktor parametryczny klasy Triangular. Powstaje ostroslup jak z konstruktora parametrycznego,..." alt="" coords="5,132,164,159"/>
+<area shape="rect" id="node2" href="$class_cuboid.html#a7ea89af123502b41ef349f4aedb93b5e" title="Metoda skalujaca o wektor scale bedacy czlonkiem klasy block" alt="" coords="235,5,374,32"/>
+<area shape="rect" id="node4" href="$class_block.html#a640a910076d8b10533a9a80d740f8f03" title="Metoda zapisujaca do klasy nazwe pliku z finalna (robocza) bryla" alt="" coords="222,56,387,83"/>
+<area shape="rect" id="node5" href="$class_block.html#acf20b290f1543e580ff1f2c6d98ff4c4" title="Metoda zapisujaca do klasy nazwe pliku z wzorcowa bryla" alt="" coords="212,107,397,133"/>
+<area shape="rect" id="node6" href="$class_block.html#adb6acd13e2ab79cf7e4733ca2d6ae166" title="Metoda zapisujaca do klasy wektor reprezentujacy skale" alt="" coords="241,157,368,184"/>
+<area shape="rect" id="node7" href="$class_triangular.html#a372567a0c98eda392d4860dfab3c56c4" title="Metoda zwracajaca punkty specjalne Triangular : cuts (czyli te ktore sa przecieciami przekatnych dwoc..." alt="" coords="467,226,607,267"/>
+<area shape="rect" id="node9" href="$class_triangular.html#a919ce19be6c96fbe4c92239ccbbb579b" title="Konstruktor bezparametryczny klasy Triangular. Powstaly graniastoslup ma jeden prostokat &quot;tworzacy&quot;: ..." alt="" coords="225,259,384,285"/>
+<area shape="rect" id="node3" href="$class_cuboid.html#a42bdce7c214e759cb6ea94d4f547a5b9" title="Metoda przesuwajaca prostopadloscian do (0,0,0)" alt="" coords="445,5,628,32"/>
+<area shape="rect" id="node8" href="$class_cuboid.html#aafa18740d9c98ca928395b9873a9c63d" title="Metoda zwracajaca punkt centralny (czyli taki, ktorego odleglosci do kazdego wierzcholka sa rowne) pr..." alt="" coords="676,233,832,260"/>
+</map>

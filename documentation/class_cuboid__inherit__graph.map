@@ -1,0 +1,6 @@
+<map id="Cuboid" name="Cuboid">
+<area shape="rect" id="node1" title="Opisuje prostopadloscian w przestrzeni trojwymiarowej." alt="" coords="63,365,251,971"/>
+<area shape="rect" id="node3" href="$class_pyramid.html" title="Opisuje ostroslup o podstawie prostokatnej w przestrzeni trojmwymiarowej Jest klasa dziedziczaca z kl..." alt="" coords="5,1019,145,1184"/>
+<area shape="rect" id="node4" href="$class_triangular.html" title="Opisuje graniastoslup o podstawie trojkatnej w przestrzeni trojwymiarowej Jest klasa dziedziczaca z k..." alt="" coords="169,1033,309,1169"/>
+<area shape="rect" id="node2" href="$class_block.html" title="Opisuje figure geometryczna w przestrzeni trojwymiarowej." alt="" coords="73,5,240,317"/>
+</map>

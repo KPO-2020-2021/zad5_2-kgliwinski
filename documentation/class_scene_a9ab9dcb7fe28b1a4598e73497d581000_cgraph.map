@@ -1,0 +1,5 @@
+<map id="Scene::add_basic_objects" name="Scene::add_basic_objects">
+<area shape="rect" id="node1" title="Metoda dodajaca podstawowe elementy do listy objects." alt="" coords="5,13,193,39"/>
+<area shape="rect" id="node2" href="$class_scene.html#ad20f726a6608059d57241a6de68025a3" title="Metoda dodajaca prostopadloscian, ostroslup lub Triangular do listy objects." alt="" coords="241,5,417,47"/>
+<area shape="rect" id="node3" href="$class_matrix.html#a4161a82fb401e474052c21b25a06a5ba" title=" " alt="" coords="465,13,639,39"/>
+</map>

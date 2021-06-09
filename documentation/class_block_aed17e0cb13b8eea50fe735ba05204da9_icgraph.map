@@ -1,0 +1,16 @@
+<map id="Block::get_sample_name" name="Block::get_sample_name">
+<area shape="rect" id="node1" title="Metoda zwracajaca nazwe pliku z wzorcowa bryla" alt="" coords="1151,130,1337,157"/>
+<area shape="rect" id="node2" href="$class_cuboid.html#a773f92fecdf9686b951cf5736c83f318" title="Metoda wczytywania odpowiednich wierzcholkow z pliku wzorcowego zgodnie z zaproponowanym sposobem zad..." alt="" coords="923,5,1083,47"/>
+<area shape="rect" id="node9" href="$class_drone.html#addf8532ee98ca800a64a78f3808fce98" title="Metoda zwracajaca nazwy plikow do zapisu dla drona." alt="" coords="922,71,1083,98"/>
+<area shape="rect" id="node10" href="$class_drone.html#a577871807280aab8d9c0d4e45b435ec4" title="Metoda rysujaca drona w gnuplocie. Przeznaczona do testow" alt="" coords="915,123,1090,164"/>
+<area shape="rect" id="node11" href="$class_prism.html#a5e0a2234e9ebe3b51146c0ddc42e8b48" title="Metoda wczytywania odpowiednich wierzcholkow z pliku wzorcowego zgodnie z zaproponowanym sposobem zad..." alt="" coords="903,189,1103,215"/>
+<area shape="rect" id="node12" href="$class_drone.html#a63898ba4cc161710cf08f7b578f3d90f" title="Metoda ustawiajaca nazwy plikow w laczy do gnuplota (nazwy final!)" alt="" coords="923,240,1083,281"/>
+<area shape="rect" id="node3" href="$class_drone.html#ada6f4e93f4a63cbe1d6fbebf329efe62" title="Metoda wczytywania odpowiednich wierzcholkow z pliku wzorcowego zgodnie z zaproponowanym sposobem w z..." alt="" coords="651,71,855,98"/>
+<area shape="rect" id="node4" href="$class_drone.html#af03af60a9b92e4191a7e66b5c20b52bb" title="Metoda zamieniajaca drona na tego z pliku sample." alt="" coords="440,64,603,105"/>
+<area shape="rect" id="node5" href="$class_drone.html#ac4d24c27fb2c107d2e8bda0c2bf5cfa1" title="Metoda obliczajaca i przeprowadzajaca caly ruch drona (obrot o kat i przelot z zadania 5...." alt="" coords="5,5,155,47"/>
+<area shape="rect" id="node6" href="$class_drone.html#af052f6bb793d1229b99b16b800b95b82" title="Metoda animujaca obrot drona i wyrysowujaca calosc w gnuplocie." alt="" coords="214,35,381,76"/>
+<area shape="rect" id="node7" href="$class_drone.html#ab7808296cec81143dbddd7516340a371" title="Metoda robiaca &quot;oblot&quot; drona wokol punktu (z modyfikacji)" alt="" coords="203,101,392,127"/>
+<area shape="rect" id="node8" href="$class_drone.html#a5fc9dd645ad3856b5d3c501c63c464e3" title="Metoda animujaca translacje drona i wyrysowujaca calosc w gnuplocie." alt="" coords="205,152,390,193"/>
+<area shape="rect" id="node13" href="$class_scene.html#ab57c9a7293ccbaf3dd7e9ac469a7a787" title="Metoda inicjalizujaca lacze do gnuplota." alt="" coords="679,247,826,274"/>
+<area shape="rect" id="node14" href="$class_menu.html#af7e6a49bd56499facef9cc98561ea169" title="Inicjuje i obsluguje menu." alt="" coords="456,247,587,274"/>
+</map>

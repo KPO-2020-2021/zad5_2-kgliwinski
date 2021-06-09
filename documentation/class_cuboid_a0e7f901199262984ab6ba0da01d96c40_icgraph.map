@@ -1,0 +1,13 @@
+<map id="Cuboid::get_basis_centre" name="Cuboid::get_basis_centre">
+<area shape="rect" id="node1" title="Metoda zwracajaca srodek podstawy ostroslupa" alt="" coords="829,132,1015,159"/>
+<area shape="rect" id="node2" href="$class_pyramid.html#a0335a2572afad90c7124ee79b6df5aca" title="Metoda zwracajaca punkt centralny (czyli taki, ktorego odleglosci do kazdego wierzcholka sa rowne) Py..." alt="" coords="616,31,781,57"/>
+<area shape="rect" id="node7" href="$class_pyramid.html#a9bb27fa198548b56e3830bfb45c32bcb" title="Metoda zwraca wysokosc ostroslupa" alt="" coords="622,81,775,108"/>
+<area shape="rect" id="node8" href="$class_cuboid.html#a7bc29715dc1515f675cd56a30712357f" title="Zwraca pozycje obiektu do Vector3D" alt="" coords="635,132,762,159"/>
+<area shape="rect" id="node10" href="$class_cuboid.html#aefddc945ca09a67d437afa022a4f8d0b" title="Wypisuje pozycje (x,y) obiektu" alt="" coords="631,183,766,209"/>
+<area shape="rect" id="node11" href="$class_drone.html#a64bab0d44c7468a84177cbff85c42acd" title="Wypisuje pozycje (x,y) obiektu" alt="" coords="634,233,763,260"/>
+<area shape="rect" id="node3" href="$class_pyramid.html#a4e9bcb34458c0015d3a35b5f61747cc6" title="Metoda zwracajaca punkty specjalne ostroslupau : cuts (czyli te ktore sa przecieciami przekatnych dwo..." alt="" coords="391,31,568,57"/>
+<area shape="rect" id="node4" href="$class_pyramid.html#af85549dc381715a489de5a0c0e8ef620" title="Przeciazenie operatora przypisania, umozliwia stosowanie metod typu Cuboid na obiekcie typu Pyramid" alt="" coords="192,5,343,32"/>
+<area shape="rect" id="node5" href="$class_pyramid.html#aa78baa6faa1c3fbcca510e8ddf37de49" title="Konstruktor bezparametryczny klasy Pyramid. Powstaly ostroslupa ma jeden prostokat &quot;tworzacy&quot;: p1 = [..." alt="" coords="198,56,337,83"/>
+<area shape="rect" id="node6" href="$class_pyramid.html#a188d1f3cca17418b95ae771dedc99f4a" title="Konstruktor parametryczny klasy Pyramid. Powstaly ostroslupa ma jeden prostokat &quot;tworzacy&quot;: p1 = [0][..." alt="" coords="5,56,144,83"/>
+<area shape="rect" id="node9" href="$class_cuboid.html#a86ff038174be6b87663dde31595668d5" title="Zmiana pozycji obiektu na plaszczyznie XY na nowe wspolrzedne." alt="" coords="406,132,553,159"/>
+</map>

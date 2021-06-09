@@ -1,0 +1,4 @@
+<map id="Scene_Object::Scene_Object" name="Scene_Object::Scene_Object">
+<area shape="rect" id="node1" title="Konstruktor bezparamereyczny klasy Scene_Object Ustawia Vector3D pos." alt="" coords="5,5,163,47"/>
+<area shape="rect" id="node2" href="$class_scene___object.html#a5996e93309003daa1d310ea4884aefe7" title="Zwraca pozycje obiektu, deklarowana w klasach pochodnych." alt="" coords="211,13,380,39"/>
+</map>

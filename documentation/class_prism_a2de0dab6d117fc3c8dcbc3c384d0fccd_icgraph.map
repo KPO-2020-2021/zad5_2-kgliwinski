@@ -1,0 +1,14 @@
+<map id="Prism::Prism_To_File" name="Prism::Prism_To_File">
+<area shape="rect" id="node1" title=" " alt="" coords="880,216,1035,243"/>
+<area shape="rect" id="node2" href="$class_drone.html#aae0029f50083a01fe75c7d504c2fe5b9" title="Metoda zapisujaca parametry drona do plikow (do plikow final kazdego z elementow)" alt="" coords="668,90,821,132"/>
+<area shape="rect" id="node8" href="$class_drone.html#a577871807280aab8d9c0d4e45b435ec4" title="Metoda rysujaca drona w gnuplocie. Przeznaczona do testow" alt="" coords="657,176,832,217"/>
+<area shape="rect" id="node9" href="$class_drone.html#a63898ba4cc161710cf08f7b578f3d90f" title="Metoda ustawiajaca nazwy plikow w laczy do gnuplota (nazwy final!)" alt="" coords="665,241,825,282"/>
+<area shape="rect" id="node12" href="$class_prism.html#a8a80c4334810ad934e6e43bb5ee14f07" title="Zmiana pozycji obiektu na plaszczyznie XY na nowe wspolrzedne." alt="" coords="675,307,814,334"/>
+<area shape="rect" id="node3" href="$class_drone.html#ac4d24c27fb2c107d2e8bda0c2bf5cfa1" title="Metoda obliczajaca i przeprowadzajaca caly ruch drona (obrot o kat i przelot z zadania 5...." alt="" coords="5,29,155,70"/>
+<area shape="rect" id="node4" href="$class_drone.html#af052f6bb793d1229b99b16b800b95b82" title="Metoda animujaca obrot drona i wyrysowujaca calosc w gnuplocie." alt="" coords="214,29,381,70"/>
+<area shape="rect" id="node5" href="$class_drone.html#ab7808296cec81143dbddd7516340a371" title="Metoda robiaca &quot;oblot&quot; drona wokol punktu (z modyfikacji)" alt="" coords="203,95,392,122"/>
+<area shape="rect" id="node6" href="$class_drone.html#a5fc9dd645ad3856b5d3c501c63c464e3" title="Metoda animujaca translacje drona i wyrysowujaca calosc w gnuplocie." alt="" coords="205,197,390,238"/>
+<area shape="rect" id="node7" href="$class_drone.html#aedb04b80609b22ff4eb4a957bc149a48" title="Metoda animujaca obrot rotorow i zapisujaca to w plikach. Metoda sluzy jako metoda pomocnicza,..." alt="" coords="440,138,609,180"/>
+<area shape="rect" id="node10" href="$class_scene.html#ab57c9a7293ccbaf3dd7e9ac469a7a787" title="Metoda inicjalizujaca lacze do gnuplota." alt="" coords="451,259,598,286"/>
+<area shape="rect" id="node11" href="$class_menu.html#af7e6a49bd56499facef9cc98561ea169" title="Inicjuje i obsluguje menu." alt="" coords="232,263,363,290"/>
+</map>

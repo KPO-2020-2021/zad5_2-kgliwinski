@@ -1,0 +1,7 @@
+<map id="PzG::InfoPlikuDoRysowania::WezNazwePliku" name="PzG::InfoPlikuDoRysowania::WezNazwePliku">
+<area shape="rect" id="node1" title="Udostępia nazwę pliku do rysowania." alt="" coords="811,5,1011,47"/>
+<area shape="rect" id="node2" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a7fa4e775e1aee74869fae174c567c2a6" title="Usuwa z listy nazw plików z danymi do rysowania usuwa wybraną nazwę." alt="" coords="589,5,763,47"/>
+<area shape="rect" id="node3" href="$class_scene.html#aa86f467ff8da149dac89813f90b1ee18" title="Metoda usuwajaca object zadany przez uzytkownika." alt="" coords="384,13,541,39"/>
+<area shape="rect" id="node4" href="$class_menu.html#acd338552222b744cd030e17776cb5d9b" title="Obsluguje wybor menu." alt="" coords="184,13,336,39"/>
+<area shape="rect" id="node5" href="$class_menu.html#af7e6a49bd56499facef9cc98561ea169" title="Inicjuje i obsluguje menu." alt="" coords="5,13,136,39"/>
+</map>

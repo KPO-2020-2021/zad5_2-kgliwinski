@@ -1,0 +1,5 @@
+<map id="Tent" name="Tent">
+<area shape="rect" id="node1" title="Opisuje ostroslup szesciokatny prawidlowy (moze miec nieregularna podstawe) Jest klasa dziedziczaca z..." alt="" coords="41,975,181,1140"/>
+<area shape="rect" id="node2" href="$class_prism.html" title="Opisuje graniastoslup o dwunastu wierzcholkach w przestrzeni trojwymiarowej." alt="" coords="5,365,216,927"/>
+<area shape="rect" id="node3" href="$class_block.html" title="Opisuje figure geometryczna w przestrzeni trojwymiarowej." alt="" coords="27,5,194,317"/>
+</map>

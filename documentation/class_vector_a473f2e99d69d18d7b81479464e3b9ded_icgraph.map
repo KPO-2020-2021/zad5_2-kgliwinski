@@ -1,0 +1,15 @@
+<map id="Vector::scale_vec" name="Vector::scale_vec">
+<area shape="rect" id="node1" title="Skaluje wektor o inny wektors &#160;&#160;Argumenty:" alt="" coords="555,208,689,235"/>
+<area shape="rect" id="node2" href="$class_cuboid.html#a7ea89af123502b41ef349f4aedb93b5e" title="Metoda skalujaca o wektor scale bedacy czlonkiem klasy block" alt="" coords="368,132,507,159"/>
+<area shape="rect" id="node9" href="$class_prism.html#a07f15c416c9f9c54390bb8737b441a35" title="Metoda skalujaca o wektor scale bedacy czlonkiem klasy block" alt="" coords="375,259,500,285"/>
+<area shape="rect" id="node3" href="$class_cuboid.html#acb4ad8abd1f7f810d2512ff9ce1f9717" title="Konstruktor bezparametryczny klasy Cuboid. Powstaly prostopadloscian ma dwa prostokaty &quot;tworzace&quot;: p1..." alt="" coords="181,5,301,32"/>
+<area shape="rect" id="node4" href="$class_drone.html#ab692baa4be5c43b72990ce1b01bdc805" title="Konstruktor bezparametryczny klasy Drone. Powstaly dron jest skonstruowany z bezparametrycznych prost..." alt="" coords="187,208,295,235"/>
+<area shape="rect" id="node5" href="$class_pyramid.html#a188d1f3cca17418b95ae771dedc99f4a" title="Konstruktor parametryczny klasy Pyramid. Powstaly ostroslupa ma jeden prostokat &quot;tworzacy&quot;: p1 = [0][..." alt="" coords="171,56,310,83"/>
+<area shape="rect" id="node6" href="$class_drone.html#a77142062fb8a8af87df42b5c2e7e44e0" title="Metoda skalujaca wszystkie elementy drona przez skale kazdego elementu" alt="" coords="175,157,306,184"/>
+<area shape="rect" id="node8" href="$class_triangular.html#ad377db3bde29ea96fdc04fd3b645c07a" title="Konstruktor parametryczny klasy Triangular. Powstaje ostroslup jak z konstruktora parametrycznego,..." alt="" coords="161,107,320,133"/>
+<area shape="rect" id="node7" href="$class_scene.html#adca9214dccab3d77eed9d8af7db67f94" title="Konstruktor paramereyczny klasy Scene." alt="" coords="5,157,113,184"/>
+<area shape="rect" id="node10" href="$class_circus.html#a5aab1830e67f62f80525d04de23db7da" title="Konstruktor parametryczny klasy Circus. Powstaje ostroslup jak z konstruktora parametrycznego,..." alt="" coords="185,411,296,437"/>
+<area shape="rect" id="node11" href="$class_prism.html#aa84930a585c7817f74a14d95ea74cb5a" title="Konstruktor bezparametryczny klasy Prism. Powstaly granistoslup ma podstawy &quot;tworzace&quot;:" alt="" coords="189,259,293,285"/>
+<area shape="rect" id="node12" href="$class_tent.html#a6831febfd74474f567f4419091883512" title="Konstruktor parametryczny klasy Tent. Powstaje ostroslup jak z konstruktora parametrycznego,..." alt="" coords="199,309,283,336"/>
+<area shape="rect" id="node13" href="$class_volcano.html#a1324b87f13755c4b12b54485352c5b8d" title="Konstruktor parametryczny klasy Volcano. Powstaje ostroslup jak z konstruktora parametrycznego,..." alt="" coords="175,360,307,387"/>
+</map>

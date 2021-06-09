@@ -1,0 +1,6 @@
+<map id="Circus::special_points" name="Circus::special_points">
+<area shape="rect" id="node1" title="Metoda zwracajaca punkty specjalne graniastoslupa :" alt="" coords="348,31,511,57"/>
+<area shape="rect" id="node2" href="$class_circus.html#aaa613f7735bb421bf375246dd96e7116" title="Konstruktor bezparametryczny klasy Circus. Dolna podstawa jest identyczna jak w bezparametrycznym Pri..." alt="" coords="177,5,287,32"/>
+<area shape="rect" id="node4" href="$class_circus.html#abc3ed1cf2a93593c32eac91b29eea59f" title="Przeciazenie operatora przypisania, umozliwia stosowanie metod typu Prism na obiekcie typu Circus" alt="" coords="164,56,300,83"/>
+<area shape="rect" id="node3" href="$class_circus.html#a5aab1830e67f62f80525d04de23db7da" title="Konstruktor parametryczny klasy Circus. Powstaje ostroslup jak z konstruktora parametrycznego,..." alt="" coords="5,5,116,32"/>
+</map>

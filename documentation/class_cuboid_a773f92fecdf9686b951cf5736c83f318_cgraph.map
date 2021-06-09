@@ -1,0 +1,7 @@
+<map id="Cuboid::Cuboid_From_Sample" name="Cuboid::Cuboid_From_Sample">
+<area shape="rect" id="node1" title="Metoda wczytywania odpowiednich wierzcholkow z pliku wzorcowego zgodnie z zaproponowanym sposobem zad..." alt="" coords="5,74,165,115"/>
+<area shape="rect" id="node2" href="$class_block.html#aeef4dd3716afaea42688a4f96456ce27" title="Metoda zwracajaca nazwe pliku z finalna (robocza) bryla" alt="" coords="223,5,390,32"/>
+<area shape="rect" id="node3" href="$class_block.html#aed17e0cb13b8eea50fe735ba05204da9" title="Metoda zwracajaca nazwe pliku z wzorcowa bryla" alt="" coords="213,56,400,83"/>
+<area shape="rect" id="node4" href="$class_block.html#a640a910076d8b10533a9a80d740f8f03" title="Metoda zapisujaca do klasy nazwe pliku z finalna (robocza) bryla" alt="" coords="224,107,389,133"/>
+<area shape="rect" id="node5" href="$class_block.html#acf20b290f1543e580ff1f2c6d98ff4c4" title="Metoda zapisujaca do klasy nazwe pliku z wzorcowa bryla" alt="" coords="214,157,399,184"/>
+</map>

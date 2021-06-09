@@ -1,0 +1,9 @@
+<map id="Cuboid::scale_cub" name="Cuboid::scale_cub">
+<area shape="rect" id="node1" title="Metoda skalujaca o wektor scale bedacy czlonkiem klasy block" alt="" coords="368,107,507,133"/>
+<area shape="rect" id="node2" href="$class_cuboid.html#acb4ad8abd1f7f810d2512ff9ce1f9717" title="Konstruktor bezparametryczny klasy Cuboid. Powstaly prostopadloscian ma dwa prostokaty &quot;tworzace&quot;: p1..." alt="" coords="181,5,301,32"/>
+<area shape="rect" id="node3" href="$class_drone.html#ab692baa4be5c43b72990ce1b01bdc805" title="Konstruktor bezparametryczny klasy Drone. Powstaly dron jest skonstruowany z bezparametrycznych prost..." alt="" coords="187,56,295,83"/>
+<area shape="rect" id="node4" href="$class_pyramid.html#a188d1f3cca17418b95ae771dedc99f4a" title="Konstruktor parametryczny klasy Pyramid. Powstaly ostroslupa ma jeden prostokat &quot;tworzacy&quot;: p1 = [0][..." alt="" coords="171,107,310,133"/>
+<area shape="rect" id="node5" href="$class_drone.html#a77142062fb8a8af87df42b5c2e7e44e0" title="Metoda skalujaca wszystkie elementy drona przez skale kazdego elementu" alt="" coords="175,157,306,184"/>
+<area shape="rect" id="node7" href="$class_triangular.html#ad377db3bde29ea96fdc04fd3b645c07a" title="Konstruktor parametryczny klasy Triangular. Powstaje ostroslup jak z konstruktora parametrycznego,..." alt="" coords="161,208,320,235"/>
+<area shape="rect" id="node6" href="$class_scene.html#adca9214dccab3d77eed9d8af7db67f94" title="Konstruktor paramereyczny klasy Scene." alt="" coords="5,157,113,184"/>
+</map>

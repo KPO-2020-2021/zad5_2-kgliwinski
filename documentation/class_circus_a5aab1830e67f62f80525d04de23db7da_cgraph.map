@@ -1,0 +1,12 @@
+<map id="Circus::Circus" name="Circus::Circus">
+<area shape="rect" id="node1" title="Konstruktor parametryczny klasy Circus. Powstaje ostroslup jak z konstruktora parametrycznego,..." alt="" coords="5,132,116,159"/>
+<area shape="rect" id="node2" href="$class_circus.html#aaa613f7735bb421bf375246dd96e7116" title="Konstruktor bezparametryczny klasy Circus. Dolna podstawa jest identyczna jak w bezparametrycznym Pri..." alt="" coords="201,5,312,32"/>
+<area shape="rect" id="node3" href="$class_circus.html#aba4a0a8726ff0878279959df92f23f07" title="Metoda zwracajaca punkty specjalne graniastoslupa :" alt="" coords="403,31,566,57"/>
+<area shape="rect" id="node5" href="$class_prism.html#a07f15c416c9f9c54390bb8737b441a35" title="Metoda skalujaca o wektor scale bedacy czlonkiem klasy block" alt="" coords="194,107,319,133"/>
+<area shape="rect" id="node8" href="$class_block.html#a640a910076d8b10533a9a80d740f8f03" title="Metoda zapisujaca do klasy nazwe pliku z finalna (robocza) bryla" alt="" coords="174,157,339,184"/>
+<area shape="rect" id="node9" href="$class_block.html#acf20b290f1543e580ff1f2c6d98ff4c4" title="Metoda zapisujaca do klasy nazwe pliku z wzorcowa bryla" alt="" coords="164,208,349,235"/>
+<area shape="rect" id="node10" href="$class_block.html#adb6acd13e2ab79cf7e4733ca2d6ae166" title="Metoda zapisujaca do klasy wektor reprezentujacy skale" alt="" coords="193,259,320,285"/>
+<area shape="rect" id="node4" href="$class_prism.html#a9c72237ab7f5b0741d936ccd14803021" title="Metoda zwracajaca punkt centralny (czyli taki, ktorego odleglosci do kazdego wierzcholka sa rowne) gr..." alt="" coords="620,31,768,57"/>
+<area shape="rect" id="node6" href="$class_prism.html#afed2c26932d5cb152fd620d2acbfbc3e" title="Metoda przesuwajaca graniastoslup do srodka ukladu wspolrzednych (tak, ze srodek graniastoslupa pokry..." alt="" coords="397,107,572,133"/>
+<area shape="rect" id="node7" href="$class_prism.html#ade146d341c0468030f8c1258b7fe1041" title="Metoda przesuwajaca graniastoslup o zadany wektor w 3D" alt="" coords="625,107,763,133"/>
+</map>

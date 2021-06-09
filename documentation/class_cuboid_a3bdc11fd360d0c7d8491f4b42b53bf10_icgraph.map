@@ -1,0 +1,6 @@
+<map id="Cuboid::get_vec_perp" name="Cuboid::get_vec_perp">
+<area shape="rect" id="node1" title="Zwraca do tablicy 2x3 wektory reprezentujace boki przy wierzcholkach [0][1] (do vecs[0]) i [1][3] (do..." alt="" coords="605,5,768,32"/>
+<area shape="rect" id="node2" href="$class_cuboid.html#a5941a7b9eb991137a908b38dc24dc9b3" title="Sprawdza czy wektory tworzace niektore konkretne boki prostokata (glownie te przy wierzcholkach) sa p..." alt="" coords="379,5,557,32"/>
+<area shape="rect" id="node3" href="$class_cuboid.html#a058d488f3125238bd8b8dcbb671ede9e" title="Sprawdza czy prostopadloscian jest poprawnie zbudowany" alt="" coords="188,5,331,32"/>
+<area shape="rect" id="node4" href="$class_drone.html#a40e3c3f032ef691392293efd12a5014b" title="Metoda sprawdzajaca budowe drona" alt="" coords="5,5,140,32"/>
+</map>

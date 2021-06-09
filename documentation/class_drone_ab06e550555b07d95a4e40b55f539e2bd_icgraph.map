@@ -1,0 +1,5 @@
+<map id="Drone::Drone_path_clear" name="Drone::Drone_path_clear">
+<area shape="rect" id="node1" title="Oczyszcza plik ze sciezka." alt="" coords="243,42,425,69"/>
+<area shape="rect" id="node2" href="$class_drone.html#ac4d24c27fb2c107d2e8bda0c2bf5cfa1" title="Metoda obliczajaca i przeprowadzajaca caly ruch drona (obrot o kat i przelot z zadania 5...." alt="" coords="25,5,175,47"/>
+<area shape="rect" id="node3" href="$class_drone.html#ab7808296cec81143dbddd7516340a371" title="Metoda robiaca &quot;oblot&quot; drona wokol punktu (z modyfikacji)" alt="" coords="5,71,195,98"/>
+</map>

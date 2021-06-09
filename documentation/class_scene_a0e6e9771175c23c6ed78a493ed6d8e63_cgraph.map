@@ -1,0 +1,4 @@
+<map id="Scene::create_filenames" name="Scene::create_filenames">
+<area shape="rect" id="node1" title="Metoda tworzaca nazwy programow, uzywana przy dodawaniu obiektow sceny." alt="" coords="5,13,187,39"/>
+<area shape="rect" id="node2" href="$class_scene.html#a2724c6aee793b0deb0d58a990ab16832" title="Metoda uzywana w switchu metody create_filenames. Sluzy do tworzenia pliku o odpowiedniej nazwie." alt="" coords="235,5,393,47"/>
+</map>

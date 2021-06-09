@@ -1,0 +1,7 @@
+<map id="Pyramid::operator=" name="Pyramid::operator=">
+<area shape="rect" id="node1" title="Przeciazenie operatora przypisania, umozliwia stosowanie metod typu Cuboid na obiekcie typu Pyramid" alt="" coords="5,31,156,57"/>
+<area shape="rect" id="node2" href="$class_cuboid.html#a99d30564d6129e6905c5333e04df9606" title="Metoda zwracajaca wierzcholki prostopadloscianu do Vector3D" alt="" coords="229,5,356,32"/>
+<area shape="rect" id="node3" href="$class_pyramid.html#a4e9bcb34458c0015d3a35b5f61747cc6" title="Metoda zwracajaca punkty specjalne ostroslupau : cuts (czyli te ktore sa przecieciami przekatnych dwo..." alt="" coords="204,56,381,83"/>
+<area shape="rect" id="node4" href="$class_pyramid.html#a0335a2572afad90c7124ee79b6df5aca" title="Metoda zwracajaca punkt centralny (czyli taki, ktorego odleglosci do kazdego wierzcholka sa rowne) Py..." alt="" coords="429,56,595,83"/>
+<area shape="rect" id="node5" href="$class_cuboid.html#a0e7f901199262984ab6ba0da01d96c40" title="Metoda zwracajaca srodek podstawy ostroslupa" alt="" coords="643,56,828,83"/>
+</map>

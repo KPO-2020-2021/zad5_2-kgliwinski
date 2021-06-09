@@ -1,0 +1,7 @@
+<map id="Drone::translation_to_pos" name="Drone::translation_to_pos">
+<area shape="rect" id="node1" title="Metoda uzywana przy konstruowania drona przesuwa drona w ten sposob, ze Vector3D centre prostopadlosc..." alt="" coords="5,23,144,65"/>
+<area shape="rect" id="node2" href="$class_cuboid.html#aafa18740d9c98ca928395b9873a9c63d" title="Metoda zwracajaca punkt centralny (czyli taki, ktorego odleglosci do kazdego wierzcholka sa rowne) pr..." alt="" coords="192,5,348,32"/>
+<area shape="rect" id="node3" href="$class_drone.html#a9684cd7ce04b7e6191f3d6b3a745370b" title="Przesuwa drona o zadany wektor w 3D" alt="" coords="201,56,339,83"/>
+<area shape="rect" id="node4" href="$class_prism.html#ade146d341c0468030f8c1258b7fe1041" title="Metoda przesuwajaca graniastoslup o zadany wektor w 3D" alt="" coords="400,31,537,57"/>
+<area shape="rect" id="node5" href="$class_cuboid.html#a3f6b1b9ea7de433af5b0d462d29f4272" title="Metoda przesuwajaca prostopadloscian o zadany kat w 3D" alt="" coords="396,81,541,108"/>
+</map>

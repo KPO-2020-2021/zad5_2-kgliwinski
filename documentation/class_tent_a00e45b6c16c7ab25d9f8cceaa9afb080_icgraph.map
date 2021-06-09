@@ -1,0 +1,4 @@
+<map id="Tent::Tent" name="Tent::Tent">
+<area shape="rect" id="node1" title="Konstruktor bezparametryczny klasy Tent. Dolna podstawa jest identyczna jak w bezparametrycznym Prism..." alt="" coords="137,5,221,32"/>
+<area shape="rect" id="node2" href="$class_tent.html#a6831febfd74474f567f4419091883512" title="Konstruktor parametryczny klasy Tent. Powstaje ostroslup jak z konstruktora parametrycznego,..." alt="" coords="5,5,89,32"/>
+</map>

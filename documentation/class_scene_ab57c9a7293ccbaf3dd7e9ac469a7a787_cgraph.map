@@ -1,0 +1,30 @@
+<map id="Scene::init_gnuplot" name="Scene::init_gnuplot">
+<area shape="rect" id="node1" title="Metoda inicjalizujaca lacze do gnuplota." alt="" coords="5,398,152,425"/>
+<area shape="rect" id="node2" href="$class_scene.html#a15f741d7de1a9662c49f72d663d90b23" title="Metoda dodajaca podstawowe elementy do listy objects." alt="" coords="200,78,388,105"/>
+<area shape="rect" id="node5" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#aa815ce8ec16e12fc246cf422e562869e" title="Dodaje nazwę pliku." alt="" coords="467,188,640,229"/>
+<area shape="rect" id="node7" href="$class_scene.html#a3df6df98446d73c08274275ae036d4ad" title="Metoda inicjujaca liste objects, dodajaca drony do listy." alt="" coords="222,347,366,374"/>
+<area shape="rect" id="node8" href="$class_scene.html#ae8b7b8c6dc0f947c4da9ba6379519410" title="Metoda iterujaca po kolejnych polach listy objects, zcyztujaca nazwy plikow i podajaca je do gnuplota..." alt="" coords="220,164,368,205"/>
+<area shape="rect" id="node10" href="$class_plane.html#a81d5efe26f20d8939f6e32f5f288bed9" title="Metoda tworzy plaszczyzne z podanych zakresow." alt="" coords="221,398,367,425"/>
+<area shape="rect" id="node11" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a065f5b8402737cc62b0ad4f66d028335" title="Generuje polecenie rysowania i przesyła je do gnuplota." alt="" coords="207,449,381,491"/>
+<area shape="rect" id="node18" href="$class_drone.html#a63898ba4cc161710cf08f7b578f3d90f" title="Metoda ustawiajaca nazwy plikow w laczy do gnuplota (nazwy final!)" alt="" coords="214,281,374,323"/>
+<area shape="rect" id="node25" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a9c91987dfc869d6fcea96205c581daef" title="Ustawia zakres osi OX." alt="" coords="207,515,381,556"/>
+<area shape="rect" id="node26" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a54c6e9cf9ab2eae479451fd953c2717c" title="Ustawia zakres osi OY." alt="" coords="207,580,381,621"/>
+<area shape="rect" id="node27" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a1dbbb2b86fb13b8632e6bad9df2a82e3" title="Ustawia zakres osi OZ." alt="" coords="207,645,381,687"/>
+<area shape="rect" id="node28" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#ae92c65357bf682478cc68f77885b61d8" title="Zmienia tryb rysowania." alt="" coords="207,711,381,752"/>
+<area shape="rect" id="node3" href="$class_scene.html#a16da566304f4ed4228fa89af25e330e5" title="Metoda dodajaca prostopadloscian, ostroslup lub Triangular do listy objects." alt="" coords="465,5,641,47"/>
+<area shape="rect" id="node4" href="$class_scene.html#a684bec8db49b527c34a567e91259102e" title="Metoda dodajaca obiekt pochodny z Prism do listy objects." alt="" coords="465,71,641,112"/>
+<area shape="rect" id="node6" href="$namespace_pz_g.html#ae1aad0c681853d7e47da4cdfccefc102" title="Funkcja pomocnicza, sprawdza czy plik o podanej nazwie jest na dysku." alt="" coords="752,195,879,222"/>
+<area shape="rect" id="node9" href="$class_scene.html#afdc407539e8e1c50d5ccd93b9b60ed52" title="Metoda sprawdzajaca i zwracajaca rozmiar listy objects." alt="" coords="465,137,642,163"/>
+<area shape="rect" id="node12" href="$namespace_pz_g.html#aa010184f31b26bb561b42f22438b821e" title="Funkcja pomocnicza, dopisuje do polecenia wpisy związane z rysowaniem z pliku." alt="" coords="443,457,664,483"/>
+<area shape="rect" id="node13" href="$namespace_pz_g.html#a7227cb39c785b1c746b6bb5515c0b781" title="Dodaje do listy rysowanych punktów, punkty o różnych rozmiarach." alt="" coords="436,508,671,549"/>
+<area shape="rect" id="node14" href="$namespace_pz_g.html#a169c311f0e0b6ffadcd44e91e749f72d" title="Wczytuje z pliku listę punktów." alt="" coords="719,508,912,549"/>
+<area shape="rect" id="node15" href="$class_pz_g_1_1_atrybuty_rysowania.html#ab068535b4d2f755c394557d1da72a4eb" title="Zmienia kolor rysowania." alt="" coords="960,443,1143,484"/>
+<area shape="rect" id="node16" href="$class_pz_g_1_1_atrybuty_rysowania.html#af4b140eb03bc10b6fd816fad63f8372e" title="Zmienia rozmiar rysowania." alt="" coords="960,508,1143,549"/>
+<area shape="rect" id="node17" href="$class_pz_g_1_1_atrybuty_rysowania.html#a2ac97706124b14072715ecf3f07e82b4" title="Zmienia styl rysowania." alt="" coords="960,573,1143,615"/>
+<area shape="rect" id="node19" href="$class_cuboid.html#abc62d20a2f1418af1c35e369da77f0fc" title=" " alt="" coords="468,355,639,382"/>
+<area shape="rect" id="node21" href="$class_block.html#aeef4dd3716afaea42688a4f96456ce27" title="Metoda zwracajaca nazwe pliku z finalna (robocza) bryla" alt="" coords="470,406,637,433"/>
+<area shape="rect" id="node22" href="$class_block.html#aed17e0cb13b8eea50fe735ba05204da9" title="Metoda zwracajaca nazwe pliku z wzorcowa bryla" alt="" coords="460,254,647,281"/>
+<area shape="rect" id="node23" href="$class_prism.html#a2de0dab6d117fc3c8dcbc3c384d0fccd" title=" " alt="" coords="476,305,631,331"/>
+<area shape="rect" id="node20" href="$class_cuboid.html#a12a97376443b1a15ae8342c1c75b3e1e" title="Metoda wypisania odpowiednich wierzcholkow do pliku zgodnie z zaproponowanym sposobem zadaniu dron" alt="" coords="725,355,905,382"/>
+<area shape="rect" id="node24" href="$class_prism.html#a764c6940e4fb65303981e8b877b28561" title="Metoda wypisania odpowiednich wierzcholkow do pliku zgodnie z zaproponowanym sposobem zadaniu dron" alt="" coords="732,305,899,331"/>
+</map>

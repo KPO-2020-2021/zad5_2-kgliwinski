@@ -1,0 +1,12 @@
+<map id="Block::set_scale" name="Block::set_scale">
+<area shape="rect" id="node1" title="Metoda zapisujaca do klasy wektor reprezentujacy skale" alt="" coords="368,183,495,209"/>
+<area shape="rect" id="node2" href="$class_circus.html#a5aab1830e67f62f80525d04de23db7da" title="Konstruktor parametryczny klasy Circus. Powstaje ostroslup jak z konstruktora parametrycznego,..." alt="" coords="185,5,296,32"/>
+<area shape="rect" id="node3" href="$class_drone.html#ab692baa4be5c43b72990ce1b01bdc805" title="Konstruktor bezparametryczny klasy Drone. Powstaly dron jest skonstruowany z bezparametrycznych prost..." alt="" coords="187,56,295,83"/>
+<area shape="rect" id="node4" href="$class_prism.html#aa84930a585c7817f74a14d95ea74cb5a" title="Konstruktor bezparametryczny klasy Prism. Powstaly granistoslup ma podstawy &quot;tworzace&quot;:" alt="" coords="189,107,293,133"/>
+<area shape="rect" id="node5" href="$class_pyramid.html#a188d1f3cca17418b95ae771dedc99f4a" title="Konstruktor parametryczny klasy Pyramid. Powstaly ostroslupa ma jeden prostokat &quot;tworzacy&quot;: p1 = [0][..." alt="" coords="171,157,310,184"/>
+<area shape="rect" id="node6" href="$class_drone.html#a77fbd50ce9e1711d3b435c73859babcb" title="Metoda ustawiajaca skale wszystkich elementow drona" alt="" coords="164,208,317,235"/>
+<area shape="rect" id="node8" href="$class_tent.html#a6831febfd74474f567f4419091883512" title="Konstruktor parametryczny klasy Tent. Powstaje ostroslup jak z konstruktora parametrycznego,..." alt="" coords="199,259,283,285"/>
+<area shape="rect" id="node9" href="$class_triangular.html#ad377db3bde29ea96fdc04fd3b645c07a" title="Konstruktor parametryczny klasy Triangular. Powstaje ostroslup jak z konstruktora parametrycznego,..." alt="" coords="161,309,320,336"/>
+<area shape="rect" id="node10" href="$class_volcano.html#a1324b87f13755c4b12b54485352c5b8d" title="Konstruktor parametryczny klasy Volcano. Powstaje ostroslup jak z konstruktora parametrycznego,..." alt="" coords="175,360,307,387"/>
+<area shape="rect" id="node7" href="$class_scene.html#adca9214dccab3d77eed9d8af7db67f94" title="Konstruktor paramereyczny klasy Scene." alt="" coords="5,208,113,235"/>
+</map>

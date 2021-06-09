@@ -1,0 +1,7 @@
+<map id="Volcano::centre_point" name="Volcano::centre_point">
+<area shape="rect" id="node1" title="Metoda zwracajaca punkt centralny Volcano" alt="" coords="603,31,765,57"/>
+<area shape="rect" id="node2" href="$class_volcano.html#a6da2e3f5ecf61268b3bcf467d9f1267e" title="Metoda zwracajaca punkty specjalne Volcano :" alt="" coords="380,31,555,57"/>
+<area shape="rect" id="node3" href="$class_volcano.html#acafe7ddddd734c05a719143b6903997b" title="Przeciazenie operatora przypisania, umozliwia stosowanie metod typu Prism na obiekcie typu Volcano" alt="" coords="185,5,332,32"/>
+<area shape="rect" id="node4" href="$class_volcano.html#a10c03cb4a3c883fa3d67d82f395042cc" title="Konstruktor bezparametryczny klasy Volcano. Dolna podstawa jest identyczna jak w bezparametrycznym Pr..." alt="" coords="193,56,325,83"/>
+<area shape="rect" id="node5" href="$class_volcano.html#a1324b87f13755c4b12b54485352c5b8d" title="Konstruktor parametryczny klasy Volcano. Powstaje ostroslup jak z konstruktora parametrycznego,..." alt="" coords="5,56,137,83"/>
+</map>

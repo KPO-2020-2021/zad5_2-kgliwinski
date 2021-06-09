@@ -1,0 +1,6 @@
+<map id="Triangular::operator=" name="Triangular::operator=">
+<area shape="rect" id="node1" title="Przeciazenie operatora przypisania, umozliwia stosowanie metod typu Cuboid na obiekcie typu Triangula..." alt="" coords="5,35,165,61"/>
+<area shape="rect" id="node2" href="$class_cuboid.html#a99d30564d6129e6905c5333e04df9606" title="Metoda zwracajaca wierzcholki prostopadloscianu do Vector3D" alt="" coords="220,5,347,32"/>
+<area shape="rect" id="node3" href="$class_triangular.html#a372567a0c98eda392d4860dfab3c56c4" title="Metoda zwracajaca punkty specjalne Triangular : cuts (czyli te ktore sa przecieciami przekatnych dwoc..." alt="" coords="213,57,353,98"/>
+<area shape="rect" id="node4" href="$class_cuboid.html#aafa18740d9c98ca928395b9873a9c63d" title="Metoda zwracajaca punkt centralny (czyli taki, ktorego odleglosci do kazdego wierzcholka sa rowne) pr..." alt="" coords="401,64,557,91"/>
+</map>

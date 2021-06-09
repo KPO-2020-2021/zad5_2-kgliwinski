@@ -1,0 +1,9 @@
+<map id="Prism::Prism" name="Prism::Prism">
+<area shape="rect" id="node1" title="Konstruktor bezparametryczny klasy Prism. Powstaly granistoslup ma podstawy &quot;tworzace&quot;:" alt="" coords="5,56,109,83"/>
+<area shape="rect" id="node2" href="$class_prism.html#a07f15c416c9f9c54390bb8737b441a35" title="Metoda skalujaca o wektor scale bedacy czlonkiem klasy block" alt="" coords="175,5,300,32"/>
+<area shape="rect" id="node5" href="$class_block.html#adb6acd13e2ab79cf7e4733ca2d6ae166" title="Metoda zapisujaca do klasy wektor reprezentujacy skale" alt="" coords="174,56,301,83"/>
+<area shape="rect" id="node6" href="$class_prism.html#aa50fa1168351c867532aef9c19d2b921" title="Metoda zwracajaca punkty specjalne graniastoslupa : cuts (czyli te ktore sa przecieciami przekatnych ..." alt="" coords="157,107,317,133"/>
+<area shape="rect" id="node3" href="$class_prism.html#afed2c26932d5cb152fd620d2acbfbc3e" title="Metoda przesuwajaca graniastoslup do srodka ukladu wspolrzednych (tak, ze srodek graniastoslupa pokry..." alt="" coords="365,5,540,32"/>
+<area shape="rect" id="node4" href="$class_prism.html#ade146d341c0468030f8c1258b7fe1041" title="Metoda przesuwajaca graniastoslup o zadany wektor w 3D" alt="" coords="588,5,725,32"/>
+<area shape="rect" id="node7" href="$class_prism.html#a9c72237ab7f5b0741d936ccd14803021" title="Metoda zwracajaca punkt centralny (czyli taki, ktorego odleglosci do kazdego wierzcholka sa rowne) gr..." alt="" coords="379,107,527,133"/>
+</map>

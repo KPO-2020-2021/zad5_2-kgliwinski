@@ -1,0 +1,4 @@
+<map id="Menu::switch_menu" name="Menu::switch_menu">
+<area shape="rect" id="node1" title="Obsluguje wybor menu." alt="" coords="184,5,336,32"/>
+<area shape="rect" id="node2" href="$class_menu.html#af7e6a49bd56499facef9cc98561ea169" title="Inicjuje i obsluguje menu." alt="" coords="5,5,136,32"/>
+</map>

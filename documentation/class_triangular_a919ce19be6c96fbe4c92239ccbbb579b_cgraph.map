@@ -1,0 +1,5 @@
+<map id="Triangular::Triangular" name="Triangular::Triangular">
+<area shape="rect" id="node1" title="Konstruktor bezparametryczny klasy Triangular. Powstaly graniastoslup ma jeden prostokat &quot;tworzacy&quot;: ..." alt="" coords="5,13,164,39"/>
+<area shape="rect" id="node2" href="$class_triangular.html#a372567a0c98eda392d4860dfab3c56c4" title="Metoda zwracajaca punkty specjalne Triangular : cuts (czyli te ktore sa przecieciami przekatnych dwoc..." alt="" coords="212,5,352,47"/>
+<area shape="rect" id="node3" href="$class_cuboid.html#aafa18740d9c98ca928395b9873a9c63d" title="Metoda zwracajaca punkt centralny (czyli taki, ktorego odleglosci do kazdego wierzcholka sa rowne) pr..." alt="" coords="400,13,556,39"/>
+</map>

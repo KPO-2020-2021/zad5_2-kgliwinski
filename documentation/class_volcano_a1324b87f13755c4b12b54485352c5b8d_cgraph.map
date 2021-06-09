@@ -1,0 +1,12 @@
+<map id="Volcano::Volcano" name="Volcano::Volcano">
+<area shape="rect" id="node1" title="Konstruktor parametryczny klasy Volcano. Powstaje ostroslup jak z konstruktora parametrycznego,..." alt="" coords="5,132,137,159"/>
+<area shape="rect" id="node2" href="$class_prism.html#a07f15c416c9f9c54390bb8737b441a35" title="Metoda skalujaca o wektor scale bedacy czlonkiem klasy block" alt="" coords="215,5,341,32"/>
+<area shape="rect" id="node5" href="$class_block.html#a640a910076d8b10533a9a80d740f8f03" title="Metoda zapisujaca do klasy nazwe pliku z finalna (robocza) bryla" alt="" coords="195,56,361,83"/>
+<area shape="rect" id="node6" href="$class_block.html#acf20b290f1543e580ff1f2c6d98ff4c4" title="Metoda zapisujaca do klasy nazwe pliku z wzorcowa bryla" alt="" coords="185,107,371,133"/>
+<area shape="rect" id="node7" href="$class_block.html#adb6acd13e2ab79cf7e4733ca2d6ae166" title="Metoda zapisujaca do klasy wektor reprezentujacy skale" alt="" coords="215,157,341,184"/>
+<area shape="rect" id="node8" href="$class_volcano.html#a6da2e3f5ecf61268b3bcf467d9f1267e" title="Metoda zwracajaca punkty specjalne Volcano :" alt="" coords="419,233,593,260"/>
+<area shape="rect" id="node10" href="$class_volcano.html#a10c03cb4a3c883fa3d67d82f395042cc" title="Konstruktor bezparametryczny klasy Volcano. Dolna podstawa jest identyczna jak w bezparametrycznym Pr..." alt="" coords="212,259,344,285"/>
+<area shape="rect" id="node3" href="$class_prism.html#afed2c26932d5cb152fd620d2acbfbc3e" title="Metoda przesuwajaca graniastoslup do srodka ukladu wspolrzednych (tak, ze srodek graniastoslupa pokry..." alt="" coords="419,5,593,32"/>
+<area shape="rect" id="node4" href="$class_prism.html#ade146d341c0468030f8c1258b7fe1041" title="Metoda przesuwajaca graniastoslup o zadany wektor w 3D" alt="" coords="654,5,791,32"/>
+<area shape="rect" id="node9" href="$class_volcano.html#ad4d02f553b43cb787cf2370750e0c525" title="Metoda zwracajaca punkt centralny Volcano" alt="" coords="641,233,804,260"/>
+</map>

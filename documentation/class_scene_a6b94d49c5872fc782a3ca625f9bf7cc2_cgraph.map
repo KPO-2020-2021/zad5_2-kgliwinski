@@ -1,0 +1,6 @@
+<map id="Scene::add_object" name="Scene::add_object">
+<area shape="rect" id="node1" title="Metoda dodajaca object zadany przez uzytkownika." alt="" coords="5,46,145,73"/>
+<area shape="rect" id="node2" href="$class_scene.html#a16da566304f4ed4228fa89af25e330e5" title="Metoda dodajaca prostopadloscian, ostroslup lub Triangular do listy objects." alt="" coords="193,5,369,47"/>
+<area shape="rect" id="node4" href="$class_scene.html#a684bec8db49b527c34a567e91259102e" title="Metoda dodajaca obiekt pochodny z Prism do listy objects." alt="" coords="193,71,369,112"/>
+<area shape="rect" id="node3" href="$class_matrix.html#a4161a82fb401e474052c21b25a06a5ba" title=" " alt="" coords="417,46,591,73"/>
+</map>

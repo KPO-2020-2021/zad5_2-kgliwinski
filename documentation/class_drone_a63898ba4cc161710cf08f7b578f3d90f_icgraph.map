@@ -1,0 +1,5 @@
+<map id="Drone::set_filenames_gnuplot" name="Drone::set_filenames_gnuplot">
+<area shape="rect" id="node1" title="Metoda ustawiajaca nazwy plikow w laczy do gnuplota (nazwy final!)" alt="" coords="379,5,539,47"/>
+<area shape="rect" id="node2" href="$class_scene.html#ab57c9a7293ccbaf3dd7e9ac469a7a787" title="Metoda inicjalizujaca lacze do gnuplota." alt="" coords="184,13,331,39"/>
+<area shape="rect" id="node3" href="$class_menu.html#af7e6a49bd56499facef9cc98561ea169" title="Inicjuje i obsluguje menu." alt="" coords="5,13,136,39"/>
+</map>

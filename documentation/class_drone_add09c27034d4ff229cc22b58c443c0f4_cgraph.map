@@ -1,0 +1,5 @@
+<map id="Drone::setup_filenames" name="Drone::setup_filenames">
+<area shape="rect" id="node1" title="Metoda ustawiajaca nazwy plikow do zapisu dla drona." alt="" coords="5,31,181,57"/>
+<area shape="rect" id="node2" href="$class_block.html#a640a910076d8b10533a9a80d740f8f03" title="Metoda zapisujaca do klasy nazwe pliku z finalna (robocza) bryla" alt="" coords="239,5,405,32"/>
+<area shape="rect" id="node3" href="$class_block.html#acf20b290f1543e580ff1f2c6d98ff4c4" title="Metoda zapisujaca do klasy nazwe pliku z wzorcowa bryla" alt="" coords="229,56,415,83"/>
+</map>

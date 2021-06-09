@@ -1,0 +1,6 @@
+<map id="Prism::get_basis_centre" name="Prism::get_basis_centre">
+<area shape="rect" id="node1" title="Metoda zwracajaca srodek podstawy ostroslupa" alt="" coords="367,31,544,57"/>
+<area shape="rect" id="node2" href="$class_prism.html#acdbef3f647d4cb196aff468f43382ac5" title="Zwraca pozycje obiektu do Vector3D" alt="" coords="196,5,315,32"/>
+<area shape="rect" id="node4" href="$class_prism.html#a3e4405a0c5bbbfa00effdca79c81106a" title="Wypisuje pozycje (x,y) obiektu" alt="" coords="192,56,319,83"/>
+<area shape="rect" id="node3" href="$class_prism.html#a8a80c4334810ad934e6e43bb5ee14f07" title="Zmiana pozycji obiektu na plaszczyznie XY na nowe wspolrzedne." alt="" coords="5,5,144,32"/>
+</map>

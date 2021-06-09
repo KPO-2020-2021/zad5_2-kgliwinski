@@ -1,0 +1,17 @@
+<map id="Cuboid::translation_to_O" name="Cuboid::translation_to_O">
+<area shape="rect" id="node1" title="Metoda przesuwajaca prostopadloscian do (0,0,0)" alt="" coords="1157,225,1340,251"/>
+<area shape="rect" id="node2" href="$class_cuboid.html#a6c697c2d9b36a14c43c7328876d5a1f0" title="Metoda obracajaca prostopadloscian o zadany kat w 3D wokol srodka figury" alt="" coords="901,162,1109,189"/>
+<area shape="rect" id="node10" href="$class_cuboid.html#a7ea89af123502b41ef349f4aedb93b5e" title="Metoda skalujaca o wektor scale bedacy czlonkiem klasy block" alt="" coords="936,250,1075,277"/>
+<area shape="rect" id="node3" href="$class_drone.html#ad42bc54902df967b94717617aca1a974" title="Metoda obracajaca dron o zadany kat w 3D wokol srodka figury" alt="" coords="651,123,853,150"/>
+<area shape="rect" id="node4" href="$class_drone.html#ab692baa4be5c43b72990ce1b01bdc805" title="Konstruktor bezparametryczny klasy Drone. Powstaly dron jest skonstruowany z bezparametrycznych prost..." alt="" coords="467,225,575,251"/>
+<area shape="rect" id="node5" href="$class_drone.html#af03af60a9b92e4191a7e66b5c20b52bb" title="Metoda zamieniajaca drona na tego z pliku sample." alt="" coords="440,108,603,149"/>
+<area shape="rect" id="node7" href="$class_drone.html#af052f6bb793d1229b99b16b800b95b82" title="Metoda animujaca obrot drona i wyrysowujaca calosc w gnuplocie." alt="" coords="214,5,381,47"/>
+<area shape="rect" id="node8" href="$class_drone.html#ab7808296cec81143dbddd7516340a371" title="Metoda robiaca &quot;oblot&quot; drona wokol punktu (z modyfikacji)" alt="" coords="203,189,392,215"/>
+<area shape="rect" id="node6" href="$class_drone.html#ac4d24c27fb2c107d2e8bda0c2bf5cfa1" title="Metoda obliczajaca i przeprowadzajaca caly ruch drona (obrot o kat i przelot z zadania 5...." alt="" coords="5,35,155,76"/>
+<area shape="rect" id="node9" href="$class_drone.html#a5fc9dd645ad3856b5d3c501c63c464e3" title="Metoda animujaca translacje drona i wyrysowujaca calosc w gnuplocie." alt="" coords="205,123,390,164"/>
+<area shape="rect" id="node11" href="$class_cuboid.html#acb4ad8abd1f7f810d2512ff9ce1f9717" title="Konstruktor bezparametryczny klasy Cuboid. Powstaly prostopadloscian ma dwa prostokaty &quot;tworzace&quot;: p1..." alt="" coords="692,377,812,403"/>
+<area shape="rect" id="node12" href="$class_pyramid.html#a188d1f3cca17418b95ae771dedc99f4a" title="Konstruktor parametryczny klasy Pyramid. Powstaly ostroslupa ma jeden prostokat &quot;tworzacy&quot;: p1 = [0][..." alt="" coords="683,174,821,201"/>
+<area shape="rect" id="node13" href="$class_drone.html#a77142062fb8a8af87df42b5c2e7e44e0" title="Metoda skalujaca wszystkie elementy drona przez skale kazdego elementu" alt="" coords="687,275,817,302"/>
+<area shape="rect" id="node15" href="$class_triangular.html#ad377db3bde29ea96fdc04fd3b645c07a" title="Konstruktor parametryczny klasy Triangular. Powstaje ostroslup jak z konstruktora parametrycznego,..." alt="" coords="673,326,831,353"/>
+<area shape="rect" id="node14" href="$class_scene.html#adca9214dccab3d77eed9d8af7db67f94" title="Konstruktor paramereyczny klasy Scene." alt="" coords="467,275,575,302"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Triangular::special_points" name="Triangular::special_points">
+<area shape="rect" id="node1" title="Metoda zwracajaca punkty specjalne Triangular : cuts (czyli te ktore sa przecieciami przekatnych dwoc..." alt="" coords="5,5,145,47"/>
+<area shape="rect" id="node2" href="$class_cuboid.html#aafa18740d9c98ca928395b9873a9c63d" title="Metoda zwracajaca punkt centralny (czyli taki, ktorego odleglosci do kazdego wierzcholka sa rowne) pr..." alt="" coords="193,13,349,39"/>
+</map>

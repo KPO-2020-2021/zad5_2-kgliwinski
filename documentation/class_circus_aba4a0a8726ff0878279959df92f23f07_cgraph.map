@@ -1,0 +1,4 @@
+<map id="Circus::special_points" name="Circus::special_points">
+<area shape="rect" id="node1" title="Metoda zwracajaca punkty specjalne graniastoslupa :" alt="" coords="5,5,168,32"/>
+<area shape="rect" id="node2" href="$class_prism.html#a9c72237ab7f5b0741d936ccd14803021" title="Metoda zwracajaca punkt centralny (czyli taki, ktorego odleglosci do kazdego wierzcholka sa rowne) gr..." alt="" coords="216,5,364,32"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Circus::operator=" name="Circus::operator=">
+<area shape="rect" id="node1" title="Przeciazenie operatora przypisania, umozliwia stosowanie metod typu Prism na obiekcie typu Circus" alt="" coords="5,31,141,57"/>
+<area shape="rect" id="node2" href="$class_prism.html#aafbcafcb7ef643ea3a9f95ba270bb0e2" title="Metoda zwracajaca wierzcholki graniastoslupa do tablicy 2x6 Vector3D" alt="" coords="215,5,327,32"/>
+<area shape="rect" id="node3" href="$class_circus.html#aba4a0a8726ff0878279959df92f23f07" title="Metoda zwracajaca punkty specjalne graniastoslupa :" alt="" coords="189,56,352,83"/>
+<area shape="rect" id="node4" href="$class_prism.html#a9c72237ab7f5b0741d936ccd14803021" title="Metoda zwracajaca punkt centralny (czyli taki, ktorego odleglosci do kazdego wierzcholka sa rowne) gr..." alt="" coords="400,56,548,83"/>
+</map>

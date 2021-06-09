@@ -1,0 +1,5 @@
+<map id="Scene::add_basic_objects" name="Scene::add_basic_objects">
+<area shape="rect" id="node1" title="Metoda dodajaca podstawowe elementy do listy objects." alt="" coords="5,46,193,73"/>
+<area shape="rect" id="node2" href="$class_scene.html#a16da566304f4ed4228fa89af25e330e5" title="Metoda dodajaca prostopadloscian, ostroslup lub Triangular do listy objects." alt="" coords="241,5,417,47"/>
+<area shape="rect" id="node3" href="$class_scene.html#a684bec8db49b527c34a567e91259102e" title="Metoda dodajaca obiekt pochodny z Prism do listy objects." alt="" coords="241,71,417,112"/>
+</map>
