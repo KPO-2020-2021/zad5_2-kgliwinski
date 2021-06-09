@@ -105,3 +105,7 @@ Zawarte informacje o zrealizowanych rozszerzeniach i ogólnej funkcjonalności p
          2. Elementy powierzchni mogą być również deformowanym graniastosłupem.
          3. Zmiana położenia elementów powierzchni
 
+## Komentarze
+         1. Jak widać, po usunięciu elementu powierzchni zmniejsza się ilość aktualnych obiektów Vector3D
+         2. Analogicznie, po dodaniu ilośc ta się zwiększa
+         3. Drony są przechowywane jako wskaźniki na liście obiektów w klasie scena, mimo że one same są zaimplementowane w dwuwymiarowej tablicy.
