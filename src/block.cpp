@@ -83,3 +83,14 @@ void Block::print_pos() const
 {
     std::cout<<"Nieznana pozycja ";
 }
+
+Vector3D Block::get_pos() const
+{
+    double tab[3] = {0,0,0};
+    return Vector3D(tab);
+}
+
+void Block::switch_pos(const double &x, const double &y)
+{
+    std::cout<<"Brak metody"<<x<<" "<<y<<"\n";
+}

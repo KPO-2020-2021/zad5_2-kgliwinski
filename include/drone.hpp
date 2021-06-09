@@ -324,4 +324,6 @@ public:
  *  \brief Wypisuje pozycje (x,y) obiektu                                                    
  */
   void print_pos() const override;
+
+
 };

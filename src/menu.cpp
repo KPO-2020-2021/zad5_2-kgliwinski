@@ -46,6 +46,7 @@ void Menu::switch_menu(Scene &sc, PzG::LaczeDoGNUPlota &Lacze, const char &oper)
         std::cout << "\n Polozenie Drona aktywnego (x,y): ";
         sc.print_active();
         std::cout << std::endl;
+        std::cin.ignore(1000000, '\n');
         break;
     }
     case 'p':
@@ -61,6 +62,7 @@ void Menu::switch_menu(Scene &sc, PzG::LaczeDoGNUPlota &Lacze, const char &oper)
         std::cin >> len;
         if (!sc.fly(ang, len, Lacze))
             std::cout << "Error: Bledne dane\n";
+        std::cin.ignore(1000000, '\n');
         break;
     }
     case 'd':
@@ -82,6 +84,7 @@ void Menu::switch_menu(Scene &sc, PzG::LaczeDoGNUPlota &Lacze, const char &oper)
         else
             std::cout << "Error: podano bledna opcje\n\n";
         Lacze.Rysuj();
+        std::cin.ignore(1000000, '\n');
         break;
     }
     case 'u':
@@ -101,6 +104,26 @@ void Menu::switch_menu(Scene &sc, PzG::LaczeDoGNUPlota &Lacze, const char &oper)
         std::cin.ignore(1000000, '\n');
         break;
     }
+    case 'z':
+    {
+        unsigned int num;
+        double x, y;
+        std::cout << "Wybierz element powierzchni do zmiany pozycji:\n";
+        sc.show_elements();
+        std::cout << "\n  Podaj numer elementu > ";
+        std::cin >> num;
+        std::cout << "Wprowadz nowe polozenie elementu x y > ";
+        std::cin >> x >> y;
+        if (sc.switch_object_position(num, x, y))
+        {
+            std::cout << "\n     Element zostal przestawiony\n";
+            Lacze.Rysuj();
+        }
+        else
+            std::cout << "Error: Bledna opcja";
+        std::cin.ignore(1000000, '\n');
+        break;
+    }
     case 'o':
     {
         double rad;
@@ -108,6 +131,7 @@ void Menu::switch_menu(Scene &sc, PzG::LaczeDoGNUPlota &Lacze, const char &oper)
         std::cin >> rad;
         if (!sc.fly_roundabout(rad, Lacze))
             std::cout << "Error: Bledne dane\n";
+        std::cin.ignore(1000000, '\n');
         break;
     }
     case 'm':
@@ -134,8 +158,9 @@ void Menu::show_menu()
     std::cout << std::endl;
     std::cout << "  a - wybierz aktywnego drona\n";
     std::cout << "  p - zadaj parametry przelotu\n";
-    std::cout << "  d - dodaj elementy powierzchni\n";
-    std::cout << "  u - usun elementy powierzchni\n";
+    std::cout << "  d - dodaj element powierzchni\n";
+    std::cout << "  u - usun element powierzchni\n";
+    std::cout << "  z - zmiania pozycji elementu powierzchni\n";
     std::cout << "  o - MODYFIKACJA: wznoszenie na okreslona wysokosc i zatoczenie kola\n";
     std::cout << "  m - wyswietl menu\n";
     std::cout << "  k - koniec dzialania programu\n\n";

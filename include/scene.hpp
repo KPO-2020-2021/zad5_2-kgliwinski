@@ -46,7 +46,6 @@ private:
  */
   std::list<std::shared_ptr<Block>> objects;
 
-
   /*!
  * \brief Zmienna zapamietujaca liczbe stworzonych obiektow, uzywana przy dopisywania plikow
  */
@@ -91,7 +90,7 @@ public:
  */
   bool add_object(const Vector3D &sca, const double &x, const double &y, const double &angle, const unsigned int &option, PzG::LaczeDoGNUPlota &Lacze);
 
-    /*!
+  /*!
  * \brief Metoda usuwajaca object zadany przez uzytkownika
  *      \param[in] num - decyduje ktora figure usunac z zakresu (3-liczba obiektow) nie mozna usunac drona
  *      \param[in] Lacze - aktywne lacze do Gnuplota
@@ -99,6 +98,16 @@ public:
  * \retval False - gdy wprowadzona zostanie bledny num, True - w przeciwnym wypadku
  */
   bool delete_object(const unsigned int &num, PzG::LaczeDoGNUPlota &Lacze);
+
+  /*!
+ * \brief Metoda zmieniajaca pozycje wybranego przez uzytkownika elementu sceny
+ *      \param[in] num - decyduje ktora figure usunac z zakresu (3-liczba obiektow) nie mozna usunac drona
+ *      \param[in] x - nowa pozycja x figury
+ *      \param[in] y - nowa pozycja y figury
+ * \post Usuwa z listy pewna figure
+ * \retval False - gdy wprowadzona zostanie bledny num, True - w przeciwnym wypadku
+ */
+  bool switch_object_position(const unsigned int &num, const double &x, const double &y);
 
   /*!
  * \brief Metoda dodajaca prostopadloscian, ostroslup lub Triangular do listy objects

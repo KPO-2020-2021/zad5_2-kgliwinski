@@ -94,14 +94,26 @@ bool Scene::delete_object(const unsigned int &num, PzG::LaczeDoGNUPlota &Lacze)
 {
     if (num == 0)
         return 0;
-    if (objects.size() <= num+1)
+    if (objects.size() <= num + 1)
         return 0;
     std::list<std::shared_ptr<Block>>::iterator i = objects.begin();
     std::advance(i, num + 1);
     std::string name = i->get()->get_final_name();
-    if(!Lacze.UsunNazwePliku(name))
+    if (!Lacze.UsunNazwePliku(name))
         return 0;
     objects.erase(i);
+    return 1;
+}
+
+bool Scene::switch_object_position(const unsigned int &num, const double &x, const double &y)
+{
+    if (num == 0)
+        return 0;
+    if (objects.size() <= num + 1)
+        return 0;
+    std::list<std::shared_ptr<Block>>::iterator i = objects.begin();
+    std::advance(i, num + 1);
+    i->get()->switch_pos(x,y);
     return 1;
 }
 
@@ -374,7 +386,7 @@ void Scene::show_elements()
     int k = 1;
     std::list<std::shared_ptr<Block>>::iterator i;
     i = objects.begin();
-    std::advance(i,2);
+    std::advance(i, 2);
     for (; i != objects.end(); ++i)
     {
         std::cout << k << ". ";

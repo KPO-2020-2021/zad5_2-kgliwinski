@@ -294,7 +294,16 @@ public:
  */
    void print_pos() const override;
 
+     /*!
+ *  \brief Zwraca pozycje obiektu do Vector3D                                                    
+ */
+Vector3D get_pos() const override;
 
+   /*!
+ *  \brief Zmiana pozycji obiektu na plaszczyznie XY na nowe wspolrzedne
+ *          \param[in] x oraz \param[in] y                                                  
+ */
+void switch_pos(const double &x, const double &y) override;
 };
 
 /*!

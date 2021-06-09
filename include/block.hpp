@@ -125,4 +125,14 @@ virtual void print_name() const;
  *  \brief Zwraca pozycje obiektu                                                    
  */
 virtual void print_pos() const;
+
+   /*!
+ *  \brief Zwraca pozycje obiektu do Vector3D                                                    
+ */
+virtual Vector3D get_pos() const;
+
+   /*!
+ *  \brief Zmiana pozycji obiektu                                                   
+ */
+virtual void switch_pos(const double &x, const double &y);
 };

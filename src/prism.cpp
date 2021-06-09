@@ -493,3 +493,17 @@ void Prism::print_pos() const
     std::cout<<", "<< std::setw(2) << std::fixed << std::setprecision(2) <<cen[1]<<") ";
 }
 
+Vector3D Prism::get_pos() const
+{
+    return get_basis_centre();
+}
+
+void Prism::switch_pos(const double &x, const double &y)
+{
+    Vector3D oldpos = get_pos();
+    double tab[3] = {x, y, 0};
+    Vector3D newpos(tab);
+    Vector3D tran = newpos - oldpos;
+    *this = this->translation(tran);
+    Prism_To_File(final_name);
+}

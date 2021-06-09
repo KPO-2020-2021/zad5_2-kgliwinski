@@ -585,7 +585,21 @@ void Cuboid::print_name() const
 void Cuboid::print_pos() const
 {
     Vector3D cen = get_basis_centre();
-    std::cout<<"("<< std::setw(2) << std::fixed << std::setprecision(2) <<cen[0];
-    std::cout<<", "<< std::setw(2) << std::fixed << std::setprecision(2) <<cen[1]<<") ";
+    std::cout << "(" << std::setw(2) << std::fixed << std::setprecision(2) << cen[0];
+    std::cout << ", " << std::setw(2) << std::fixed << std::setprecision(2) << cen[1] << ") ";
 }
 
+Vector3D Cuboid::get_pos() const
+{
+    return get_basis_centre();
+}
+
+void Cuboid::switch_pos(const double &x, const double &y)
+{
+    Vector3D oldpos = get_pos();
+    double tab[3] = {x, y, 0};
+    Vector3D newpos(tab);
+    Vector3D tran = newpos - oldpos;
+    *this = this->translation(tran);
+    Cuboid_To_File(final_name);
+}

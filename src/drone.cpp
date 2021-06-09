@@ -577,3 +577,4 @@ void Drone::print_pos() const
     std::cout<<"("<< std::setw(2) << std::fixed << std::setprecision(2) <<cen[0];
     std::cout<<", "<< std::setw(2) << std::fixed << std::setprecision(2) <<cen[1]<<") ";
 }
+

@@ -216,12 +216,12 @@ public:
  */
   virtual Vector3D centre_point() const;
 
-   /*!
+  /*!
  *  \brief Metoda zwracajaca srodek podstawy ostroslupa                                                                                                       
  *     \return point - Vector3D wskazujacy ze srodka ukladu wspolrzednych
  *                     na punkt centralny podstawy ostroslupa                               
  */
-   Vector3D get_basis_centre() const;
+  Vector3D get_basis_centre() const;
 
   /*!
  *  \brief Metoda zwracajaca punkty specjalne graniastoslupa : cuts (czyli
@@ -276,7 +276,16 @@ public:
  */
   void print_pos() const override;
 
+  /*!
+ *  \brief Zwraca pozycje obiektu do Vector3D                                                    
+ */
+  Vector3D get_pos() const override;
 
+  /*!
+ *  \brief Zmiana pozycji obiektu na plaszczyznie XY na nowe wspolrzedne
+ *          \param[in] x oraz \param[in] y                                                  
+ */
+  void switch_pos(const double &x, const double &y) override;
 };
 
 /*!
