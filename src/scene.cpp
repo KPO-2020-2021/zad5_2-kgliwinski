@@ -17,17 +17,17 @@ Scene::Scene(Vector3D const (&pos)[SIZE], Vector3D const (&scal_bod)[SIZE], Vect
     filename_num = 0;
 }
 
-bool Scene::init_objects(double const &x, double const &y)
+bool Scene::init_objects()
 {
-    std::shared_ptr<Plane> p = std::make_shared<Plane>(Plane(x, y, "../datasets/main/sample/plane_sample.dat", "../datasets/main/final/plane_final.dat"));
-    p->make_plane();
-    objects.push_back(p);
+    std::shared_ptr<Drone> a = std::make_shared<Drone>(flies[0]);
+    objects.push_back(a);
+    a = std::make_shared<Drone>(flies[1]);
+    objects.push_back(a);
     return !objects.empty();
 }
 
 bool Scene::add_basic_objects()
 {
-    std::shared_ptr<Pyramid> p = std::make_shared<Pyramid>(Pyramid());
     double tab1[3] = {30, 40, 35};
     Vector3D vec1(tab1); //skala
     double tab2[3] = {25, 25, 50};
@@ -64,7 +64,7 @@ bool Scene::add_object(const Vector3D &sca, const double &x, const double &y, co
     case 3:
     {
         std::string s, f;
-        create_filenames(s,f,option);
+        create_filenames(s, f, option);
         if (!add_object_type_cuboid(s, f, sca, x, y, angle, option))
             return 0;
         Lacze.DodajNazwePliku(s.c_str());
@@ -75,7 +75,7 @@ bool Scene::add_object(const Vector3D &sca, const double &x, const double &y, co
     case 6:
     {
         std::string s, f;
-        create_filenames(s,f,option);
+        create_filenames(s, f, option);
         if (!add_object_type_prism(s, f, sca, x, y, angle, option))
             return 0;
         Lacze.DodajNazwePliku(s.c_str());
@@ -153,7 +153,7 @@ bool Scene::add_object_type_prism(const std::string &s_name, const std::string &
     case 6:
     {
         p = std::make_shared<Volcano>(Volcano());
-        Vector3D sca1 = sca*(5.0/6.0);
+        Vector3D sca1 = sca * (5.0 / 6.0);
         *p = Volcano(s_name, f_name, sca1);
         break;
     }
@@ -289,7 +289,10 @@ bool Scene::init_gnuplot(double const &x, double const &y, PzG::LaczeDoGNUPlota 
     Lacze.UstawZakresY(0, y);
     Lacze.UstawZakresZ(0, 180);
     Lacze.ZmienTrybRys(PzG::TR_3D);
-    if (!init_objects(x, y))
+    Plane a(x, y, "../datasets/main/sample/plane_sample.dat", "../datasets/main/final/plane_final.dat");
+    a.make_plane();
+    Lacze.DodajNazwePliku("../datasets/main/final/plane_final.dat");
+    if (!init_objects())
         return 0;
     add_basic_objects();
     if (!iterate_over_objects(Lacze))
@@ -303,7 +306,9 @@ bool Scene::iterate_over_objects(PzG::LaczeDoGNUPlota &Lacze)
     if (get_objects_size() == 0)
         return 0;
     std::list<std::shared_ptr<Block>>::iterator i;
-    for (i = objects.begin(); i != objects.end(); ++i)
+    i = objects.begin();
+    std::advance(i, 2);
+    for (; i != objects.end(); ++i)
     {
         Lacze.DodajNazwePliku(i->get()->get_sample_name().c_str(), PzG::SR_Ciagly);
         Lacze.DodajNazwePliku(i->get()->get_final_name().c_str(), PzG::SR_Ciagly);
@@ -352,13 +357,12 @@ bool Scene::fly_roundabout(double const &radius, PzG::LaczeDoGNUPlota &Lacze)
 
 void Scene::show_elements()
 {
-    int k=1;
+    int k = 1;
     std::list<std::shared_ptr<Block>>::iterator i;
     i = objects.begin();
-    std::advance(i,1);
     for (; i != objects.end(); ++i)
     {
-        std::cout<<k<<". ";
+        std::cout << k << ". ";
         i->get()->print_pos();
         i->get()->print_name();
         ++k;

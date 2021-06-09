@@ -110,9 +110,9 @@ TEST_CASE("S 2.01: std::list<std::shared_ptr<>> 1")
         }
     }
     Scene a(posi,scal,scal,bn,sn);
-    a.init_objects(200,200);
+    a.init_objects();
 
-    CHECK(a.get_objects_size() == 1);
+    CHECK(a.get_objects_size() == 2);
 }
 
 TEST_CASE("S 2.02: std::list<std::shared_ptr<>> 1")
@@ -139,10 +139,10 @@ TEST_CASE("S 2.02: std::list<std::shared_ptr<>> 1")
         }
     }
     Scene a(posi,scal,scal,bn,sn);
-    a.init_objects(200,200);
+    a.init_objects();
     a.add_basic_objects();
 
-    CHECK(a.get_objects_size() == 7);
+    CHECK(a.get_objects_size() == 8);
 }
 
 TEST_CASE("S 3.01: get_active, get_filename_num")

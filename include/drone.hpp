@@ -315,4 +315,13 @@ public:
  */
   bool Drone_make_path_roundabout(double const &radius, std::vector<Vector3D> &path);
 
+  /*!
+ *  \brief Wypisuje nazwe obiektu                                                    
+ */
+  void print_name() const override;
+
+  /*!
+ *  \brief Wypisuje pozycje (x,y) obiektu                                                    
+ */
+  void print_pos() const override;
 };

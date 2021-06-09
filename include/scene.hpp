@@ -66,12 +66,11 @@ public:
         std::string const (&names_bod)[SIZE][2], std::string const (&names_rot)[SIZE][4][2]);
 
   /*!
- * \brief Metoda inicjujaca liste objects, dodajaca plaszczyzne (podstawowy element)
- *      \param[in] x,y zakresy plaszczyzny
+ * \brief Metoda inicjujaca liste objects, dodajaca drony do listy
  *      \retval true - objects poprawnie zainicjowana
  *      \retval false - objects blednie zainicjowana
  */
-  bool init_objects(double const &x, double const &y);
+  bool init_objects();
 
   /*!
  * \brief Metoda dodajaca podstawowe elementy do listy objects

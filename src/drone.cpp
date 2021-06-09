@@ -250,10 +250,10 @@ void Drone::Rotors_rotation_animation()
 void Drone::Drone_rotation_animation(PzG::LaczeDoGNUPlota Lacze, double const &angle)
 {
     double angle1 = angle;
-    while(angle1<0)
-        {
-            angle1 +=360;
-        }
+    while (angle1 < 0)
+    {
+        angle1 += 360;
+    }
     int i;
     double theta = 1;
     Matrix3D mat = mat.rotation_matrix(theta, 'z');
@@ -405,7 +405,7 @@ bool Drone::Drone_basic_motion(double const &angle, double const &len, PzG::Lacz
         Lacze.Rysuj();
     }
     std::cout << "Zmiana orientacji" << std::endl;
-    Drone_rotation_animation(Lacze,angle);
+    Drone_rotation_animation(Lacze, angle);
     std::cout << "Lot do przodu" << std::endl;
     for (; i < 440; ++i)
     {
@@ -471,14 +471,14 @@ bool Drone::Drone_roundabout(double const &radius, PzG::LaczeDoGNUPlota &Lacze)
         Lacze.Rysuj();
     }
     Matrix3D mat;
-    mat = mat.rotation_matrix(1,'z');
+    mat = mat.rotation_matrix(1, 'z');
     std::cout << "Oblot" << std::endl;
     for (; i < 520; ++i)
     {
         this->drone_pos = cur_path.at(i);
         *this = translation_to_pos();
         *this = rotation_around_cen(mat);
-        drone_angle+=1;
+        drone_angle += 1;
         Print_to_files_drone();
         Rotors_rotation_animation();
         usleep(10000); // 0.1 ms
@@ -512,7 +512,7 @@ bool Drone::Drone_roundabout(double const &radius, PzG::LaczeDoGNUPlota &Lacze)
         return 0;
     Lacze.Rysuj();
     drone_pos.print_count();
-    
+
     cur_path.clear();
     return 1;
 }
@@ -532,7 +532,7 @@ bool Drone::Drone_make_path_roundabout(double const &radius, std::vector<Vector3
     {
         path.push_back(path.at(i) + rise);
     }
-    double tab2[3] = {0,radius,0};
+    double tab2[3] = {0, radius, 0};
     Vector3D tran(tab2);
     Vector3D fly = tran / 80;
     for (; i < 160; ++i)
@@ -540,20 +540,20 @@ bool Drone::Drone_make_path_roundabout(double const &radius, std::vector<Vector3
         path.push_back(path.at(i) + fly);
     }
     Matrix3D mat;
-    mat = mat.rotation_matrix(1,'z');
+    mat = mat.rotation_matrix(1, 'z');
     for (; i < 520; ++i)
     {
         path.at(i) = path.at(i) - tmp;
-        path.at(i) = mat*path.at(i);
+        path.at(i) = mat * path.at(i);
         path.at(i) = path.at(i) + tmp;
         path.push_back(path.at(i));
     }
-    Vector3D back = fly*(-1);
+    Vector3D back = fly * (-1);
     for (; i < 600; ++i)
     {
         path.push_back(path.at(i) + back);
     }
-    Vector3D fall = rise *(-1);
+    Vector3D fall = rise * (-1);
     for (; i < 680; ++i)
     {
         path.push_back(path.at(i) + fall);
@@ -564,4 +564,16 @@ bool Drone::Drone_make_path_roundabout(double const &radius, std::vector<Vector3
 void Drone::print_drone_pos() const
 {
     std::cout << drone_pos[0] << " " << drone_pos[1];
+}
+
+void Drone::print_name() const
+{
+    std::cout << "Dron \n";
+}
+
+void Drone::print_pos() const
+{
+    Vector3D cen = body.get_basis_centre();
+    std::cout<<"("<< std::setw(2) << std::fixed << std::setprecision(2) <<cen[0];
+    std::cout<<", "<< std::setw(2) << std::fixed << std::setprecision(2) <<cen[1]<<") ";
 }
