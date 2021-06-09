@@ -1,5 +1,0 @@
-<map id="Drone::Drone_make_path_roundabout" name="Drone::Drone_make_path_roundabout">
-<area shape="rect" id="node1" title="Metoda przygotowujaca sciezke drona z uzyciem std::vector&lt;&gt; do roundabout." alt="" coords="5,23,192,65"/>
-<area shape="rect" id="node2" href="$class_vector.html#ab2bb1182cee2389eda163fb7b767f36d" title="Zwraca wektor do tablicy o rozmiarze SIZE &#160;&#160;Argumenty:" alt="" coords="265,5,388,32"/>
-<area shape="rect" id="node3" href="$class_matrix.html#a4161a82fb401e474052c21b25a06a5ba" title=" " alt="" coords="240,56,413,83"/>
-</map>

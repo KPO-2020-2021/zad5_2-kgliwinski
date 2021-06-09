@@ -8,7 +8,7 @@
  */
 
 /*!
- *  \class Triangluar
+ *  \class Triangular
  *  \brief Opisuje graniastoslup o podstawie trojkatnej w przestrzeni trojwymiarowej
  *          Jest klasa dziedziczaca z klasy Cuboid, w praktyce jest jego deformacja
  */

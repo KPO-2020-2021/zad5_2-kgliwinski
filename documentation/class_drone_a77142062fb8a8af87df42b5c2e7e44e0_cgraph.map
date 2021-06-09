@@ -1,9 +1,0 @@
-<map id="Drone::scale_dro" name="Drone::scale_dro">
-<area shape="rect" id="node1" title="Metoda skalujaca wszystkie elementy drona przez skale kazdego elementu" alt="" coords="5,56,136,83"/>
-<area shape="rect" id="node2" href="$class_cuboid.html#a7ea89af123502b41ef349f4aedb93b5e" title="Metoda skalujaca o wektor scale bedacy czlonkiem klasy block" alt="" coords="184,31,323,57"/>
-<area shape="rect" id="node5" href="$class_prism.html#a07f15c416c9f9c54390bb8737b441a35" title="Metoda skalujaca o wektor scale bedacy czlonkiem klasy block" alt="" coords="191,81,316,108"/>
-<area shape="rect" id="node3" href="$class_vector.html#a473f2e99d69d18d7b81479464e3b9ded" title="Skaluje wektor o inny wektors &#160;&#160;Argumenty:" alt="" coords="395,56,529,83"/>
-<area shape="rect" id="node4" href="$class_cuboid.html#a42bdce7c214e759cb6ea94d4f547a5b9" title="Metoda przesuwajaca prostopadloscian do (0,0,0)" alt="" coords="371,5,553,32"/>
-<area shape="rect" id="node6" href="$class_prism.html#afed2c26932d5cb152fd620d2acbfbc3e" title="Metoda przesuwajaca graniastoslup do srodka ukladu wspolrzednych (tak, ze srodek graniastoslupa pokry..." alt="" coords="375,107,549,133"/>
-<area shape="rect" id="node7" href="$class_prism.html#ade146d341c0468030f8c1258b7fe1041" title="Metoda przesuwajaca graniastoslup o zadany wektor w 3D" alt="" coords="601,107,739,133"/>
-</map>

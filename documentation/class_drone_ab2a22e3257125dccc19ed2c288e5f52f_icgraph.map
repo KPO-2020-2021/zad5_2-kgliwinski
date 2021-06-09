@@ -1,4 +1,0 @@
-<map id="Drone::Drone_make_path_roundabout" name="Drone::Drone_make_path_roundabout">
-<area shape="rect" id="node1" title="Metoda przygotowujaca sciezke drona z uzyciem std::vector&lt;&gt; do roundabout." alt="" coords="243,5,429,47"/>
-<area shape="rect" id="node2" href="$class_drone.html#ab7808296cec81143dbddd7516340a371" title="Metoda robiaca &quot;oblot&quot; drona wokol punktu (z modyfikacji)" alt="" coords="5,13,195,39"/>
-</map>

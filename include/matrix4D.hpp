@@ -1,6 +1,16 @@
 #pragma once
 #include "matrix.hpp"
 
+/*!
+ *  \file matrix4D.hpp
+ *     \brief Zawiera deklaracje klasy Matrix4D
+ */
+
+/*!
+ *  \class Matrix4D
+ *     \brief Specyfikacja szablonu Matrix do 4D
+ */
+
 typedef Matrix<double, 4> Matrix4D;
 
 /*!

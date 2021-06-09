@@ -2,6 +2,16 @@
 
 #include "matrix.hpp"
 #include "vector3D.hpp"
+/*!
+ *  \file matrix3D.hpp
+ *     \brief Zawiera deklaracje klasy Matrix3D
+ */
+
+/*!
+ *  \class Matrix3D
+ *     \brief Specyfikacja szablonu Matrix do 3D
+ */
+
 typedef Matrix<double, 3> Matrix3D;
 
 

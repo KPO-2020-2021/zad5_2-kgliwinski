@@ -1,6 +1,0 @@
-<map id="Block::set_scale" name="Block::set_scale">
-<area shape="rect" id="node1" title="Metoda zapisujaca do klasy wektor reprezentujacy skale" alt="" coords="363,31,489,57"/>
-<area shape="rect" id="node2" href="$class_drone.html#ab692baa4be5c43b72990ce1b01bdc805" title="Konstruktor bezparametryczny klasy Drone. Powstaly dron jest skonstruowany z bezparametrycznych prost..." alt="" coords="184,5,292,32"/>
-<area shape="rect" id="node3" href="$class_drone.html#a77fbd50ce9e1711d3b435c73859babcb" title="Metoda ustawiajaca skale wszystkich elementow drona" alt="" coords="161,56,315,83"/>
-<area shape="rect" id="node4" href="$class_scene.html#a22d8bf855d72be0064265c93562b6bb1" title="Konstruktor paramereyczny klasy Scene." alt="" coords="5,56,113,83"/>
-</map>

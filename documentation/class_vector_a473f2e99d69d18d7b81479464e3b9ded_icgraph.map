@@ -1,8 +1,0 @@
-<map id="Vector::scale_vec" name="Vector::scale_vec">
-<area shape="rect" id="node1" title="Skaluje wektor o inny wektors &#160;&#160;Argumenty:" alt="" coords="527,31,661,57"/>
-<area shape="rect" id="node2" href="$class_cuboid.html#a7ea89af123502b41ef349f4aedb93b5e" title="Metoda skalujaca o wektor scale bedacy czlonkiem klasy block" alt="" coords="340,5,479,32"/>
-<area shape="rect" id="node6" href="$class_prism.html#a07f15c416c9f9c54390bb8737b441a35" title="Metoda skalujaca o wektor scale bedacy czlonkiem klasy block" alt="" coords="347,56,472,83"/>
-<area shape="rect" id="node3" href="$class_drone.html#ab692baa4be5c43b72990ce1b01bdc805" title="Konstruktor bezparametryczny klasy Drone. Powstaly dron jest skonstruowany z bezparametrycznych prost..." alt="" coords="173,5,281,32"/>
-<area shape="rect" id="node4" href="$class_drone.html#a77142062fb8a8af87df42b5c2e7e44e0" title="Metoda skalujaca wszystkie elementy drona przez skale kazdego elementu" alt="" coords="161,56,292,83"/>
-<area shape="rect" id="node5" href="$class_scene.html#a22d8bf855d72be0064265c93562b6bb1" title="Konstruktor paramereyczny klasy Scene." alt="" coords="5,56,113,83"/>
-</map>

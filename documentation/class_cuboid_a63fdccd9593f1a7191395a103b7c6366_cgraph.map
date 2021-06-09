@@ -1,5 +1,0 @@
-<map id="Cuboid::get_vec_len" name="Cuboid::get_vec_len">
-<area shape="rect" id="node1" title="Zapisuje do tablicy tab w kolejnosci: 1.dluzsze przeciwlegle boki 2.krotsze przeciwlegle boki 3...." alt="" coords="5,31,159,57"/>
-<area shape="rect" id="node2" href="$class_vector.html#a3ac695edc693437a61da9f1976fd4869" title="Zwraca dlugosc wektora &#160;&#160;Argumenty: &#160;&#160;Brak &#160;&#160;Zwraca:" alt="" coords="226,5,345,32"/>
-<area shape="rect" id="node3" href="$class_cuboid.html#a21fa2d6458f5b6c593e3e83b3455c246" title="Zwraca do tablicy 3x2 wektory reprezentujace przeciwne boki prostopadloscianu" alt="" coords="207,56,364,83"/>
-</map>

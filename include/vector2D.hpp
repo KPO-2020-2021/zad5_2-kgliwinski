@@ -3,6 +3,15 @@
 #include "vector.hpp"
 #include "matrix2D.hpp"
 
+/*!
+ *  \file vector2D.hpp
+ *     \brief Zawiera deklaracje klasy Vector2D
+ */
+
+/*!
+ *  \class Vector2D
+ *     \brief Specyfikacja szablonu Vector do 2D
+ */
 typedef Vector<double, 2> Vector2D;
 
 /*!

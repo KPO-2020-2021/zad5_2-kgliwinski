@@ -1,5 +1,0 @@
-<map id="Cuboid::Cuboid" name="Cuboid::Cuboid">
-<area shape="rect" id="node1" title="Konstruktor parametryczny klasy Cuboid." alt="" coords="5,5,125,32"/>
-<area shape="rect" id="node2" href="$class_cuboid.html#a66a27613db3b2af0b1c5fefc3e20ebf5" title="Metoda zwracajaca punkty specjalne prostopadloscianu : cuts (czyli te ktore sa przecieciami przekatny..." alt="" coords="173,5,341,32"/>
-<area shape="rect" id="node3" href="$class_cuboid.html#aafa18740d9c98ca928395b9873a9c63d" title="Metoda zwracajaca punkt centralny (czyli taki, ktorego odleglosci do kazdego wierzcholka sa rowne) pr..." alt="" coords="389,5,545,32"/>
-</map>

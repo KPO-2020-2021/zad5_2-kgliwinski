@@ -2,6 +2,16 @@
 
 #include "matrix.hpp"
 
+/*!
+ *  \file matrix2D.hpp
+ *     \brief Zawiera deklaracje klasy Matrix2D
+ */
+
+/*!
+ *  \class Matrix2D
+ *     \brief Specyfikacja szablonu Matrix do 2D
+ */
+
 typedef Matrix<double, 2> Matrix2D;
 
 /*!

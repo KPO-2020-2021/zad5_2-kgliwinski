@@ -1,5 +1,0 @@
-<map id="Drone::get_filenames" name="Drone::get_filenames">
-<area shape="rect" id="node1" title="Metoda zwracajaca nazwy plikow do zapisu dla drona." alt="" coords="5,31,167,57"/>
-<area shape="rect" id="node2" href="$class_block.html#aeef4dd3716afaea42688a4f96456ce27" title="Metoda zwracajaca nazwe pliku z finalna (robocza) bryla" alt="" coords="225,5,391,32"/>
-<area shape="rect" id="node3" href="$class_block.html#aed17e0cb13b8eea50fe735ba05204da9" title="Metoda zwracajaca nazwe pliku z wzorcowa bryla" alt="" coords="215,56,401,83"/>
-</map>

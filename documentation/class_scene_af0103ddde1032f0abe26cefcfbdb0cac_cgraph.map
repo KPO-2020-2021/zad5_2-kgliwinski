@@ -1,5 +1,0 @@
-<map id="Scene::Add_Plane" name="Scene::Add_Plane">
-<area shape="rect" id="node1" title="Metoda dodajaca do lacza plik z plaszczyzna." alt="" coords="5,13,143,39"/>
-<area shape="rect" id="node2" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#aa815ce8ec16e12fc246cf422e562869e" title="Dodaje nazwę pliku." alt="" coords="191,5,364,47"/>
-<area shape="rect" id="node3" href="$namespace_pz_g.html#ae1aad0c681853d7e47da4cdfccefc102" title="Funkcja pomocnicza, sprawdza czy plik o podanej nazwie jest na dysku." alt="" coords="412,13,539,39"/>
-</map>

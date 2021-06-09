@@ -1,5 +1,0 @@
-<map id="Cuboid::check_vec_len" name="Cuboid::check_vec_len">
-<area shape="rect" id="node1" title="Sprawdza czy dlugosci wektory tworzace przeciwne boki prostopadloscianu maja poprawne wartosci (nie s..." alt="" coords="379,5,549,32"/>
-<area shape="rect" id="node2" href="$class_cuboid.html#a058d488f3125238bd8b8dcbb671ede9e" title="Sprawdza czy prostopadloscian jest poprawnie zbudowany" alt="" coords="188,5,331,32"/>
-<area shape="rect" id="node3" href="$class_drone.html#a40e3c3f032ef691392293efd12a5014b" title="Metoda sprawdzajaca budowe drona" alt="" coords="5,5,140,32"/>
-</map>

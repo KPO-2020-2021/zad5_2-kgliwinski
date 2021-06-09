@@ -8,7 +8,7 @@
  */
 
 /*!
- *  \class volcano
+ *  \class Volcano
  *  \brief Opisuje graniastoslup szesciokatny o podwyzszonym srodku gornej podstawy.
  *          Jest klasa dziedziczaca z klasy Prism, w praktyce jest jego deformacja. \n
  *          rozni sie tym, ze zarowno gorna jak i dolna podstawa maja bok bedacy szesciakatem foremnym,

@@ -1,8 +1,0 @@
-<map id="Prism::check_pri" name="Prism::check_pri">
-<area shape="rect" id="node1" title="Sprawdza czy graniastoslup jest poprawnie zbudowany" alt="" coords="5,56,135,83"/>
-<area shape="rect" id="node2" href="$class_prism.html#af26b9e6f30ee147bc48d4829570bccb2" title="Metoda sprawdzajaca katy wewnetrzne podstaw graniastoslupa sa rowne 60 st." alt="" coords="183,5,359,32"/>
-<area shape="rect" id="node3" href="$class_prism.html#ab708a61827a72bb83b58716cbbb8b71c" title="Metoda sprawdzajaca czy wektory zwrocone przez get_vec_opp() sa parami rowne. Ponadto sprawdza tez ro..." alt="" coords="183,56,358,83"/>
-<area shape="rect" id="node5" href="$class_prism.html#afc476609b83a6460d1d51c39c788e804" title="Metoda sprawdzajaca czy wektory zwrocone przez get_vec_ver() sa rowne" alt="" coords="189,107,352,133"/>
-<area shape="rect" id="node4" href="$class_prism.html#accc9d8d5e3a86d3ed3eafe64d08c02fc" title="Metoda zwracajaca do tablicy wektorow wektory &quot;przeciwlegle&quot; obydwoch podstaw graniastoslupa: Dla 2 p..." alt="" coords="407,56,564,83"/>
-<area shape="rect" id="node6" href="$class_prism.html#a6d1ecf663c216d4e4d83b7fa80169e8a" title="Metoda zwracajaca do tablicy wektorow wektory &quot;pionowe&quot; graniastoslupa (czyli te ktore sa wzgledem si..." alt="" coords="412,107,559,133"/>
-</map>

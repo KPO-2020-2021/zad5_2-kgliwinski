@@ -1,6 +1,0 @@
-<map id="Prism::scale_pri" name="Prism::scale_pri">
-<area shape="rect" id="node1" title="Metoda skalujaca o wektor scal podany na wejsciu" alt="" coords="5,31,131,57"/>
-<area shape="rect" id="node2" href="$class_vector.html#a473f2e99d69d18d7b81479464e3b9ded" title="Skaluje wektor o inny wektors &#160;&#160;Argumenty:" alt="" coords="199,5,333,32"/>
-<area shape="rect" id="node3" href="$class_prism.html#afed2c26932d5cb152fd620d2acbfbc3e" title="Metoda przesuwajaca graniastoslup do srodka ukladu wspolrzednych (tak, ze srodek graniastoslupa pokry..." alt="" coords="179,56,353,83"/>
-<area shape="rect" id="node4" href="$class_prism.html#ade146d341c0468030f8c1258b7fe1041" title="Metoda przesuwajaca graniastoslup o zadany wektor w 3D" alt="" coords="401,56,539,83"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="Prism::Prism" name="Prism::Prism">
-<area shape="rect" id="node1" title="Konstruktor parametryczny klasy Prism. Przeznaczony do konstrukcji prostopadloscianu razem z polami r..." alt="" coords="5,5,109,32"/>
-<area shape="rect" id="node2" href="$class_prism.html#aa50fa1168351c867532aef9c19d2b921" title="Metoda zwracajaca punkty specjalne graniastoslupa : cuts (czyli te ktore sa przecieciami przekatnych ..." alt="" coords="157,5,317,32"/>
-<area shape="rect" id="node3" href="$class_prism.html#a9c72237ab7f5b0741d936ccd14803021" title="Metoda zwracajaca punkt centralny (czyli taki, ktorego odleglosci do kazdego wierzcholka sa rowne) gr..." alt="" coords="365,5,513,32"/>
-</map>

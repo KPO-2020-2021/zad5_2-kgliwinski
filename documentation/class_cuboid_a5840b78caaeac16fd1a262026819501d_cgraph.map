@@ -1,4 +1,0 @@
-<map id="Cuboid::check_vec_opp" name="Cuboid::check_vec_opp">
-<area shape="rect" id="node1" title="Sprawdza czy wektory tworzace przeciwne boki prostopadloscianu sa rowne" alt="" coords="5,5,180,32"/>
-<area shape="rect" id="node2" href="$class_cuboid.html#a21fa2d6458f5b6c593e3e83b3455c246" title="Zwraca do tablicy 3x2 wektory reprezentujace przeciwne boki prostopadloscianu" alt="" coords="228,5,385,32"/>
-</map>

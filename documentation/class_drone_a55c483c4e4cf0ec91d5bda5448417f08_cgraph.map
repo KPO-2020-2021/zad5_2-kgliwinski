@@ -1,5 +1,0 @@
-<map id="Drone::set_drone_pos" name="Drone::set_drone_pos">
-<area shape="rect" id="node1" title="Metoda ustawiajaca drone_pos" alt="" coords="5,5,168,32"/>
-<area shape="rect" id="node2" href="$class_cuboid.html#a08fae08a1c8c70ada48ce3af46c82eee" title="Metoda zwracajaca wysokosc prostopadloscianu" alt="" coords="216,5,360,32"/>
-<area shape="rect" id="node3" href="$class_vector.html#a3ac695edc693437a61da9f1976fd4869" title="Zwraca dlugosc wektora &#160;&#160;Argumenty: &#160;&#160;Brak &#160;&#160;Zwraca:" alt="" coords="408,5,527,32"/>
-</map>

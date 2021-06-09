@@ -1,5 +1,0 @@
-<map id="Block" name="Block">
-<area shape="rect" id="node1" title="Opisuje figure geometryczna w przestrzeni trojwymiarowej." alt="" coords="128,5,295,229"/>
-<area shape="rect" id="node2" href="$class_cuboid.html" title="Opisuje prostopadloscian w przestrzeni trojwymiarowej." alt="" coords="5,277,193,795"/>
-<area shape="rect" id="node3" href="$class_prism.html" title="Opisuje graniastoslup o dwunastu wierzcholkach w przestrzeni trojwymiarowej." alt="" coords="218,299,429,773"/>
-</map>

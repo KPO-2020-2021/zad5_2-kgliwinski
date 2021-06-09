@@ -1,5 +1,0 @@
-<map id="Drone::Drone_make_path" name="Drone::Drone_make_path">
-<area shape="rect" id="node1" title="Metoda przygotowujaca sciezke drona z uzyciem std::vector&lt;&gt;" alt="" coords="239,46,425,73"/>
-<area shape="rect" id="node2" href="$class_drone.html#ac4d24c27fb2c107d2e8bda0c2bf5cfa1" title="Metoda obliczajaca i przeprowadzajaca caly ruch drona (obrot o kat i przelot z zadania 5...." alt="" coords="23,5,173,47"/>
-<area shape="rect" id="node3" href="$class_drone.html#a5fc9dd645ad3856b5d3c501c63c464e3" title="Metoda animujaca translacje drona i wyrysowujaca calosc w gnuplocie." alt="" coords="5,71,191,112"/>
-</map>

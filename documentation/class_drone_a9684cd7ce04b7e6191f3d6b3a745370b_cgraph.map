@@ -1,5 +1,0 @@
-<map id="Drone::translation" name="Drone::translation">
-<area shape="rect" id="node1" title="Przesuwa drona o zadany wektor w 3D" alt="" coords="5,31,144,57"/>
-<area shape="rect" id="node2" href="$class_prism.html#ade146d341c0468030f8c1258b7fe1041" title="Metoda przesuwajaca graniastoslup o zadany wektor w 3D" alt="" coords="196,5,333,32"/>
-<area shape="rect" id="node3" href="$class_cuboid.html#a3f6b1b9ea7de433af5b0d462d29f4272" title="Metoda przesuwajaca prostopadloscian o zadany kat w 3D" alt="" coords="192,56,337,83"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="Menu_cub::PrismToFile" name="Menu_cub::PrismToFile">
-<area shape="rect" id="node1" title=" " alt="" coords="644,46,815,73"/>
-<area shape="rect" id="node2" href="$class_menu__cub.html#abfd8cfa3d88c1dd41b9af7b18b26e81b" title="Wyswietla graniastoslup w GNUplocie Argumenty:" alt="" coords="447,5,594,47"/>
-<area shape="rect" id="node3" href="$class_menu__cub.html#abfc946e12b2f8de2cc06cec953ef6106" title=" " alt="" coords="445,71,596,112"/>
-<area shape="rect" id="node4" href="$class_menu__cub.html#a20ac792d84052e50bf3fb95b1745e4df" title="Obsluguje wybor menu Argumenty:" alt="" coords="215,78,397,105"/>
-<area shape="rect" id="node5" href="$class_menu__cub.html#ab8ed88bc956ac7bdfe7db0807085f7cd" title="Inicjuje menu Argumenty:" alt="" coords="5,78,167,105"/>
-</map>
