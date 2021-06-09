@@ -390,6 +390,7 @@ bool Drone::Drone_basic_motion(double const &angle, double const &len, PzG::Lacz
         return 0;
     std::cout << "Naciśnij ENTER, aby narysowac sciezke" << std::endl;
     std::cin.ignore(100000, '\n');
+        std::cin.ignore(100000, '\n');
     if (!Drone_path_to_file(cur_path, "../datasets/sciezka.dat", Lacze))
         return 0;
     std::cout << "Naciśnij ENTER, aby wykonac animacje przelotu" << std::endl;
@@ -445,7 +446,7 @@ bool Drone::Drone_roundabout(double const &radius, PzG::LaczeDoGNUPlota &Lacze)
     if (!Drone_make_path_roundabout(radius, cur_path))
         return 0;
     std::cout << "Naciśnij ENTER, aby narysowac sciezke" << std::endl;
-    std::cin.ignore(10000000000, '\n');
+    std::cin.ignore(100000, '\n');
     if (!Drone_path_to_file(cur_path, "../datasets/sciezka.dat", Lacze))
         return 0;
     std::cout << "Naciśnij ENTER, aby wykonac animacje przelotu" << std::endl;

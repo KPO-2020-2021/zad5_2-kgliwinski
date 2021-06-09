@@ -46,7 +46,6 @@ void Menu::switch_menu(Scene &sc, PzG::LaczeDoGNUPlota &Lacze, const char &oper)
         std::cout << "\n Polozenie Drona aktywnego (x,y): ";
         sc.print_active();
         std::cout << std::endl;
-        std::cin.ignore(1000000, '\n');
         break;
     }
     case 'p':
@@ -62,7 +61,6 @@ void Menu::switch_menu(Scene &sc, PzG::LaczeDoGNUPlota &Lacze, const char &oper)
         std::cin >> len;
         if (!sc.fly(ang, len, Lacze))
             std::cout << "Error: Bledne dane\n";
-        std::cin.ignore(1000000, '\n');
         break;
     }
     case 'd':
@@ -84,7 +82,6 @@ void Menu::switch_menu(Scene &sc, PzG::LaczeDoGNUPlota &Lacze, const char &oper)
         else
             std::cout << "Error: podano bledna opcje\n\n";
         Lacze.Rysuj();
-        std::cin.ignore(1000000, '\n');
         break;
     }
     case 'u':
