@@ -117,8 +117,8 @@ Tests</h1>
 </div><!-- fragment --><p>OR: </p><div class="fragment"><div class="line">&gt; cmake .. -DCMAKE_BUILD_TYPE=[Debug | Coverage | Release]</div>
 <div class="line">&gt; make fulltest</div>
 </div><!-- fragment --><p>Results of tests on my local machine: (using *./unit_tests*) </p><div class="fragment"><div class="line">===============================================================================</div>
-<div class="line">[doctest] test cases: 292 | 292 passed | 0 failed | 0 skipped</div>
-<div class="line">[doctest] assertions: 695 | 695 passed | 0 failed |</div>
+<div class="line">[doctest] test cases: 383 | 383 passed | 0 failed | 0 skipped</div>
+<div class="line">[doctest] assertions: 870 | 870 passed | 0 failed |</div>
 <div class="line">[doctest] Status: SUCCESS!</div>
 </div><!-- fragment --><p>There are tests included for counting Vectors, class inheritence, all algebraic operations on vectors and matrices, cuboid and prism contruction assertion and more.</p>
 <p><b>Important note:</b> there are problems while using <em>make fulltest</em> command. Tests that write data to *.dat* files will be shown as failed while using this command. In case *./unit_tests* is used, all tests have success status. The problematic tests have also been done manually and everything seems to work good.</p>
@@ -133,6 +133,15 @@ datasets directory</h1>
 Informacje w kontekście zadania dron 5.2</h1>
 <p>Zawarte informacje o zrealizowanych rozszerzeniach i ogólnej funkcjonalności programu w kontekście zadania projektowego.</p>
 <h2><a class="anchor" id="autotoc_md11"></a>
+Program realizuje również podstawowe założenia zadania</h2>
+<ol type="1">
+<li>Drony oraz elementy powierzchni znajdują się na liscie std::list przy uzyciu std::shared_ptr</li>
+<li>Elementy powierzchni tworzone sa na liscie poprzez niejawne rzutowanie w gore</li>
+<li>Mozna dodawac i usuwac elementy powierzchni, program uruchamia sie z paroma podstawowymi elementami</li>
+<li>Program zachował funkcjonalności z fazy 1</li>
+<li>Dla każdego elementu powierzchni zdefiniowano osobne klasy</li>
+</ol>
+<h2><a class="anchor" id="autotoc_md12"></a>
 Zrealizowane rozszerzenia</h2>
 <ol type="1">
 <li>Zadając położenie elementu można również zmienić jego orientację wokół osi OZ o zadany kąt.</li>

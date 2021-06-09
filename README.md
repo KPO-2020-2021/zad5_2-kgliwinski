@@ -69,9 +69,10 @@ OR:
 Results of tests on my local machine: (using *./unit_tests*)
 ```
 ===============================================================================
-[doctest] test cases: 292 | 292 passed | 0 failed | 0 skipped
-[doctest] assertions: 695 | 695 passed | 0 failed |
+[doctest] test cases: 383 | 383 passed | 0 failed | 0 skipped
+[doctest] assertions: 870 | 870 passed | 0 failed |
 [doctest] Status: SUCCESS!
+
 ```
 There are tests included for counting Vectors, class inheritence, all algebraic operations on vectors and matrices,
 cuboid and prism contruction assertion and more.
@@ -92,7 +93,15 @@ It is important for the program to work that there is a datasets directory (that
 # Informacje w kontekście zadania dron 5.2
 Zawarte informacje o zrealizowanych rozszerzeniach i ogólnej funkcjonalności programu w kontekście zadania projektowego.
 
+## Program realizuje również podstawowe założenia zadania
+         1. Drony oraz elementy powierzchni znajdują się na liscie std::list przy uzyciu std::shared_ptr
+         2. Elementy powierzchni tworzone sa na liscie poprzez niejawne rzutowanie w gore
+         3. Mozna dodawac i usuwac elementy powierzchni, program uruchamia sie z paroma podstawowymi elementami
+         4. Program zachował funkcjonalności z fazy 1
+         5. Dla każdego elementu powierzchni zdefiniowano osobne klasy
+
 ## Zrealizowane rozszerzenia
          1. Zadając położenie elementu można również zmienić jego orientację wokół osi OZ o zadany kąt.
          2. Elementy powierzchni mogą być również deformowanym graniastosłupem.
          3. Zmiana położenia elementów powierzchni
+
